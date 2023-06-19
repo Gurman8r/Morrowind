@@ -1,0 +1,1251 @@
+
+  Printable Version of Topic
+
+
+    Click here to view this topic in its original format
+    <http://www.elderscrolls.com/forums/index.php?act=ST&f=12&t=206075>
+
+
+      The Elder Scrolls Forums _ Morrowind Mods _ Save Games and Leveled
+      Lists
+
+
+        Posted by: DarkDragon Dec 19 2005, 10:46 AM
+
+I have thoroughly confused myself.
+
+I have recently put together a mod for my personal use that combines a
+ton of armor and weapons mod (including and not limited to ACS Appoldro,
+recolored ebony, dwemer, daedric, and glass, knights of tamriel, etc)
+into one giant mod that instead of adding little boxes or merchants that
+sell this armor, I have instead formed my own system of adding them to
+the leveled lists already present in the game.
+
+For this example I will use the leveled list "l_n_armor_cuirass" as an
+example. I have changed many other lists for the armor, and weapons.
+
+My problem is this:
+
+The changes don't seem to take place in my savegames. It works fine in a
+new game. That isn't really unusual in and of itself.. but let me give
+you some background:
+
+My save games are very clean... at least as clean as I know how to make
+them - I constantly keep them up to date with Wyre Mash and am very
+careful about what changes I make to the game before changing any of my
+saves.
+
+The problem is, NONE of the changes I have made to the leveled lists
+appear in these saves. They seem to work just fine in new games, but not
+in the saved games.
+
+Do saved games not recognize changes to leveled lists?
+
+If that is true that is VERY odd... as I remember back before the days
+of tools like Wyre Mash and others, I once added a mod called
+"Assassin's Armory" - it worked flawlessly. This is also WELL BEFORE the
+ability to add things to leveled lists via scripts was available. (i.e.
+pre-expansions)
+
+I am not sure what I am doing wrong, as I have seen other mods that
+directly modify leveled lists work just fine, and I am using Wyre's list
+merger to merge the lists. I have tried NOT merging the lists with the
+same result, and have also made sure that my mod is as far to the bottom
+of my load list as I will allow without overwriting essential mods that
+HAVE to be at the bottom (TLM, GMST Fix, etc)
+
+I'm stumped. I know it has to be possible as it's been done before.
+
+Here's some background of the changes I've made to the lists. NONE of
+them work keep in mind.
+
+l_n_armor_cuirass - I have added at level 15 a new leveled list for
+dwemer cuirasses, replacing the dwemer cuirass that is already there.
+(This is for the multiple colors now available) - at level 16 I've added
+Dracus's Durzog Cuirass, and at level 20 I have added a link to another
+leveled list called "_dd_rare_cuirass"
+
+The _dd_rare_cuirass LL is one I made to add the small possibility of
+spawning rare cuirasses in this list, including ebony, glass, daedric,
+and other powerful cuirasses (no artifacts).
+
+The other lists I've changed have similar changes as above.
+
+I considered the possibility that it was the leveled lists within
+leveled lists causing a problem - but not even the Durzog Armor is
+spawning, EVER. (To test that I added 1000 of l_n_cuirass to a crate I
+was saved next to and opened it - tons of mundane armor, but not a
+single durzog cuirass)
+
+I'm stumped... could someone help please? I need a way to get this to
+work so my saves recognize the changes. Like I said, I know it's
+possible, and I must be doing something stupid to cause it to not work.
+
+
+        Posted by: Pjstaab Dec 19 2005, 10:49 AM
+
+I can't answer your question but what armors are you encorperating? I
+may wanta copy of this if you would let me.
+
+
+        Posted by: DarkDragon Dec 19 2005, 10:53 AM
+
+A complete list of the mods I've merged and incorporated:
+
+Byb_Traders_300 (adds random armor/weapons to merchants - inspiration
+for making this)
+
+All items from ACS Appoldro Weapon/Armorstore (removed the store however)
+
+Full Dragonscale Armor (rebalanced according to LDones Armor Effects
+Balancer standards, store kept)
+
+Hematite High Ordinator Armor (rebalanced again, removed "cheat" chest
+full of the armor")
+
+Shadowlord Armor (old armor, in GIANTS and other mods, rebalanced)
+
+Durzog Armor (kept smith, reduced price to smith, rebalanced)
+
+Re-colored ebony, dwemer, daedric, and glass (been around awhile)
+
+It should be real nice when it's done.. no intents to release publicly
+as I don't want to hunt for permissions to use all that armor (ugh). But
+if I get it working I can send you a copy. Heck, if you already have the
+meshes for all those armors I can send you the .esp and you can let me
+know if it works for you.
+
+
+        Posted by: Pjstaab Dec 19 2005, 11:00 AM
+
+I'd just release it as an .esp have a list of these armors and they can
+download the esp. I'll start hunting down the armor. If you have links
+they would be greatly appreciated.
+
+
+        Posted by: DarkDragon Dec 19 2005, 11:03 AM
+
+They should all be available at Planet Elder Scrolls. I can hunt links a
+little later once I get it working.
+
+In the meantime, why not check out Byb_traders_300 at Planet Elder
+Scrolls (I think that's where I found it), it adds random armor and
+weapons to merchants - quite nice if you have any mods that modify those
+leveled lists as you can get quite a diverse selection sometimes.
+
+
+        Posted by: Pjstaab Dec 19 2005, 11:10 AM
+
+I couldn't find All items from ACS Appoldro Weapon/Armorstore,
+Shadowlord Armor, re-colored ebony, dwemer, daedric, and glass
+
+
+        Posted by: DarkDragon Dec 19 2005, 12:04 PM
+
+I think I figured out the problem (typical of me - go and solve my own
+problems after I freak out about them)
+
+Turns out that mods that use the AddtoLevItem command in scripts, for
+example the ACS Appoldro Mod, OVERWRITE any other changes to that
+leveled list made by other mods once the script has run in your savegame.
+
+I urge everyone to avoid mods that use that script command, because it
+does not work alongside list merging tools, and overwrites any changes
+you've made to those leveled lists..
+
+If you remove the mod with the scripts your savegame will retain marks
+stating that the leveled items were altered... this is not automatically
+cleaned by Wyre Mash.
+
+
+
+I think it's good modding practice to add things to leveled lists
+manually - it may take a little longer but it will ensure compatibility
+as long as a list merger is used.
+
+
+        Posted by: Dragon32 Dec 20 2005, 01:49 AM
+
+Wow, good spot Dark Dragon. I was going to reply if acsAppoldro could be
+causing your problems but you already worked it out. I didn't know this
+about the over-writing though, now I'm going to have to go through my
+mods and see if I have to make any changes by manually adding things
+into the levelled lists myself. Thanks for the info.
+
+
+        Posted by: DarkDragon Dec 20 2005, 04:32 AM
+
+No problem... I always was dubious about the "AddtoLevList" command, as
+it seems a bad way of accomplishing things...
+
+This might explain why mods like Werewolves mod seem to be so prevalent
+in my game as well.
+
+
+        Posted by: DinkumThinkum Dec 20 2005, 06:57 AM
+
+QUOTE(DarkDragon @ Dec 19 2005, 05:04 AM)
+I think I figured out the problem (typical of me - go and solve my own
+problems after I freak out about them)
+
+Turns out that mods that use the AddtoLevItem command in scripts, for
+example the ACS Appoldro Mod, OVERWRITE any other changes to that
+leveled list made by other mods once the script has run in your savegame.
+
+I urge everyone to avoid mods that use that script command, because it
+does not work alongside list merging tools, and overwrites any changes
+you've made to those leveled lists..
+
+If you remove the mod with the scripts your savegame will retain marks
+stating that the leveled items were altered... this is not automatically
+cleaned by Wyre Mash.
+I think it's good modding practice to add things to leveled lists
+manually - it may take a little longer but it will ensure compatibility
+as long as a list merger is used.
+* <index.php?act=findpost&pid=3640305>
+
+
+
+Very good catch on this! fing34.gif
+
+I've wondered for a long time whether there might be a conflict of some
+sort between leveled list merging and the script commands for
+manipulating leveled lists, but I burned out on the dirty saves and list
+merger issues before I ever got around to investigating this. sad.gif
+
+Glad somebody has finally confirmed the problem.
+
+----------------------------------------------------------------------------
+
+If the functions for adding and removing items had been included in the
+original game, they probably would have been fine: people would have
+figured out how to use them, and the leveled list merger utilities
+probably wouldn't have been developed.
+
+But those commands weren't added until Tribunal, so the leveled list
+merger utilities were written so mods that modified leveled lists
+wouldn't wipe out changes made by other mods that also changed the lists.
+
+----------------------------------------------------------------------------
+
+A problem...
+
+Modifying the leveled lists manually (in the Construction Set) is, as
+you pointed out, probably the safest procedure.
+
+Unfortunately, that's only useful for mods where the leveled list
+changes are meant to happen as soon as the mod is loaded. For mods that
+need to change the leveled lists during game play that won't work.
+
+For example:
+
+A mod that removes all cliff racers from the game as soon as it's
+enabled can change the lists in the Construction Set without any problem.
+
+But if a mod is designed to get rid of the cliff racers only after the
+player completes a quest, then it has to use the script commands. Which
+means the mod will conflict (as you discovered) with mods that make
+their changes in the editor and depend on leveled list merger utilities
+to combine the changes.
+
+Maybe Wrye Mash could be updated to deal with this type of issue, to
+combine saved scripted changes to leveled lists with changes made
+manually in mods, but I really have no idea.
+
+
+        Posted by: DarkDragon Dec 20 2005, 07:14 AM
+
+Yeah, but I don't know what data Wyre could read to adjust for this...
+unless it was possible to read the script data and search for the
+AddtoLevList function, and then add those items to the Mashed
+Lists.esp... the problem being that this would essentially still add
+them upon mod load.
+
+
+The problem lies in the way Morrowind loads items. First it loads ESMs,
+then ESPs, which can modify the leveled lists. If you have a list
+merger, you can merge those lists and keep the changes from all of them
+(where as before, the last loaded mod would take precedence). Then it
+loads ESS, or save files.
+
+The problem is, if a script adds something to a Leveled List, it
+modifies the ESS (save game) and the save game then has a reference to
+that Leveled list. This is loaded last and it overwrites ANY changes
+done by other mods.
+
+Unfortunately I don't think there's any way to overcome this... if you
+want to use mods that add things via scripted leveled lists (for
+example, Cliff Racer removal/extinction mods) then don't expect any
+other changes to that leveled list to work properly. This may be fine,
+until you try to load another creature mod (like GIANTS).
+
+Mods like ACS Appoldro and the Werewolves mod don't even need to use
+scripts to add things to leveled lists... the only reason I can see that
+they did was ease of use... scripts are easier to write and copy/paste
+for large amounts of items than editing them directly.
+
+ACS Appoldro is simple to fix, just remove the leveled list scripts and
+add the items directly, Werewolves is also easy, it adds things to
+creature lists after 15th level... well I don't know why they needed
+scripts to do this, as Leveled lists already do this.. just set the
+level next to the creature to 15 and it won't appear until the character
+is lv15. Simple.
+
+Since I have 2 other mods that use leveled list scripting (werewolves
+and Magical Trinkets of Tamriel) I am going to go through both mods and
+remove the scripted leveled lists and add the items/creatures directly.
+I probably won't release the patch esps though as I would need
+permissions from TheLys and whoever made MTT. But they'll be available
+upon request.
+
+Is Wyre still around? He may want to look into this as there MAY be a
+way to make it all work snugly using Wyre mash, but I doubt it.
+
+
+        Posted by: DinkumThinkum Dec 20 2005, 08:19 AM
+
+First, if a mod always makes its leveled list changes as soon as the
+game is loaded with the mod enabled, the easy solution is to redo the
+mod with the leveled list changes set up in the Construction Set instead
+of using the script functions. That and use of a level list merger
+utility will eliminate conflicts with other mods that change the lists
+in the editor.
+
+QUOTE(DarkDragon @ Dec 20 2005, 12:14 AM)
+Yeah, but I don't know what data Wyre could read to adjust for this...
+unless it was possible to read the script data and search for the
+AddtoLevList function, and then add those items to the Mashed
+Lists.esp... the problem being that this would essentially still add
+them upon mod load.
+
+
+If a mod needs to use the script functions, because its list changes
+depend on conditions in the game (for example, completing a quest), then
+it might be possible for Wrye Mash to work with the leveled list data in
+the saved game: either update the saved game data with the merged list
+data, or update the merged list .esp with the save game data and remove
+the list data from the save game.
+
+For a mod that only updates the leveled list once (or infrequently),
+this /might/ be practical: once you've done the quest to get rid of the
+cliff racers and the scripts have updated the leveled lists, save and
+exit the game. Then run Wrye Mash to fix up the leveled lists by
+combining the merged lists with the changes from the saved game.
+
+But for a mod that regularly adds and removes leveled list entries, this
+would probably be a major hassle for the player.
+
+QUOTE(DarkDragon @ Dec 20 2005, 12:14 AM)
+The problem lies in the way Morrowind loads items. First it loads ESMs,
+then ESPs, which can modify the leveled lists. If you have a list
+merger, you can merge those lists and keep the changes from all of them
+(where as before, the last loaded mod would take precedence). Then it
+loads ESS, or save files.
+
+The problem is, if a script adds something to a Leveled List, it
+modifies the ESS (save game) and the save game then has a reference to
+that Leveled list. This is loaded last and it overwrites ANY changes
+done by other mods.
+
+
+That's the classic dirty save problem. I'm not around much any more, but
+I still remember the basics of that particular issue. biggrin.gif
+
+QUOTE(DarkDragon @ Dec 20 2005, 12:14 AM)
+Is Wyre still around? He may want to look into this as there MAY be a
+way to make it all work snugly using Wyre mash, but I doubt it.
+* <index.php?act=findpost&pid=3648935>
+
+
+
+From his profile, he still shows up here and posts occasionally. No idea
+if he'd be interesting in updating Wrye Mash with something to deal with
+this, if there's even anything practical that can be done.
+
+If he doesn't show up in this thread on his own, might be worth PMing
+him suggesting he look at this in case he has any ideas.
+
+----------------------------------------------------------------------------
+
+QUOTE(DarkDragon @ Dec 20 2005, 12:14 AM)
+Mods like ACS Appoldro and the Werewolves mod don't even need to use
+scripts to add things to leveled lists... the only reason I can see that
+they did was ease of use... scripts are easier to write and copy/paste
+for large amounts of items than editing them directly.
+
+ACS Appoldro is simple to fix, just remove the leveled list scripts and
+add the items directly, Werewolves is also easy, it adds things to
+creature lists after 15th level... well I don't know why they needed
+scripts to do this, as Leveled lists already do this.. just set the
+level next to the creature to 15 and it won't appear until the character
+is lv15. Simple.
+
+Since I have 2 other mods that use leveled list scripting (werewolves
+and Magical Trinkets of Tamriel) I am going to go through both mods and
+remove the scripted leveled lists and add the items/creatures directly.
+I probably won't release the patch esps though as I would need
+permissions from TheLys and whoever made MTT. But they'll be available
+upon request.
+* <index.php?act=findpost&pid=3648935>
+
+
+
+I'd suggest trying to contact the mod authors to let them know about the
+potential problem: if it's an easy fix, they might be willing to either
+release an update themselves or to give you permission to release
+patches yourself.
+
+
+        Posted by: DarkDragon Dec 20 2005, 08:36 AM
+
+Well, ACS appoldro is an easy fix, and it's already done (I did it as
+part of the mod I mentioned at the top of this page)
+
+However after looking at Werewolves it's way more in-depth and I see why
+they used scripts to add the creatures to the lists.
+
+I think of the approaches you suggested, creating a merged levelled list
+INSIDE the savegame is probably the best option... as the other
+alternative (mixing data from the saves in the merged lists) wouldn't
+work if you play multiple savegames, which most of us do.
+
+I wonder if you couldn't just use TESAME or the Enchanted Editor to take
+the lists from Mashed Lists and then merge them into your savegame...
+this SHOULD resolve the issue, until another mod adds items to the lists
+that is.
+
+
+
+The problem is dynamically detecting when that happens. The best way to
+accomplish it would be on-the-fly.. and that would need an exterior
+program like MWSE or MWE to accomplish, and probably neither of those
+would actually work.
+
+I guess it would be also possible to make all changes to levelled lists
+done through scripts, instead of directly adding them, but I don't
+really like that option, and it would force it to require Tribunal.
+
+I'll PM Wyre, maybe he'd have some ideas.
+
+
+        Posted by: DinkumThinkum Dec 20 2005, 05:51 PM
+
+I thought about this some more overnight, and came up with a few ideas
+and rules of thumb to toss in here:
+
+1. If a mod adds its own leveled lists, with unique IDs, then it can use
+scripts to manipulate those without any problems. Since those lists
+don't exist in the original game or in other mods, they won't be
+affected by leveled list mergers.
+
+2. If a leveled list merger utility has been used, any scripted changes
+in the game will be applied to the merged level list (from the merged
+list .esp file), since that's what the game has loaded.
+
+a. The list data saved in the save game file will include both the
+merged list data and the changes made by the script functions.
+
+b. Any lists that were merged previously, before the scripted changes,
+should be OK. The only problem will be if more mods with leveled lists
+are added after the scripted changes have taken place.
+
+c. So if Wrye Mash can be adapted to deal with this, all it would have
+to do would be to merge leveled lists from */new/* mods into the leveled
+list data in the save game.
+
+Maybe something along these lines: you add a new mod that needs its
+leveled lists merged. Mash scans save game files to see if any of them
+have data for any of the leveled lists in the new mod. If a save does
+have data for one of the lists, then it prompts the user about which
+save games to modify, and updates the save game list data with the list
+data from the new mod.
+
+(Would actually be more involved than that, but that might be useful as
+a starting point.)
+
+3. When leveled lists are processed by list merger utilities, then it's
+only possible to /add/ new entries to the lists. Any entries deleted
+from a list (whether by the editor or by a script) will be added back as
+soon as a list merger utility combines that list with data from the same
+list in another mod.
+
+4. If the script functions for handling modifying leveled lists had been
+included in the original game, then the list merger utilities wouldn't
+be needed and none of this would be an issue. However, with the current
+situation, I think the only real solution would be an update to Wrye
+Mash (or a new merger utility) with the abilty to update leveled list
+data in save games as new mods with leveled lists are added by the player.
+
+----------------------------------------------------------------------------
+
+Hope the above makes some sort of sense: typing in a rush; have a hot
+date with an overheated shopping mall. smile.gif
+
+May have more to say on this later.
+
+
+        Posted by: Wrye Dec 20 2005, 10:20 PM
+
+I gave this a bit of thought while writing the list merging utility and
+my conclusion was that in general, list merging is superior to the
+add/remove commands. So, as has been pretty much concluded here, leveled
+lists should be used whenever possible rather than add/remove commands.
+
+The only problem is for mods that change leveled lists as the result of
+a quest. (E.g., get rid of cliff racers.) For mods with unique lists,
+this should not be a problem as DT has pointed out. And I just don't
+think that there are enough mods that *have* to remove items from
+standard leveled lists in a conditional way to really demand a new
+solution. DT's suggestion of scanning the save game list is interesting,
+but I'm not sure it would work (the basic problem is knowing which items
+missing from the list had been *intentionally* removed -- and which are
+new items which just hadn't been added before. And even if that were
+resolved, the feature would be a hassle for the user to use (not to
+mention for the coder to code!)
+
+Because of that same problem (how to distinguish and intentional removal
+from something that just isn't present), Mash (and other mergers, I
+assume) don't remove items from lists, but only add them. But... Cliff
+Racers.
+
+Mash does have one (obscure and perhaps rarely effective) tweak here:
+The first mod to override a standard Bethesda list does indeed
+*override* it -- i.e., it isn't merged with it. (This incidentally is
+why Mash merged lists files tend to be smaller.) So if your list deletes
+or limits cliff racers, then it does so. Unless another mod impacts the
+same list and doesn't remove them -- in which case, they will be merged
+right back in.
+
+It's occurred to me just now that Mash could also note removals made by
+that first list, and prevent other mods from adding those items back in
+to the same list. That wouldn't be too hard to code. I'll put that on my
+"maybe" list.
+
+
+        Posted by: DinkumThinkum Dec 21 2005, 03:33 AM
+
+Thinking about this some more, I may have a /partial/ workaround for
+some of the conflicts between using scripted list changes and merging
+leveled lists.
+
+I don't have any ideas for safely and permanently removing an entry
+that's already on an existing leveled list, but Wrye seems to have come
+up with a solution for part of that.
+
+But I think it should be possible to add items to existing leveled lists
+and later remove them (with script functions) without causing conflicts
+with other mods that modify the same leveled lists.
+
+For example, a mod might add a new ingredient or magical scroll to some
+of the leveled loot lists once the player completes a certain quest.
+
+Or a mod might start out with a new nasty type of undead on some of the
+leveled lists in tombs, and then remove them once the player completes a
+quest to destroy the cult of necromancers who created those monsters.
+
+I'm not familiar with the Werewolves mod DarkDragon mentioned, but it's
+/possible/ my idea could be used to edit the mod to avoid the conflicts
+with leveled lists in other mods.
+
+----------------------------------------------------------------------------
+
+My idea:
+
+Instead of using the leveled list script functions to add and remove
+items directly from existing leveled lists, instead create new unique
+leveled lists and put those lists in the appropriate spot in the
+existing leveled lists using the Construction Set.
+
+Then manipulate the new leveled lists with script commands. Since the
+new lists are unique to the mod, including their data in the save files
+won't cause conflicts with leveled lists in other mods, including merged
+lists.
+
+For example:
+
+1. Create a new 'DT_KillerSkeleton' creature.
+2. Create a new 'DT_KillerSkeletonList' leveled list, and put the new
+creature on it.
+3. Find an existing leveled list of undead for tombs, and put
+'DT_KillerSkeletonList' on that at level 4.
+4. In the game, once the player completes the 'destroy the necromancers'
+quest, a script runs and removes the 'DT_KillerSkeleton' creature from
+the 'DT_KillerSkeletonList' list, and replaces it with a regular
+skeleton (or whatever is appropriate for level 4 on the tomb undead list
+being used.
+
+This won't work for manipulating items that are already on an existing
+leveled list, so it doesn't help with something like 'do a quest and all
+the cliff racers will disappear'. But it woud be useful for a mod that
+needs to add and remove new entries on existing leveled lists.
+
+
+        Posted by: DarkDragon Dec 21 2005, 04:29 AM
+
+Thanks for commenting Wrye, your feedback is always appreciated.
+
+DT - That's a very good idea, and existing mods can be patched with very
+little work as well. (less than manually adding the creatures to lists
+at least).
+
+That's basically the concept that I was using in creating the mod I
+originally mentioned above, I think there's more diversity to be had
+with lists inside of lists inside of lists than there is in scripted
+levelled lists, but now that you mention the skeleton thing, and that
+I've looked more in-depthly at the Werewolves scripts, I agree, scripted
+levelled list modifications DO have their use.
+
+The problem is though, the savegame will still over-ride the levelled
+list, so following your example you have a stock bethesda tomb list,
+let's say:
+
+in_tomb_01 (not sure if this is a real list or not, just humor me)
+
+In regular MW it reads:
+
+1 - Ancestor Ghost
+4 - Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+Now you make the super skeleton zombie mod and the script adds them in,
+it now looks like this in the savegame reference:
+
+
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list -> Super Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+where Modded_skeleton_list is the new levelled list and super skeleton
+is what is chosen on that list.
+
+Now you remove it after the quest is done and change it to a regular
+skeleton:
+
+
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list -> Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+Here's where the first (minor) problem is. There is 2 skeleton entries
+now.. so skeleton's are now twice as common. Minor problem really.
+
+However, the save game is now remembering the list as:
+
+
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list -> Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+
+Say we want to add another mod, that adds Mega Lich of Doom to that
+list, well here's what it would look like in the Leveled List Merger ->
+
+1 - Ancestor Ghost
+4 - Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+25 - Mega Lich of Doom
+
+However, the savegame still sees:
+
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list -> Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+And since savegames load last, you'll never see Mega Lich of Doom.
+
+Hope that all made sense.. correct me if I'm wrong in my logic somewhere.
+
+
+        Posted by: DinkumThinkum Dec 21 2005, 06:11 AM
+
+QUOTE(DarkDragon @ Dec 20 2005, 09:29 PM)
+The problem is though, the savegame will still over-ride the levelled
+list, so following your example you have a stock bethesda tomb list,
+let's say:
+
+
+Ah, but the whole point smile.gif of my idea is that the
+'Modded_Skeleton_list' list is the only list that actually gets changed
+by the script commands (i.e., changed in the game), so that's the only
+list that will be stored in the saved game.
+
+The 'in_tomb_01' list /doesn't/ get changed in the game; that's edited
+in the Construction Set. So 'in_tomb_01' never gets saved in the save
+game file.
+
+Since 'Modded_Skeleton_list' is unique to your mod, including it in the
+saved game isn't a problem: no other mods will be changing it, so you
+can use script functions to rewrite it as much as you want.
+
+See below for more on this.
+
+QUOTE(DarkDragon @ Dec 20 2005, 09:29 PM)
+
+in_tomb_01 (not sure if this is a real list or not, just humor me)
+
+In regular MW it reads:
+
+1 - Ancestor Ghost
+4 - Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+Now you make the super skeleton zombie mod  and the script adds them in,
+it now looks like this in the savegame reference:
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list -> Super Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+where Modded_skeleton_list is the new levelled list and super skeleton
+is what is chosen on that list.
+
+
+There's where I think your logic slips:
+
+After you edit it in the Construction Set, the new version of
+'in_tomb_01' actually looks like this:
+
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+Only the ObjectID of the added list is stored in in the 'in_tomb_01';
+the contents of the new list are only stored as part of the data for the
+new list.
+
+Changing 'Modded_Skeleton_list' with script commands only changes the
+data stored for 'Modded_Skeleton_list'; it doesn't change any of the
+data for 'in_tomb_01'. So you could swap 'Modded_Skeleton_list' back and
+forth between 'Super Skeletons' and regular skeletons as much as you
+want without changing the data for 'in_tomb_01'.
+
+The end result is that only the unique 'Modded_Skeleton_list' list is
+stored in the saved game file. All 'in_tomb_01' contains is the ObjectID
+of the new list, not the actual contents of the list. Since that ID
+doesn't change, there aren't any changes to 'in_tomb_01', so that list
+doesn't get saved in the save game.
+
+So if another mod adds a 'Mega Lich of Doom' to the 'in_tomb_01' list,
+that will be merged and used just fine: ''in_tomb_01'' isn't in the save
+game file, so there's nothing to override that entry in the merged list
+.esp.
+
+****
+
+Note: I have not specifically verified that changes to an included list
+(i.e., 'Modded_Skeleton_list') don't cause the parent list (i.e.,
+'in_tomb_01') to be saved in the save game file.
+
+However, I would be /*extremely*/ surprised if it worked that way: the
+original game comes with large numbers of lists within lists, some of
+which contain even more lists within lists. If changing the contents for
+a single list meant also updating and saving every single list that
+contained that list or contained a list that contained that list, that
+would waste a lot of CPU time and significantly add to the size of the
+save game files. And it would be completely pointless to do it.
+
+****
+
+QUOTE(DarkDragon @ Dec 20 2005, 09:29 PM)
+Now you remove it after the quest is done and change it to a regular
+skeleton:
+1 - Ancestor Ghost
+4 - Skeleton
+4 - Modded_Skeleton_list -> Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+Here's where the first (minor) problem is. There is 2 skeleton entries
+now.. so skeleton's are now twice as common. Minor problem really.
+
+
+I abbreviated my example a bit. blush.gif To maintain the exact balance
+of the original list, you actually need to duplicate the original list
+in the modded list.
+
+I.e., 'Modded_Skeleton_list' would contain:
+
+1 - Ancestor Ghost
+4 - Skeleton
+6 - Bonewalker
+10 - greater bonewalker
+14 - skeleton champion
+18 - bonelord
+
+That would keep the relative frequencies of the entries the same as they
+originally were.
+
+
+        Posted by: DarkDragon Dec 21 2005, 07:43 AM
+
+Good point - thank you for correcting me on that.
+
+After I'm done with my 3 other projects I'm working on right now I'll be
+sure to test that.. I think you're right though, a script modifying a
+list within a list shouldn't include a reference to the parent list in
+the savegame, unless the script added the skeleton list to the
+in_tomb_01 list and it wasn't done by hand.
+
+Now DT, we just need to find all the scripted LL mods and fix em?
+Whattya say? evillol.sml.gif
+
+lol, Just kidding, that'd be nigh impossible. However if it does work
+(which I shall test as soon as I can), then we can easily update some of
+the popular ones. Werewolves, Magical Trinkets of Tamriel, etc.
+
+
+        Posted by: Wrye Dec 21 2005, 07:55 AM
+
+DT: Clever! Should work. Also, I'd wager that you could empty the unique
+list rather than have it insert a standard skeleton. I suspect that the
+list manager will keep throwing the dice until it manages to stick
+-something- into the spawn point.
+
+But of course, with Bethesda, you never know. A few experiments are in
+order, I think.
+
+
+        Posted by: DarkDragon Dec 21 2005, 09:45 AM
+
+QUOTE(Wrye @ Dec 21 2005, 01:55 AM)
+DT: Clever! Should work. Also, I'd wager that you could empty the unique
+list rather than have it insert a standard skeleton. I suspect that the
+list manager will keep throwing the dice until it manages to stick
+-something- into the spawn point.
+
+But of course, with Bethesda, you never know. A few experiments are in
+order, I think.
+* <index.php?act=findpost&pid=3658560>
+
+
+
+Actually I'm pretty sure that if nothing is in a called levelled list it
+will simply put nothing there. Not entirely sure but I'm pretty sure
+that's the way it works.
+
+
+        Posted by: DinkumThinkum Dec 22 2005, 12:21 AM
+
+Emma - this thread might be worth adding to the collection of tips, etc.
+on your web site; we seem to have come up with a new mod conflict issue
+that nobody noticed before, as well as some ideas for working around the
+problem.
+
+QUOTE(Wrye @ Dec 21 2005, 12:55 AM)
+DT: Clever! Should work. Also, I'd wager that you could empty the unique
+list rather than have it insert a standard skeleton. I suspect that the
+list manager will keep throwing the dice until it manages to stick
+-something- into the spawn point.
+
+But of course, with Bethesda, you never know. A few experiments are in
+order, I think.
+* <index.php?act=findpost&pid=3658560>
+
+
+
+Since the game has provisions for not picking an item from a list
+('chance of none' value), I think it would simply not put anything into
+the game world if it found an empty list. I can't see the game going
+back to the original list and trying again if a child list came up with
+nothing.
+
+----------------------------------------------------------------------------
+
+Note to everybody following this thread:
+
+I still visit the forums occasionally, but I haven't actually played,
+modded, etc. Morrowind for a while, and I'm doubtful if I'll ever get
+back to the game again.
+
+I got involved in this thread because it involved issues I've spent a
+lot of time investigating: dirty save and leveled list problems, mod
+conflicts, etc.
+
+I'm enjoying the discussion, and I hope some of my ideas are useful to
+people. But please don't count on me for more than ideas and suggestions!
+
+
+        Posted by: DinkumThinkum Dec 22 2005, 01:33 AM
+
+Came up with a couple of ideas for dealing with the issue of mods that
+want to remove cliff racers, etc. from the game once a quest is done.
+
+One idea is pretty standard and uses scripting, without messing with the
+leveled lists at all. The other idea would combine Wrye's idea about
+updating Wrye Mash to allow for lists that delete items from the game
+with my idea for using script functions to manipulate unique lists to
+avoid conflicts when merging lists.
+
+----------------------------------------------------------------------------
+
+Approach 1:
+
+In the Construction Set, put a short local script on 'cliff racer',
+'diseased cliff racer', and 'blighted cliff racer'. (Not sure about the
+exact ObjectIDs.)
+
+The script checks the journal or other condition to see if the 'get rid
+of cliff racers' quest has been done. When the quest is completed, the
+local script disables and then deletes the cliff racer it's attached to.
+So once the quest is done, any cliff racer already in the game will be
+deleted, and any cliff racer spawned by a leveled lists later on will be
+deleted as soon as it spawns.
+
+In areas with a lot of cliff racers, there might be a small FPS impact
+from all the scripts until the quest has been done. But it shouldn't be
+too bad, since all the scripts would be doing would be checking the
+journal entry and immediately exiting without processing the rest of the
+script.
+
+The main problem I have with this approach is that it will conflict with
+every other mod that edits cliff racers: Morrowind Advanced, for
+example. TESTool's object merger might fix that, but I don't know for sure.
+
+----------------------------------------------------------------------------
+
+Approach 2:
+
+This requires Wrye Mash's list merger being updated to handle lists that
+delete objects rather than just adding them, then adds on my idea about
+using the script commands to manipulate unique lists:
+
+In the Construction Set, create a unique leveled list with a cliff racer
+on it, another one with a diseased cliff racer, and a third with a
+blighted cliff racer.
+
+Now go through and replace the cliff racer entries on existing lists
+with the appropriate new unique list. I.e., replace all the cliff racers
+with the new cliff racer list, the diseased cliff racers with the
+diseased list, and the blighted ones with the blighted list.
+
+Finally, write the code (script or dialogue results box) to remove the
+cliff racers from the new lists once the quest has been completed.
+
+Now, when you use Wrye Mash to merge the lists, the new feature will
+recognize that this mod removed existing cliff racer entries from those
+lists and won't add them back in from the other lists being merged.
+
+Problem solved: when the player completes the quest, the script removed
+cliff racers from the unique lists, and they're gone forever. biggrin.gif
+
+
+----------------------------------------------------------------------------
+
+Frankly, this late in the life of Morrowind, I'm not sure how worthwhile
+it would be adding the 'delete detection' to Wrye Mash: it would be a
+powerful tool for modders, but at this late date I'm not sure how much
+use it would get before Morrowind fades into the sunset.
+
+
+        Posted by: Emma Dec 22 2005, 01:44 AM
+
+QUOTE(DinkumThinkum @ Dec 21 2005, 06:21 PM)
+Emma - this thread might be worth adding to the collection of tips, etc.
+on your web site; we seem to have come up with a new mod conflict issue
+that nobody noticed before, as well as some ideas for working around the
+problem.
+
+
+
+Right... I'll do so wink.gif
+
+(Hehe, I think you /know/ that I make a search on my name every day,
+don't you, DT wink.gif
+
+
+        Posted by: DarkDragon Dec 22 2005, 04:35 AM
+
+Glad I was able to help uncover something like this. I always thought
+script-added levelled lists were "iffy" and probably didn't play well
+with merged lists.
+
+
+As far as updating tools like Mash -> if Oblivion uses a similar format
+(.esp .esm and .ess) we'll probably see a lot of the same "dirty save"
+issues with Oblivion as we did with Morrowind, and such a tool will
+probably need to be updated for that game as well.
+
+It'll be interesting to see if Bethesda has fixed some of those things
+or re-written the system completely. *shrug* only time will tell.
+
+Anyways, given some free time I'll probably try to update some of the
+mods I use that add things with scripted levelled lists (that don't
+really need to) and try to make them more compatible.
+
+For anyone that already has dirty saves who have used ACS Appoldro or
+other mods using the scripted levelled list method -> here's the best
+thing to do.
+
+1. Load up the save in Enchanted Editor or TESAME even. Look for LEVI or
+LEVC entries. Delete these. Note this will remove ANY changes made by
+ANY mod that adds things to levelled lists in this manner.
+
+2. Try to find a version of the mod that uses one of the conventions
+above to add the things to the lists, or just don't use the mod. I'll
+try to fix up some of the mods, and I hope other modders will take it
+upon themselves to adjust their scripting if they've used the levelled
+list scripts in the past and release their own patches.
+
+
+        Posted by: Wrye Dec 22 2005, 04:54 AM
+
+*Spawn Spot Filling:* I still suspect that emptying the spawn sub-list
+will work, based on my knowledge of how spawn point references work. I
+think that the engine will always try to fill an empty spawn point.
+Perhaps it will only throw the dice on cell load, but even that should
+be fine. It it works, I suspect that this will be a better solution.
+(E.g., suppose you want to add infestations of firebreathing dragons to
+cliff-racer spawn points. But suppose that there's also a mod which
+tries to delete cliff racers (and replace them with fluffy bunnys!)
+Presumably your dragon sub-list will default down to cliff racers, which
+would cause them to show up again of course. Or suppose that you want
+your dragons to shown up at different point, some points with cliff
+racers, but some points without cliff racers... Then what would you
+default to?)
+
+*Mash List Building Internals:* FYI... Get's a little tricky, but I'll
+try to be clear. Mash goes through the list of active mods, then skips
+the three Bethesda esms and any mods authored by "Wrye Mash". For the
+remaining mods, it processes them in load order, extracting their lists.
+First mod to have a particular list forms the base list. Suppose that
+list looks like this:
+
+Original List:
+1 small_dog
+1 big_dog
+1 small_dog
+1 big_dog
+2 bigger_dog
+
+Then Mash hits another mod with the same list:
+1 small_dog
+1 big_dog
+1 small_dog
+1 big_dog
+1 small_dog
+1 big_dog
+2 big_dog
+2 big_dog
+2 black_dog
+
+Post merge, the result is:
+1 small_dog
+1 big_dog
+1 small_dog
+1 big_dog
+2 bigger_dog
+2 big_dog
+2 big_dog
+2 black_dog
+
+Mash will *only* merge new items into the list if there's no matching
+pc-level-object-id in the current base list. So although the second mod
+wanted to add another 1/small_dog and 1/big_dog to the list these were
+ignored because the existing list already had 1/small_dog and 1/big_dog
+in it. (BTW, if you're wondering why the items are repeated, it's for
+balancing -- each item in the list (up to the current pc level) has
+equal chance of going into the list. So, by repeating an item, you
+double it's probabilyt of happening. Also, I presume the reason these
+repeats are interleaved is to make the results more random -- like
+shuffling a deck of cards.
+
+The current rule on merge is: don't add the item if the item
+(level/object-id) is already in the list. New rule would be: don't add
+the item if it's already in the list, OR if it's in one of the Bethesda
+esm lists.
+
+Finally, Mash won't write it's compiled list into the "Mashed List.esp"
+unless a merge has been done. Hence a unique list or a standard bethesda
+list that has only been modified by one esp will not be written.
+
+*Archiving:* I had started a couple of good pages on UESP Wiki. This
+would have been a good addition to the "Mod Conflicts" page. But UESP
+has been mostly down since early November after the server switch. It
+was up this weekend for a day at least, but now it's down again. sad.gif
+
+
+        Posted by: Dragon32 Jan 6 2006, 12:31 AM
+
+Well I've done some checking of the mods I'm currently using in my game.
+I searched them for the following: "AddToLevCreature", "AddToLevItem",
+"RemoveFromLevCreature" and "RemoveFromLevItem" as these are the script
+commands that... er... add things (or remove them) from levelled lists.
+
+So the plugins I found were:
+
+    * Bloodmoon Extras v 0.2 - BMExtras.esp
+    * Tribunal Integration v 0.5 - TribIntegration.esp
+    * Where Are All Birds Going? Version 1.7 by abot -
+      abotWhereAreAllBirdsGoing.esp
+    * Water Life Version 1.7 by abot - abotWaterLife.esp
+    * Appoldro Weaponstore v2.04 - acsAppoldoro.esp (the one that
+      started all this)
+    * Giants v2.7.1 "Ultimate" - GIANTS.esm
+    * Magical Trinkets of Tamriel Vol IV beta - MTT IV Updated v0.79.esp
+      (Note this is the .ESP modified by Habile to reduce the "overloot"
+      problem with Chris Woods' original)
+    * Sri's Alchemy, Bloodmoon Edition. Version 3.0609 - Sris_Alchemy_BM.esp
+    * Weapon Compilation Mod - version 2.0 -
+      farrp_WeaponCompilationMod_V2.esp
+    * Exotics Boutique "Pour la Guerrière" v1.1 - ExoticsBoutique.esp
+
+
+To give you some idea of what I've done to change these here's some
+details for each plugin:
+
+*Bloodmoon Extras v 0.2 - BMExtras.esp*
+AddToLevCreature - Adds a Riekling not used by Beth to various levelled
+lists around Solstheim
+AddToLevItem - Adds a Nordic Spear to various Bloodmoon levelled lists.
+I was able to add these items into the lists manually and delete the
+script containing these commands, nice and easy to change.
+
+*Tribunal Integration v 0.5 - TribIntegration.esp*
+AddToLevCreature - Adds Tribunal's Dwemer Centurions to the Morrowind
+Dwemer levelled lists.
+Again, an easy fix. I simply added the Centurions to the levelled lists.
+And deleted the script.
+
+*Where Are All Birds Going? Version 1.7 by abot -
+abotWhereAreAllBirdsGoing.esp*
+RemoveFromLevCreature - Only used in one script
+(ab01birdsGeneratorScript): it removes all Cliffracers, and the
+function's only called when debugging.
+I left this one alone.
+
+*Water Life Version 1.7 by abot - abotWaterLife.esp*
+AddToLevCreature -
+RemoveFromLevCreature - These 2 functions were used in three scripts
+(ab01wlgNoStdSlaughterScript, ab01wlgReplaceSlaughterScript and
+ab01wlgRestoreSlaughterScript). These scripts are run dependent on
+choices made when using the configuration ring which comes with the mod,
+as the default setting is to leave slaughterfish alone I decided to
+leave these scripts alone. If someone changed the slaughterfish options
+from the default using the ring then the altered levelled lists would be
+included in their save. I'm just not going to change that particular
+option in my game.
+AddToLevItem - The script ab01wlgInitScript uses this function to add
+(mainly) ingredients to a variety of levelled lists. The fishing rod and
+sextant are also added (there are some other items added too). As the
+script also sets some default values for Global Variables I edited this
+script to remove the AddItems (/not the variables/) and manually changed
+the levelled lists myself.
+
+*Appoldro Weaponstore - acsAppoldoro.esp*
+AddToLevItem - A host of scripts adding shields, swords, axes, pauldrons
+etc etc to a number of levelled lists.
+I deleted the scripts after manually updating the levelled lists.
+
+*GIANTS.esm - Giants v2.7.1 "Ultimate"*
+AddToLevItem - Used in the Add_Ultimate_items script, but this script
+doesn't seem to ever be run. The script adds 2 amulets, 2 rings and 2
+scrolls. Looking at the rings and amulets in the TESCS showed they had
+no enchantments on them and the scrolls are in the appropriate levelled
+list already.
+I left the scripts and levelled lists alone.
+
+*Magical Trinkets of Tamriel Vol IV beta - MTT IV Updated v0.79.esp*
+AddToLevItem - A number of levelled lists had a number of trinkets added.
+RemoveFromLevItem - Used to clean levelled lists before adding new items
+when player levels up
+I removed the script cw_mtt_update_lists that added items (and cleaned
+the lists on level up) after manually updating the levelled lists. I
+also had to remove reference to it from other scripts.
+
+*Sri's Alchemy, Bloodmoon Edition. Version 3.0609 - Sris_Alchemy_BM.esp*
+AddToLevItem - Adds new ingredients (and Tribunal and Bloodmoon ones) to
+various levelled lists.
+Another simple one, update the levelled lists and delete the script.
+
+*Weapon Compilation Mod - version 2.0 - farrp_WeaponCompilationMod_V2.esp*
+RemoveFromLevItem - This command is used in scripts attached to
+legendary weapons to remove them from the mod's Levelled Lists when found.
+I left this one alone. The commands only seemed to affect levelled lists
+in the Weapon Compilation Mod so shouldn't be an issue (I hope).
+
+*Exotics Boutique "Pour la Guerrière" v1.1 - ExoticsBoutique.esp*
+AddToLevItem -
+RemoveFromLevItem -
+These commands are used in various scripts to randomise the contents of
+the shop by changing the mod's own levelled lists. Again, as the
+levelled lists are internal to the mod I left this mod alone.
+
+*Note:*
+If you're thinking of doing this yourself, when manually adding into the
+levelled lists be aware of the command's syntax:
+AddToLevItem "LevItemName" "Item_ID" level_enum
+Where:
+LevItemName = The name of the levelled list
+Item_ID = The object to be added (I've used the item command here but
+it's the same for creatures)
+level_enum = The player's level when that item will appear. A "-1" in a
+RemoveFrom means remove all instances of that object.
+Check out Morrowind Scripting for Dummies for full info.
+
+*Note 2:*
+Where I said I just deleted scripts I used Enchanted Editor as there
+will be the script that adds the items / creatures and also a Scripts
+Startup entry (runs when Morrowind starts not surprisingly). It was just
+easier to delete these using EE. For editing scripts and levelled lists
+I used the TESCS though.
+
+
+        Posted by: abot Yesterday, 06:24 PM
+
+Interesting thread indeed, maybe that's why Bethesda introduced those
+functions withouth using them.
+Here are other mods I found using the functions, some are quite popular.
+
+Tough to change (dynamic/quest driven):
+Black Queen Chronicles Ver 2.5.esp:
+Patch_AV-InnWhispWood.esp
+farrp_WeaponCompilationMod_V2.esp
+
+Easy to change:
+Corv's Ultimate Ranger Mod 2.0.esp
+GAM NOM 2.12.esp
+Morrowind Crafting1.1.esp
+
+The Wilderness Mod 2.0 T & B.esm
+
+I will surely try to change Water Life so to solve these problems. smile.gif
+
+[edit]ops, removed Sris_Alchemy_BM.esp
+
+Powered by Invision Power Board (http://www.invisionboard.com)
+© Invision Power Services (http://www.invisionpower.com)
+

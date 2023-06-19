@@ -1,0 +1,81 @@
+*****************************************************************
+
+     The Elder Scrolls III
+           MORROWIND: 
+       Animal Realism Plugin
+		
+*****************************************************************
+
+Index:
+1. Description
+2. Changes
+
+
+
+*****************************************************************
+
+     1. Description
+
+*****************************************************************
+
+Dedicated to Charles Darwin...
+
+The Animal Realism Plugin is a simple modification that allows for more believable 
+animal behaviour (i.e. less suicidal rats, fish, cliff racers, etc.)
+
+Blighted animals will still attack as normal because the blight has caused
+them to lose their internal instincts. This allows them to bypass the laws of
+natural selection, making it okay for us to kill them without worrying on 
+how their species ever could have survived with such stupidity.
+
+Also, stronger looking animals have been made stronger. This was done
+through an increase in animal combat skill, animal agility and animal strength.
+Dreughs have also recieved in increase in damage. (Dreughs are lethal now)
+
+
+*****************************************************************
+
+     2. Changes
+
+*****************************************************************
+
+-Normal cliff racers will not attack characters, they will run (fly) if attacked.
+-Diseased cliff racers will attack only if attacked first..
+-Blighted cliff racers will still attack characters.
+
+-Normal guars will not attack characters (they may however try to be cute and lick you). 
+-Guars will run if attacked.
+-Wild guars will attack only if attacked first.
+
+-Kwama Foragers will attack only if attacked first.
+-Blighted Kwama Foragers will still attack.
+
+-Normal rats will not attack character, they will run if attacked.
+-Diseased rats will attack only if attacked first.
+-Blighted rats still attack.
+
+-Mudcrabs attack only if attacked first.
+-Diseased mudcrabs will attack only if attacked first.
+
+-Slaughterfish will not attack characters, they will fight if attacked.
+-Perch (Small Slaughterfish) will not attack characters.
+
+-Dreughs are now as mean as they look. (They deal more damage and hit more frequently)
+-Nix-hounds have been made much stronger. (They hit more frequently)
+-Aljits have been made stronger. (They hit more frequently)
+-Kagouti have been made stronger. (They hit more frequently)
+-Scamps have been made a little stronger. (They hit more frequently)
+
+
+
+*****************************************************************
+
+     3. Support
+
+*****************************************************************
+
+To use, place the data file in the Morrowind/Data Files folder.
+
+I advise not using this with other difficulty mods.
+
+Please send feedback to me at Ethbaal@mail.com

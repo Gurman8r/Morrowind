@@ -1,0 +1,43 @@
+=================================
+Better Waterfalls
+=================================
+by Melchior Dahrk
+
+Version 2.0.1
+
+
+Description
+=================================
+New effects and textures for TES3 Morrowind waterfalls.
+
+I have a nostalgic appreciation for the vanilla waterfalls, but I felt that they could be improved. This mod includes the following updates to make waterfalls feel "wetter":
+
+> New water splash effects on all waterfalls and water spray*
+> New running water texture
+> Alpha-faded top and bottom of the waterfalls (for better blending)
+
+* 'ex_mh_pav_water_spray.nif' has purposefully not been included. It already looks fine enough and is not within the scope of this mod.
+
+
+Known Issues
+=================================
+As of 2.0, there should be reduced flickering. But the vanilla engine just does not handle overlapping objects with alpha blending very well.
+
+
+Changes
+=================================
+1.0.0 - Initial release
+1.1.0 - Added LOD to the particle effects to improve performance
+2.0.0 - Complete overhaul of the waterfall meshes to reduce flickering and eliminate particle lighting issues. Optimized and resized mist meshes. Added optional vanilla resolution textures. Added Tamriel Data patch for flowing water meshes.
+2.0.1 - Patch to fix particle "explosion" from mist effect in OpenMW.
+
+
+Installation
+=================================
+Manual: Copy the Meshes and Textures folders to the Morrowind Data Files folder
+Mod Installer: mod archive is BAIN compatible
+
+
+Usage
+=================================
+The models and textures in this mod are free to use in other projects for TES3, Morrowind. Make all the waterfalls look better!

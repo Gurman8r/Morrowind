@@ -1,0 +1,50 @@
+Better Clothes for Bloodmoon PLUS 1.3
+I am Weary of seeing male "packages" on every female even after 10+ years. Weary of the Bloodmoon pants and shoes never being done after 10+ years.
+
+This mod adds Better Clothes style female pants to all the pants.. It adds bloodmoon pants for males and females, It adds shoes for bloodmoon .. It adds the male and female expensive Mournhold pants ..
+
+
+Discovered Robert had created his own meshes and textures. The Bloodmoon and Tribunal textures are his for the pants. The shoes are the vanilla textures as come off my cd. The Morrowind pants textures are Better Clothes. I've fixed some which had a seam issue. Just a few needed that when applied to Robert's female pants.
+
+Kindly he has listed them as resources. I have used them here..
+
+I have done all the Morrowind Pants, I've done the Tribunal Expensive Pants, I've also done the Bloodmoon shoes and pants.
+
+Do with this mod as you wish.
+
+Please point out any errors that you see. Which pair of pants it was. If you don't know. Use the console to click on the NPC and get their name. I can look them up in the cs that way. I checked and rechecked these but that doesn't mean I didn't miss something. If a pair of pants looks like the texture is backwards please also point out that!
+
+ST
+
+
+Credits:
+Robert
+Bethesda
+Better Clothes team
+Spirited Treasure
+
+
+This mod assumes you have Better Clothes, More Better clothes, and Better Clothes for Tribunal.
+I've also included my 2 Tribunal shirts fix.
+
+Update:
+Added shirts in for males and females.
+
+Additional credit:
+tiebrakre for fixing the femme shirts for us.
+Robert for the male ones.
+
+This mod should load below your Better clothes mod as it changes the meshes that were used to point to female but were actually male meshes.
+
+Do with this mod as you wish. Don't forget credits!
+
+Spirited Treasure
+
+
+---Update---
+
+Added femme version of Mournhold expensive pants. Sorted issues with pant meshes having wrong texture and missing texture -from before. 
+
+Double checked that I am not forgetting something this time!
+
+Apologies to Plangeye -Her texture was not meant to be here!

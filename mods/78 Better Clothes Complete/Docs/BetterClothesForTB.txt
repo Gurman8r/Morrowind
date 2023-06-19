@@ -1,0 +1,22 @@
+	Better Clothes For Tribunal
+		Mod for Morrowind, Author Keazen
+	
+1 - Installation
+2 - Description
+3 - Credits
+
+	1 - Installation
+
+Launch Morrowind Launcher.exe, select Data Files and check the box next to the BetterClothesForTB.esp.
+
+	2 - Description
+	
+This mod replace the textures for the clothes of Tribunal and the meshes of pants & shoes.
+
+	3 - Credits
+
+Pants & shoes meshes by Psycho Dog Studios
+http://www.psychodogstudios.net/
+
+
+	~ ALMSIVI ~

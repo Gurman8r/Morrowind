@@ -1,0 +1,24 @@
+Change your Blood section of your morrowind.ini file to the below
+
+
+
+[Blood]
+Model 0=BloodSplat.nif
+Model 1=BloodSplat2.nif
+Model 2=BloodSplat3.nif
+
+Texture 0=Tx_Blood.tga
+Texture 1=Tx_Blood_White.tga
+Texture 2=Tx_Blood_Gold.tga
+Texture 3=PLX_CBbug_blood.tga
+Texture 4=PLX_CBoil_blood.tga
+Texture 5=PLX_CByellow_blood.tga
+Texture 6=PLX_CBstone_blood.tga
+
+Texture Name 0=Default (Red)
+Texture Name 1=Skeleton (White)
+Texture Name 2=Metal Sparks (Gold)
+Texture Name 3=Bug Blood (Brown)
+Texture Name 4=Dark Blood (Black)
+Texture Name 5=Yellow Blood
+Texture Name 6=Stone flakes (Gray)
