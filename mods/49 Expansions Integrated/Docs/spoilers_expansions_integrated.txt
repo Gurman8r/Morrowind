@@ -1,0 +1,25 @@
+===============================================================================
+|                            Expansions Integrated                            |
+|                        A Morrowind Mod, Version 1.1.2                       |
+|                                by Necrolesian                               |
+===============================================================================
+
+-----------
+Locations |
+-----------
+
+This will list the locations of the handplaced Adamantium armor and weapon
+pieces on Vvardenfell.
+
+Cuirass: Ald-ruhn Fighters Guild, Percius Mercius' chest
+Greaves: Kunirai
+Boots: Dagon Fel (Sorkvild the Raven)
+Pauldrons (both): Ilunibi, Soul's Rattle, near Dagoth Gares
+Bracers (both): Sandas Ancestral Tomb, haunted chest
+
+Axe: Pinsun
+Claymore: Strange Shipwreck, Upper Level
+Mace: Kogoruhn, Nabith Waterway
+Shortsword: Pelagiad, Halfway Tavern (Hrordis)
+Spear: Ald Daedroth, Antechamber (Je Tee)
+Jinkblade of Wounds: Ald Sotha, Lower Level (Severa Magia)

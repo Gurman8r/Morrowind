@@ -1,0 +1,124 @@
+Clear Your Name v1.3
+By Lucevar
+
+=================
+Requirements:
+=================
+
+Morrowind, Bloodmoon, Tribunal
+
+=================
+Description:
+=================
+
+In vanilla Morrowind, you have two options for clearing a bounty: turning yourself in to the guards or joining the Thieves Guild and paying them to make the problem go away. Now you have more options. This mod was made for characters who can't or won't join the Thieves Guild, for whatever reason, but aren't above a bit of bribery if it helps them out. Since the Thieves Guild offers this service to anyone who walks in and asks to join up, I don't consider it unbalancing.
+
+Nolus Atrius is a corrupt magistrate mentioned in vanilla dialogue, the guy the Camonna Tong is paying to look the other way. However, Bethesda never placed him in game. This mod originally put him in game and created a small office for him at the back of Fort Moonmoth near the merchant stands. Due to the fact that future Tamriel Rebuilt versions will include Nolus Atrius on the mainland, I have now (as of v1.3) replaced this mod's version of Nolus with an equally corrupt deputy magistrate, Carolus Allectus, and updated the dialogue to reflect that.
+
+Any player can ask Carolus to get rid of their bounty; he'll do so at the discount you normally get for voluntarily turning yourself in to a guard, and he won't take your stolen stuff. He also has some custom dialogue and if you ask him about rumours, he'll point you (in a vague and distinctly skeptical fashion) to a couple of obscure side quests in the Balmora area that require either out of character knowledge or extreme luck to complete in vanilla.
+
+Members of House Hlaalu and House Telvanni have a slightly better option - they can talk to Odral Helvi or Fast Eddie and have their bounties removed at the same discount as Thieves Guild members, providing they meet a few conditions. House Redoran takes a dim view of such things, though, and members of that House will just have to talk to Carolus. That's the price of honour, I'm afraid.
+
+House Telvanni - Once you've recruited Eddie as your mouth, talk to him any time you need your name cleared.
+House Hlaalu - Players of rank Lawman or above can ask Odral Helvi in the Governor's Hall in Caldera to clear their name. He needs to like you first, though (Disposition 70 required).
+
+For members of the Blades - none of them will risk their cover to sort out your problems, but they'll direct you to people who can help if you ask while you have a price on your head.
+
+The mod has been cleaned with TESAME and tes3cmd, and shouldn't need to be re-cleaned.
+
+=================
+Installation:
+=================
+
+1. Extract this archive to any folder and then copy the contents to Morrowind's Data Files folder.
+2. Start Morrowind Launcher, click Data Files, and enable Clear Your Name.esp
+
+=================
+Un-Installation:
+=================
+
+1. Save your game in a cell, preferably an interior, that isn't affected by this mod, and close Morrowind.
+2. Start Morrowind Launcher, click Data Files, and disable the Clear Your Name.esp file.
+3. Delete the .esp file from your Morrowind/Data Files folder.
+
+
+=================
+Compatibility:
+=================
+
+This should be compatible with just about everything. 
+
+One possibility for conflicts is if another mod adds a room in the same place I have; I'm not aware of any that do. If you find a mod that does that, please let me know and I can update Clear Your Name to move Carolus's office somewhere else.
+
+=================
+Changelog:
+=================
+Version 1.3
+- Changed NPC's name from Nolus Atrius to Carolus Allectus, for better compatibility with Tamriel Rebuilt.
+- Changed various lines of dialogue to reflect this change.
+- Fixed typos - Larrius Varro's name is now spelled correctly. 
+- Added ownership to the items in the new room.
+- A few other polishing edits.
+
+Version 1.2
+- Fixed an issue where Nolus Atrius's dialogue falls back to the vanilla lines if you don't have enough money to pay - the vanilla lines use %PCRank and Nolus isn't in a faction so it will always be broken.
+
+Version 1.1
+- Cleaned the AMBI/WHGT settings in the three interior cells this mod edits
+- Added some extra dialogue to Nolus Atrius regarding the Camonna Tong
+- Added some dialogue to Larrius Varro about Nolus Atrius
+- NPCs in Fort Moonmoth will now give you directions to Nolus Atrius. 
+
+Version 1.0
+- Added room/office to Moonmoth Legion Fort, Interior
+- Added Nolus Atrius
+- Added dialogue to Nolus Atrius, Odral Helvi, Edd "Fast Eddie" Theman and Blades.
+
+=================
+Known Issues:
+=================
+
+None known.
+
+
+=================
+History:
+=================
+
+24/05/2021 - version 1.3
+31/10/2019 - version 1.2
+28/05/2018 - version 1.1
+08/08/2015 - version 1.0
+
+
+=================
+Contact Details:
+=================
+
+
+I can be contacted as "Lucevar" at either Morrowind Nexus or the Morrowind Modding Discord. Please do get in touch if you have questions.
+
+
+=================
+Credits:
+=================
+
+Thanks to Danjb and Darkelfguy for the video interview that inspired this mod!
+Thanks to InsanitySorrow for his ReadMe Generator this file is based on.
+Thanks to Bethesda for creating Morrowind - you've given me many thousands of hours of enjoyment.
+Thanks to Erik Benerdal AKA Scarabus for creating TESAME, which was used to clean this mod.
+
+
+=================
+Tools Used:
+=================
+
+Insanity's ReadMe Generator
+Elderscrolls Construction Set
+TESAME
+
+=================
+Licensing/Legal:
+=================
+
+Feel free to upload this to any site if it becomes unavailable at Morrowind Nexus or MMH, to use it in a compilation or as part of another mod. In other words, you can do what you like with it, please just give me credit as the original author and let me know so I can check your work out!

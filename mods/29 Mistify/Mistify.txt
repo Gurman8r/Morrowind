@@ -1,0 +1,44 @@
+Mistify
+by Melchior Dahrk
+
+This mod enhances the ambiance of the Bitter Coast by adding a new mist effect throughout region which appears during the night and certain weather conditions. It will burn off in the morning sun. The effect has been optimized to minimize performance impact. Compatibility issues should be minimal due to the subtle nature of the mist.
+
+
+Installation:
+
+00 Core - Includes the plugin to make mist appear on the Bitter Coast
+01 Vanilla Mist Replace - VANILLA MIST REPLACER
+02 Scumpatibility - Install this if you use a texture replacer for the BC scum like Lougian's. This will prevent alpha flickering for the pools of scum. This will have a slight graphical impact (no green tinted water for instance) and won't work with the default texture from Lougian's texture replacer (the bubbles). It works best with something solid like lily pads in Lougian's alternate textures.
+
+
+
+Permissions:
+
+You are free to:
+Adapt - remix, transform, and build upon the material
+
+Under the following terms:
+Attribution - You must give appropriate credit.
+Non-Commercial - You may not use the material for commercial purposes (i.e. no payment of monetary compensation as a condition for the download).
+
+If author(s) is/are not able to be contacted through a reasonable effort,
+Then you are free to copy and redistribute the material for use in The Elder Scrolls III: Morrowind
+
+
+
+Credits:
+
+Greatness7 for troubleshooting help
+Reizeron for testing feedback
+LondonRook for the editor marker shape
+
+
+
+Changes:
+
+1.0 - initial release
+1.1 - Cleaned ESP. Added optional vanilla mist replacer.
+1.2 - OpenMW compatibility fix
+1.3 - Added scumpatibility patch for BC scum texture replacers like Lougian's
+1.4 - Tweaked vanilla mist replacer to stand out less and be closer in size to the vanilla effect.
+1.5 - Patch to fix particle "explosion" from mist effect in OpenMW.

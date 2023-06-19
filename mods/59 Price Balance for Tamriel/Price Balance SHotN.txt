@@ -1,0 +1,1 @@
+Merged .ESP for all Price Balance .ESPs associated with Tamriel_Data and Sky_Main. Depends on Tamriel_Data v09 and Sky_Main v22.02a.

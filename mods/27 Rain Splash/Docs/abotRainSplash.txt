@@ -1,0 +1,28 @@
+The Elder Scrolls III MORROWIND:
+
+Rain Splash
+
+by abot
+
+Rain splashes should appear here and there around player when it is raining.
+Not nearly as good, but inspired by Isoku's Skyrim mod.
+
+
+Notes
+
+console commands:
+
+set ab01rsOff to 1 to disable,
+set ab01rsOff to 0 to enable
+
+
+debugging console commands:
+
+set ab01debug to 53
+changes Bitter Coast Region weather to 5 (thunderstorm)
+
+set ab01debug to 52
+changes Bitter Coast Region weather to 4 (rain)
+
+set ab01debug to 51
+thunderstorm rain splashes regardless of weather
