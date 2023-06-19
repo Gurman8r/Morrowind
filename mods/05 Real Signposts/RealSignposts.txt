@@ -1,0 +1,33 @@
+==================================
+RealSignposts Plugin for Morrowind
+Version 1.1
+==================================
+
+©2002 by Matthias [ElBundeee] Kath
+
+Mail feedback and suggestions to:
+
+Matthias Kath@gmx.de
+
+
+What's This?
+============
+
+The RealSignposts Plugin replaces the signposts in Morrowind by
+signposts showing the real names of the locations.
+
+
+What's New in 1.1?
+==================
+
+I basically made new textures. RealSignpost now uses the dds
+format instead of tga textures, which makes it possible to
+include mipmaps and makes the package much smaller.
+
+
+Installation:
+=============
+
+1. Copy the content of this package to "Morrowind/Data Files".
+2. Enable the plugin using the Morrowind Launcher.
+3. Good Hunting!
