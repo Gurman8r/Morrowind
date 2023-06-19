@@ -1,0 +1,26 @@
+.Pluginless Khajiit Head Pack.
+.....<Whiskered Version>.....
+
+=== Install ===
+Extract the folders to your Morrowind/Data folder.
+
+
+=== Description ===
+Replaces the 8 base khajiit heads.
+
+All the meshes are glow-mapped: khajiit eyes will shine in the darkness like a cat. 
+All the meshes are animated.
+The foreheads are smoothed, to remove weird triangular seams from vanilla. Some smaller seams may remain.
+
+
+=== Usage/Permissions ===
+The textures in this "base" batch were made over the vanilla textures. They may be freely distributed/edited. 
+The meshes are slightly enhanced versions of vanilla. They may also be freely distributed/edited.
+
+
+
+=== Other ===
+If you want the rest of the stuff (individual NPCs, vampires, converted hair), it's available on MMH:
+http://mw.modhistory.com/download-42-15171 
+
+

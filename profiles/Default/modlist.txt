@@ -6,6 +6,7 @@
 +90 OpenMW Containers Animated
 +89 Better Telvanni Cristals
 +88 Glass Glowset
++87 Khajiit Head Pack
 +86 One Container 2 Rule Them All
 +85 Better Waterfalls
 +84 Creatures XI
@@ -28,7 +29,6 @@
 +67 Argonian Full Helms
 +66 No Arrow Weight
 +65 Urn Your Blings
-+64 Improved Lights for All Shaders
 +63 Better Balanced Movement
 +62 Better Balanced Combat
 +61 Yet Another Guard Diversity
@@ -41,7 +41,6 @@
 +54 Uskele
 +53 Skies IV
 +52 Apels Rain Replacer
-+51 Bully
 +50 Ultimate Icon Replacer
 +49 Expansions Integrated
 +48 Wealth Within Measure

@@ -51,7 +51,6 @@ Rem_AT_TR.esp
 Rem_RR_TR.esp
 Rem_VM_TR.esp
 Descriptive Shrines.ESP
-Bully.ESP
 Better Balanced Combat - Siege at Firemoth Patch.esp
 Rem_AL_RMR+Kogoruhn Expanded.esp
 HM_DDD_Strongholds_R_v1.0.esp
@@ -114,7 +113,6 @@ Argonian Full Helms_Iron_Stl_Orc.ESP
 BCOM_Suran Expansion.ESP
 Communist Nerevarine.ESP
 Clear Your Name.esp
-TheMananautsMessage.ESP
 Expansion Delay.ESP
 HM_DDD_Ghostfence_v1.0.esp
 WealthWithinMeasure_TR_v1.25.esp
