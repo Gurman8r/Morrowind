@@ -1,3 +1,0 @@
-Morrowind.bsa
-Tribunal.bsa
-Bloodmoon.bsa

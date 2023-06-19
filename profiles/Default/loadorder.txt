@@ -68,7 +68,7 @@ Rem_Solstheim.esp
 HM_DDD_Strongholds_H_v1.0.esp
 FreeTheSlaves!.ESP
 Epic_Aldruhn.esp
-Frostwind.ESP
+RavenRock_AllStores.ESP
 STT_OneContainer2RuleThemAll.esp
 The Publicans.ESP
 TheMananautsMessage.ESP
@@ -91,7 +91,6 @@ New Argonian Bodies - Clean.esp
 New Khajiit Bodies - Clean.esp
 Better Clothes Complete.ESP
 abotWaterLifeTRaddon.esp
-frostwind plus waterlife.ESP
 Creatures 6th House Patch.esp
 Creatures Great House Dagoth Patch.esp
 Creatures Merged Objects Fix.esp
@@ -99,7 +98,6 @@ abotRainSplash.esp
 skeleton.esp
 STT_Container_TR.esp
 Cave Drips.ESP
-Argonian Swift Swim.ESP
 BIG_BALMORA.ESP
 TR_Firemoth_Vanilla_patch.esp
 Cantons_on_the_Global_Map_v1.1.esp
@@ -123,3 +121,4 @@ Rem_WG.esp
 Vurt's Corals.esp
 Argonian Full Helms_Iron_Stl_Orc.ESP
 Rem_BC.esp
+Simple Camping.ESP
