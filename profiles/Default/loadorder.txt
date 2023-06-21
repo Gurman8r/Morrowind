@@ -35,7 +35,6 @@ RockyRedMountain1.1.ESP
 Sky_Main_Grass.esp
 Better_Sounds.esp
 OfficialMods_v5.esp
-Rem_WG.esp
 Better Morrowind Armor.esp
 Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
@@ -51,13 +50,10 @@ Rem_VM_TR.esp
 Descriptive Shrines.ESP
 Better Balanced Combat - Siege at Firemoth Patch.esp
 HM_DDD_Strongholds_R_v1.0.esp
-Rem_AC.esp
 Yet Another Guard Diversity - Regular.ESP
 HM_DDD_Strongholds_T_v1.0.esp
 Vurt's Leafy West Gash.esp
 Vurt's Grazelands Unique Trees.ESP
-Rem_AI.esp
-Rem_BC.esp
 mistify.ESP
 Vurt's BC Tree Replacer II.ESP
 Graht Morrowind Swamp Trees.ESP
@@ -125,12 +121,16 @@ BCOM_Vivec_Street_Vendors.ESP
 BCOM_Brevur.ESP
 BCOM_Vivec_Temple_Fountains.ESP
 BCOM_Canal_01.ESP
+Rem_AC.esp
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
 Rem_AL.esp
 Simple Camping.ESP
 BCOM_Cluttered_Canal.ESP
+Rem_WG.esp
 BCOM_Decorated_Cantons.ESP
+Rem_AI.esp
+Rem_BC.esp
 BCOM_rotating_planets_GG.ESP
 BCOM_Tribal_Erabenimsun.ESP
 BCOM_Vivec_Arena_planters.ESP
