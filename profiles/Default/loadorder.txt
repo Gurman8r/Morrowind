@@ -43,7 +43,6 @@ Anarchist Nerevarine.ESP
 Feminist Nerevarine.ESP
 True Lights and Darkness PS TWEAKS.ESP
 Argonian Breathing.esp
-BetterGoverningAttributes.esp
 Rem_AT_TR.esp
 Rem_RR_TR.esp
 Rem_VM_TR.esp
@@ -124,7 +123,6 @@ Rem_AC.esp
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
 Rem_AL.esp
-Simple Camping.ESP
 Rem_WG.esp
 BCOM_Decorated_Cantons.ESP
 Rem_AI.esp
@@ -134,3 +132,8 @@ BCOM_Tribal_Erabenimsun.ESP
 BCOM_Vivec_Arena_planters.ESP
 Vurt's Corals.esp
 Interior exterior flag reset.ESP
+Frostwind.ESP
+Cooking and Eating.ESP
+Water and Thirst.ESP
+Madd Leveler - Base.esp
+Madd Leveler - Madd Skills.esp

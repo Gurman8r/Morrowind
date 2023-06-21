@@ -1,0 +1,241 @@
+***************************************************************** 
+
+The Elder Scrolls III
+MORROWIND 
+
+The Madd Leveler Editing Guide For Version 1.0
+http://www.cosmicspeck.com/maddleveler/
+
+***************************************************************** 
+
+Index: 
+0. The Script Editor
+1. Constants
+2. Skills and Atttributes
+3. Contact Us
+
+***************************************************************** 
+
+0. THE SCRIPT EDITOR
+
+***************************************************************** 
+
+First things first:  General TES:CS info.
+
+1) Open the TES Conruction Set.
+2) Goto File->Open
+3) Select the "Madd Leveler - Base" plugin from the list
+4) DO NOT click the "Set As Active File" button (this will let you create a new esp based on the ML Base)
+5) Click Ok
+
+This will open up the mod in the editor.
+
+7) Wait for it to open :P
+8) Goto Gameplay->Edit Scripts...
+
+This will bring up the script editor.
+
+9) Goto Script->Open
+10) Select the desired script from the list
+11) Make your changes
+12) Goto Script->Save
+
+This will save and compile your script.  If there's an error it will tell you what and where it is.
+
+13) Goto File->Save to save the plugin
+
+***************************************************************** 
+
+1. CONSTANTS
+
+***************************************************************** 
+
+These are the easiest things to edit in the Madd Leveler.
+
+1) Open up the "Madd_Leveler" script
+
+Everything good to edit is in the section that looks like this:
+
+; ----------------------------------------------------------------------------------------------------
+;	Variables / Constants
+; ----------------------------------------------------------------------------------------------------
+
+NOTE: Anything with a ";" in front of it is commented out of the code
+
+Some of these don't work anymore/yet.  Here are the ones you can edit and what they do:
+
+PointsToStatIncrease -> # of skill points needed in a given attribute to gain a point of that attribute
+
+MaxSkill -> 100 = normal, if you set this to 99, then it will uncap the skills :)
+MaxStat -> 100 = normal, if you set this to 99, then it will uncap the stats :)
+
+
+HealthIncrement -> controls how many points you need to add in the script before your character sees a real increase
+MagickaIncrement -> controls how many points you need to add in the script before your character sees a real increase
+FatigueIncrement -> controls how many points you need to add in the script before your character sees a real increase
+
+
+Change all the individual skill/stat maximums by editing these lines:
+
+!!!!!!!!!!!!!!!!NOTE THAT THE MAXIMUM VALUE IS 4095!!!!!!!!!!!!!!!!!!!!
+
+	;combat skills
+	MaxArmorer -> 100 = normal
+	MaxAthletics -> 100 = normal
+	MaxAxe -> 100 = normal
+	MaxBlock -> 100 = normal
+	MaxBluntWeapon -> 100 = normal
+	MaxHeavyArmor -> 100 = normal
+	MaxMediumArmor -> 100 = normal
+	MaxLongBlade -> 100 = normal
+	MaxSpear -> 100 = normal
+
+!!!!!!!!!!!!!!!!NOTE THAT THE MAXIMUM VALUE IS 4095!!!!!!!!!!!!!!!!!!!!
+
+	;magic skills
+	MaxAlchemy  -> 100 = normal
+	MaxAlteration  -> 100 = normal
+	MaxConjuration -> 100 = normal
+	MaxDestruction -> 100 = normal
+	MaxEnchant -> 100 = normal
+	MaxIllusion -> 100 = normal
+	MaxMysticism -> 100 = normal
+	MaxRestoration -> 100 = normal
+	MaxUnarmored -> 100 = normal
+
+!!!!!!!!!!!!!!!!NOTE THAT THE MAXIMUM VALUE IS 4095!!!!!!!!!!!!!!!!!!!!
+
+	;stealth skills
+	MaxAcrobatics -> 100 = normal
+	MaxHandToHand -> 100 = normal
+	MaxLightArmor -> 100 = normal
+	MaxMarksman -> 100 = normal
+	MaxMercantile -> 100 = normal
+	MaxSecurity -> 100 = normal
+	MaxShortBlade -> 100 = normal
+	MaxSneak -> 100 = normal
+	MaxSpeechcraft -> 100 = normal
+
+!!!!!!!!!!!!!!!!NOTE THAT THE MAXIMUM VALUE IS 4095!!!!!!!!!!!!!!!!!!!!
+
+	;stats
+	MaxStrength -> 100 = normal
+	MaxEndurance -> 100 = normal
+	MaxAgility -> 100 = normal
+	MaxWillpower -> 100 = normal
+	MaxIntelligence -> 100 = normal
+	MaxPersonality -> 100 = normal
+	MaxSpeed -> 100 = normal
+	MaxLuck -> 100 = normal
+
+
+!!!!!!!!!!!!!!!!NOTE THAT THE MAXIMUM VALUE IS 4095!!!!!!!!!!!!!!!!!!!!
+
+
+***************************************************************** 
+
+2. SKILLS AND ATTRIBUTES
+
+***************************************************************** 
+
+Now for the slightly harder stuff.  
+
+Here you can do several things:
+A) Alter the attributes for each skill
+B) Add new attributes to skills
+C) Add Magicka/Health/Fatigue to skill increases
+
+Open up the "Madd_Leveler_Skill_Check" script.  You'll see a section called "Start Checking Skills".  In there is a bunch of code for every skill that looks like this:
+
+
+	If ( Fort_Sneak == Fort_SneakMax )
+		Set Curr To ( Player->GetSneak )
+		If ( Curr <= MaxSkillUncapped )
+			Set Last To ( Last_Sneak )
+			Set Diff To ( Curr - Last )
+			If ( Diff == 1 )
+				Set Points_Agility To Points_Agility +1
+		;		Set Points_Luck To Points_Luck +0.1
+				Set Points_Level To Points_Level +1
+				Set Base_Sneak To ( Base_Sneak + 1 )
+				Set Points_Changed to 1
+				Set Base To ( Base_Sneak - Fort_SneakMax )
+				If ( Base > MaxSkill )
+					Player->ModSneak -1
+					Set Fort_SneakMax To ( Fort_SneakMax + 1 )
+				EndIf
+			EndIf
+			Set Last_Sneak To ( Curr )
+		EndIf
+	EndIf
+
+
+You can change a few things here, but don't alter things too much or it may screw up the script or imbalance your game.
+
+The main line(s) to change are:
+
+				Set Points_Agility To Points_Agility +1
+		;		Set Points_Luck To Points_Luck +0.1
+
+You can replace "Agility" or whatever with the name of the stat you'd like to increase instead.  
+
+You can also copy this line and paste the copy just below the original to add additional stats (like the luck stat above).  (Notice that the luck line here is commented out, and so will not be processed)
+
+Don't forget to also change the attributes for skills by going to Character->Skills and editing them in the screen that comes up.
+
+
+OPTIONAL:
+
+Editing health/fatigue/magicka per stat can be done by opening the "Madd_Leveler_Stat_Check" script.
+
+Here you'll see a bunch of sections of code for each stat like this:
+
+		If ( Points_Endurance >= PointsToStatIncrease )
+			Set Att To ( Base_Endurance )
+			If( Att < MaxStatUncapped )
+				If ( Att < MaxStat )
+					Player->ModEndurance 1
+					Set Base_Endurance To ( Base_Endurance + 1 )
+					;Set Points_Health To ( Base_Endurance * 0.10 )
+					Set Points_Endurance To ( Points_Endurance - PointsToStatIncrease )
+					playsound "restoration hit"
+					messagebox "Your Endurance has increased!"
+				Else
+					Set Fort_EnduranceMax To ( Fort_EnduranceMax + 1 )
+					Set Base_Endurance To ( Base_Endurance + 1 )
+					Set Points_Endurance To ( Points_Endurance - PointsToStatIncrease )
+					playsound "restoration hit"
+					messagebox "Your Endurance has increased!"
+				EndIf
+			Endif
+		EndIf
+
+
+
+This line:
+
+	;Set Points_Health To ( Base_Endurance * 0.10 )
+
+can be just uncommented back in and you'll get extra health every time you raise endurance. "Base_Endurance * 0.10" can be any formula or literal.
+
+You can add these lines to the other stats in the same spot as well to gain an extra point of each when the stat goes up:
+
+	Set Points_Health To ( 1 )
+	Set Points_Fatigue To ( 1 )
+	Set Points_Magicka To ( 1 )
+
+(This also works for skills, but would add to these pretty quickly)
+
+
+***************************************************************** 
+
+3. CONTACT US
+
+***************************************************************** 
+
+Any questions or concerns can be brought to Madd Mugsy at Madd_Mugsy@msn.com, Sederien 
+at sederien@cosmicspeck.com, or the Elder Scrolls forums at: 
+
+http://www.elderscrolls.com/ubbthreads/showflat.php?Cat=&Board= 
+UBB7&Number=2815983&fpart=&PHPSESSID= 
+
