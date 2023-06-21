@@ -105,7 +105,6 @@ Clear Your Name.esp
 Expansion Delay.ESP
 HM_DDD_Ghostfence_v1.0.esp
 Cantons_on_the_Global_Map_v1.1.esp
-Frostwind.ESP
 The Publicans.ESP
 WealthWithinMeasure_TR_v1.25.esp
 CyrodiilFromOE.ESP
