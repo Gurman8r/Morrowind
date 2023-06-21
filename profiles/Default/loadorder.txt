@@ -93,6 +93,7 @@ GITD_WL_RR_Interiors.esp
 STT_Container_TR.esp
 BCOM_pathgrid_reset.ESP
 BCOM_Suran Expansion.ESP
+BCOM_Canal_02.ESP
 BCOM - Taller Lighthouse.ESP
 SR_Alchemy_merchant.esp
 Argonian Full Helms_Iron_Stl_Orc.ESP
@@ -115,18 +116,15 @@ BCOM_Ashlandish Maar Gan.ESP
 BCOM_OpenMW_plazas.ESP
 BCOM_Vivec_Planters.ESP
 BCOM_Sadrith_Mora_dock_expanded.ESP
-Balmora waterworks merchants addon.ESP
 BCOM_Vivec_Bustling_Arena.ESP
+BCOM_Stavs_MGO.ESP
 BCOM_Vivec_Street_Vendors.ESP
-BCOM_Brevur.ESP
 BCOM_Vivec_Temple_Fountains.ESP
-BCOM_Canal_01.ESP
 Rem_AC.esp
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
 Rem_AL.esp
 Simple Camping.ESP
-BCOM_Cluttered_Canal.ESP
 Rem_WG.esp
 BCOM_Decorated_Cantons.ESP
 Rem_AI.esp
