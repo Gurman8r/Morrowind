@@ -36,18 +36,18 @@ Sky_Main_Grass.esp
 Better_Sounds.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
+Yet Another Guard Diversity - Regular.ESP
+OAAB - Shipwrecks.ESP
 Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
 True Lights and Darkness PS TWEAKS.ESP
 Argonian Breathing.esp
-Rem_AT_TR.esp
 Rem_RR_TR.esp
 Rem_VM_TR.esp
 Descriptive Shrines.ESP
 Better Balanced Combat - Siege at Firemoth Patch.esp
 HM_DDD_Strongholds_R_v1.0.esp
-Yet Another Guard Diversity - Regular.ESP
 HM_DDD_Strongholds_T_v1.0.esp
 Vurt's Leafy West Gash.esp
 Vurt's Grazelands Unique Trees.ESP
@@ -101,7 +101,6 @@ Better Robes.ESP
 Rem_AC_TR.esp
 Rem_GL_TR.esp
 Rem_WG_TR.esp
-Cooking and Eating.ESP
 Madd Leveler - Base.esp
 Madd Leveler - Madd Skills.esp
 BCOM - Open Vivec Arena.esp
@@ -132,9 +131,15 @@ CyrodiilFromOE.ESP
 Rem_AI_TR.esp
 Thieves' Guild Stash.esp
 Water and Thirst.ESP
+Uncharted Artifacts.esp
 GrahtwoodRoost.esp
 Rem_WG.esp
-Rem_AI.esp
 Rem_BC.esp
 Imperialist Nerevarine.ESP
+Cooking and Eating.ESP
+OpenMW - YurtCrafting.esp
+Yurt Crafting.ESP
+OAAB - Shipwrecks - TR Patch.ESP
+Rem_AT_TR.esp
+Rem_AI.esp
 Vurt's Corals.esp
