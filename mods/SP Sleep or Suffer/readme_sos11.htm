@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<style type="text/css">
+		<!--
+			body						{ background-color: #d2b48c }
+			ul								{ list-style-type: square }
+			a:link						{ color: navy; text-decoration: none }
+			a:visited				{ color: navy; text-decoration: none }
+			a:hover					{ color: blue; background-color: silver }
+			td							{ font-size: 10pt; line-height: 15pt; font-family: "Trebuchet MS"; padding: 1pt; border: silver }
+			.tdeffectstop		 { font-size: 10pt; line-height: 12pt; font-family: "Trebuchet MS"; text-align: left; vertical-align: top; padding: 2pt }
+			.tdeffects				{ font-size: 8pt; line-height: 12pt; font-family: "Trebuchet MS"; background-color: #faf0e6; text-align: left; vertical-align: top; padding: 3pt }
+			.tdeffects1   	   { font-size: 8pt; line-height: 12pt; font-family: "Trebuchet MS"; background-color: #fffaf0; text-align: left; vertical-align: top; padding: 3pt }
+			.tablenotes			{ font-size: 9pt; font-family: "Trebuchet MS" }
+		-->
+		</style>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<title>Sleep or Suffer 1.1</title>
+	</head>
+	<body background="images/paper.jpg">
+		<table width="92%" border="1" cellspacing="8" cellpadding="2" align="center" bgcolor="#fffff5">
+			<tr>
+				<td width="20"></td>
+				<td width="94%">
+					<font size="3"><a href="http://home.wi.rr.com/cairnterrier" target="_blank"><b>Sleep or Suffer 1.1</b></a><br></font>
+					<font size="2">Created by <a href="mailto:duncann@beethoven.com">Duncan</a></font><br>
+					<hr noshade size="1"><br>
+					<b>Contents</b>
+					<blockquote>
+						<a href="#description">Description</a><br>
+						<a href="#installation">Installation and use</a><br>
+						<a href="#historyeffects">Plugin history and sleep deprivation effects</a><br>
+						<a href="#compatibility">Compatibility</a><br>
+					</blockquote>
+					<hr noshade size="1">
+					<a name="description"></a><b>Description</b>
+					<blockquote>Sleep is now a necessity. If you go too long without sleep, your character is definately going to feel the effects of sleep deprivation. Try and see how long you can stay awake and survive. Stay awake for 132 hours or more and you enter the Realm of Chaos!</blockquote>
+					<a name="installation"></a><b>Installation and use</b>
+					<ol>
+						<li>Unzip the archive into Morrowind's data files folder.
+						<li>From the Morrowind Launcher, select the appropriate plugin to load: Either SleepOrSuffer.esp or SleepOrSuffer-Tribunal.esp.
+					</ol>
+					<blockquote>
+						To see how long you've been awake and how long you must sleep to get rid of all deprivation effects, equip the Ring of the Sandman. This ring is added to your inventory upon loading this plugin.<br><br>
+						<i>If you're going to use the non-Tribunal version of this plugin with a savegame already in progress, travel to Seyda Neen to have the plugin activated.</i><br><br>
+						<b><font color="red">Important note:</font></b><br>It's possible that the effects from this plugin will lower your agility, endurance, strength, and willpower to less than zero (your character sheet will show zero though). These attributes determine your maximum fatigue, which will be zero if the above attributes are all zero. The most likely time this will happen is if you reach the Realm of Chaos deprivation level. It's possible for this to happen at other deprivation levels, but not nearly as likely.<br>
+						
+						If you're using my other plugin, Falling Down, this will make you fall down and unable to get up. You will still be able to look up and down and access your inventory, so there is a way out...<br>If you're not using Falling Down, you won't fall down and you will still be able to move around provided you drop enough items from your inventory so that your current encumbrance is zero. Encumbrance is five times your strength.<br>
+						<i><font color="#006400">My suggestion is to be certain you have some way to counter the effects this plugin induces...</font></i><br><br>
+					</blockquote>
+					<a name="historyeffects"></a><b>Plugin history and sleep deprivation effects</b>
+					<blockquote>
+						<b><i>Version 1.0</i></b>
+					</blockquote>
+					<ul>
+						<ul>
+							<li>Added one global script, _sos_main.
+							<li>Added two global variables, _sos_gh_total and _sos_gh_reftime.
+							<li>Added _sos_main to the start script list for the Tribunal version.
+							<li>Added one activator, _sos_start_activator, to cell (-2,-9), Seyda Neen for the non-Tribunal version.
+							<li>Added script, _sos_startscript, attached to _sos_start_activator in order to start _sos_main for the non-Tribunal version.
+							<li>Added 10 spell ability effects for the 10 levels of sleep deprivation. See the table below.
+							<li>Added Ring of the Sandman, _sos_totalrefreshment and attached script _sos_trinfo, to the player's inventory upon loading this plugin. It will tell the player how long he/she has been awake and also the required amount of sleep for total refreshment.
+						</ul>
+					</ul>
+					<blockquote>
+						<b><i>Version 1.1</i></b>
+					</blockquote>
+					<ul>
+						<ul>
+							<li>Added one more sleep deprivation level, severe.
+							<li>Renamed Virge of Death to Insane.
+							<li>Changed each deprivation level length from 8 gamehours to 10 gamehours.
+							<li>Replaced death with another deprivation level, Realm of Chaos, and it occurs at 132 gamehours.							<li>Changed the effects for each deprivation level to account for the above changes.
+							<li>If you're a vampire, you won't be affected by sleep deprivation.
+						</ul>
+					</ul>
+					<blockquote>
+						<b><i>Sleep deprivation effects</i></b><br><br>
+						<table border="0" cellspacing="0" cellpadding="3">
+							<tr>
+								<td class="tdeffectstop" nowrap bgcolor="#ffefd5" width="74">Deprivation<br>level</td>								
+								<td class="tdeffectstop" nowrap bgcolor="#ffefd5" width="80">Awake time<br>(gamehours)</td>
+								<td class="tdeffectstop" nowrap bgcolor="#ffefd5" width="90">Effects</td>
+								<td class="tdeffectstop" bgcolor="#ffefd5">Gamehours to sleep for total refreshment <sup>1,2,3</sup></td>
+								<td class="tdeffectstop" bgcolor="#ffefd5">Effective time slept when total refreshment time isn't used <sup>4</sup></td>
+							</tr>
+							<tr height="6">
+								<td nowrap bgcolor="#ffebcd" width="74" height="6"></td>
+								<td nowrap bgcolor="#ffebcd" width="80" height="6"></td>
+								<td nowrap bgcolor="#ffebcd" width="90" height="6"></td>
+								<td bgcolor="#ffebcd" height="6"></td>
+								<td bgcolor="#ffebcd" height="6"></td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">None</td>
+								<td class="tdeffects" nowrap width="80">&lt; l6</td>
+								<td class="tdeffects" nowrap width="90">none</td>
+								<td class="tdeffects">15 awake, 5.26 (6)</td>
+								<td class="tdeffects">15 awake, 3 slept, 3.75 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects1" nowrap width="74">Very Mild</td>
+								<td class="tdeffects1" nowrap width="80">16 - 25.99</td>
+								<td class="tdeffects1" nowrap width="90">agility: -1<br>endurance: -2<br>speed: -1<br>strength: -2<br>personality: -1<br>willpower: -1<br>	blind: 8%
+								</td>
+								<td class="tdeffects1">25 awake, 9.10 (10)</td>
+								<td class="tdeffects1">25 awake, 5 slept, 6.25 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">Mild</td>
+								<td class="tdeffects" nowrap width="80">26 - 35.99</td>
+								<td class="tdeffects" nowrap width="90">
+									agility: -3<br>endurance: -4<br>speed: -3<br>strength: -4<br>personality: -3<br>willpower: -3<br>blind: 16%
+								</td>
+								<td class="tdeffects">35 awake, 13.21 (14)</td>
+								<td class="tdeffects">35 awake, 7 slept, 8.75 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects1" nowrap width="74">Light</td>
+								<td class="tdeffects1" nowrap width="80">36 - 45.99</td>
+								<td class="tdeffects1" nowrap width="90">agility: -5<br>endurance: -6<br>speed: -5<br>strength: -6<br>personality: -5<br>willpower: -5<br>blind: 24%
+								</td>
+								<td class="tdeffects1">45 awake, 17.65 (18)</td>
+								<td class="tdeffects1">45 awake, 9 slept, 11.25 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">Minor</td>
+								<td class="tdeffects" nowrap width="80">46 - 55.99</td>
+								<td class="tdeffects" nowrap width="90">agility: -7<br>endurance: -8<br>speed: -7<br>strength: -8<br>personality: -7<br>willpower: -7<br>blind: 32%
+								</td>
+								<td class="tdeffects">55 awake, 22.45 (23)</td>
+								<td class="tdeffects">55 awake, 11 slept, 13.75 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects1" nowrap width="74">Moderate</td>
+								<td class="tdeffects1" nowrap width="80">56 - 65.99</td>
+								<td class="tdeffects1" nowrap width="90">agility: -9<br>endurance: -10<br>speed: -9<br>strength: -10<br>personality: -9<br>willpower: -9<br>blind: 40%
+								</td>
+								<td class="tdeffects1">65 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects1">65 awake, 12 slept, 15.25 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">Heavy</td>
+								<td class="tdeffects" nowrap width="80">66 - 75.99</td>
+								<td class="tdeffects" nowrap width="90">agility: -12<br>endurance: -14<br>speed: -12<br>strength: -14<br>personality: -13<br>willpower: -13<br>blind: 48%
+								</td>
+								<td class="tdeffects">75 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects">75 awake, 12 slept, 15.75 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects1" nowrap width="74">Major</td>
+								<td class="tdeffects1" nowrap width="80">76 - 85.99</td>
+								<td class="tdeffects1" nowrap width="90">agility: -16<br>endurance: -18<br>speed: -16<br>strength: -18<br>personality: -17<br>willpower: -17<br>blind: 56%
+								</td>
+								<td class="tdeffects1">85 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects1">85 awake, 12 slept, 16.25 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">Severe</td>
+								<td class="tdeffects" nowrap width="80">86 - 95.99</td>
+								<td class="tdeffects" nowrap width="90">agility: -20<br>endurance: -22<br>speed: -20<br>strength: -22<br>personality: -21<br>willpower: -21<br>blind: 64%								</td>
+								<td class="tdeffects">95 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects">95 awake, 14 slept, 18.75 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects1" nowrap width="74">Excessive</td>
+								<td class="tdeffects1" nowrap width="80">96 - 105.99</td>
+								<td class="tdeffects1" nowrap width="90">agility: -25<br>endurance: -26<br>speed: -25<br>strength: -26<br>personality: -25<br>willpower: -25<br>blind: 72%								</td>
+								<td class="tdeffects1">105 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects1">105 awake, 18 slept, 23.25 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">Extreme</td>
+								<td class="tdeffects" nowrap width="80">106 - 115.99</td>
+								<td class="tdeffects" nowrap width="90">agility: -30<br>endurance: -30<br>speed: -30<br>strength: -30<br>personality: -29<br>willpower: -29<br>blind: 80%								</td>
+								<td class="tdeffects">115 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects">115 awake, 21 slept, 26.75 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects1" nowrap width="74">Insane</td>
+								<td class="tdeffects1" nowrap width="80">116 - 131.99</td>
+								<td class="tdeffects1" nowrap width="90">agility: -35<br>endurance: -35<br>speed: -35<br>strength: -35<br>personality: -34<br>willpower: -34<br>blind: 85%								</td>
+								<td class="tdeffects1">125 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects1">125 awake, 22 slept, 28.25 effective</td>
+							</tr>
+							<tr>
+								<td class="tdeffects" nowrap width="74">Realm of Chaos</td>
+								<td class="tdeffects" nowrap width="80">&gt;= 132</td>
+								<td class="tdeffects" nowrap width="90">agility: -100<br>endurance: -100<br>speed: -100<br>strength: -100<br>personality: -100<br>willpower: -100<br>blind: 90%							</td>
+								<td class="tdeffects">135 awake, 24.00 <sup>5</sup></td>
+								<td class="tdeffects">135 awake, 23 slept, 29.75 effective</td>
+							</tr>
+						</table>
+						<br>
+						<font class="tablenotes">
+							Table notes:
+							<ol>
+								<li>The number of gamehours you actually will sleep is rounded up since the game allows you to select only whole hour increments.
+								<li>Total refreshment means time awake is set to zero.
+								<li>This number changes depending on hours awake. The formula used is:<br>
+										( time awake * 8 ) / ( 24 - ( time awake * 0.08 ) )
+								<li>This number changes depending on hours awake. The formula used is:<br>
+										( time awake - ( time slept + ( time awake * 0.05 ) ) )
+								<li>The game only allows sleeping for 24 hours at a time, so I just made this the absolute maximum total refreshment time. Besides that, I would find it difficult to sleep for longer than that anyway.
+							</ol>
+						</font>
+					</blockquote>
+					<a name="compatibility"></a><b>Compatibility</b>
+					<blockquote>
+						This plugin is compatible with any other plugin available. However, if there are other plugins similar to this one (i.e. causing the player negative effects from lack of sleep) and they are used at the same time, too many negative effects and/or strange occurrences may result.
+					</blockquote>
+				</td>
+				<td width="20"></td>
+			</tr>
+		</table>
+	</body>
+</html>

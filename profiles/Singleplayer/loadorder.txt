@@ -6,7 +6,6 @@ Tamriel_Data.esm
 OAAB_Data.esm
 Better Heads.esm
 TR_Mainland.esm
-MCA.esm
 Better Heads Bloodmoon addon.esm
 Better Heads Tribunal addon.esm
 Better Mining.esm
@@ -37,6 +36,7 @@ RockyRedMountain1.1.ESP
 Wares_SHOTN_npcs.esp
 Wares_SHOTN_npcs_purist.esp
 Sky_Main_Grass.esp
+NOD - Wares.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
 Yet Another Guard Diversity - Regular.ESP
@@ -95,7 +95,6 @@ Containers Animated.esp
 Creatures 6th House Patch.esp
 Creatures Great House Dagoth Patch.esp
 Creatures Merged Objects Fix.esp
-Frostwind.ESP
 STT_OneContainer2RuleThemAll.esp
 The Publicans.ESP
 Wares_PC_npcs.esp
@@ -119,17 +118,13 @@ HM_DDD_Strongholds_T_v1.0.esp
 Imperialist Nerevarine.ESP
 Interior exterior flag reset.ESP
 LowerFirstPersonSneak.ESP
-Madd Leveler - Base.esp
-Madd Leveler - Madd Skills.esp
 New Argonian Bodies - Clean.esp
 Robert's Bodies.ESP
 New Khajiit Bodies - Clean.esp
 No Arrow Weight.ESP
 OAAB - Shipwrecks - TR Patch.ESP
-OpenMW - YurtCrafting.esp
 RealSignposts.esp
 Rem_AC.esp
-Rem_AC_TR.esp
 Rem_AI.esp
 Rem_AI_TR.esp
 Rem_AL.esp
@@ -138,12 +133,10 @@ Rem_AT_TR.esp
 Rem_BC.esp
 Rem_BC_TR.esp
 Rem_GL.esp
-Rem_GL_TR.esp
 Rem_RR_TR.esp
 Rem_Solstheim.esp
 Rem_VM_TR.esp
 Rem_WG.esp
-Rem_WG_TR.esp
 Rich Creeper.ESP
 sei-urn_your_blings.esp
 SR_Alchemy_merchant.esp
@@ -154,15 +147,11 @@ TR_Preview.ESP
 TR_Travels.ESP
 TR_Travels_Preview_and_Mainland.ESP
 True Lights and Darkness PS TWEAKS.ESP
-Water and Thirst.ESP
 xconstant.esp
-Yurt Crafting.ESP
 Diseases Restored.ESP
 skeleton.esp
-Vurt's Corals.esp
 Wares_lists_OAAB.ESP
 Adventurer's backback.ESP
-Cooking and Eating.ESP
 Wares_lists_hold.ESP
 Wares_MOAR.ESP
 Wares_PC_containers.esp
@@ -170,3 +159,34 @@ Wares_PC_traders.esp
 Wares_SHOTN_containers.esp
 Wares_SHOTN_traders.esp
 Wares_TR_containers.esp
+ManyClothHelms.ESP
+Better Robes TR.esp
+Rem_AC_TR.esp
+Rem_GL_TR.esp
+Rem_WG_TR.esp
+Vurt's Corals.esp
+Baan_Binif.ESP
+Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
+CAP Dome.esp
+Concept art palace.ESP
+DD_Caldera_Expansion.esp
+Immersive Mournhold.esp
+Nine-holes - Core.esp
+Nordic Dagon Fel.ESP
+OAAB_Grazelands.ESP
+OAAB_Tel Mora.ESP
+OAAB_Tel Mora_Female Guards.ESP
+OldVosTradepost.ESP
+Rem_GL - OAAB Landscape.esp
+RPNR_Library.ESP
+The_magic_rock_of_Maar_Gan.ESP
+SkipTutorial1.0.esp
+Madd Leveler - Base.esp
+Madd Leveler - Madd Skills.esp
+Frostwind.ESP
+Water and Thirst.ESP
+Cooking and Eating.ESP
+Yurt Crafting.ESP
+OpenMW - YurtCrafting.esp
+SleepOrSuffer.esp
+SleepOrSuffer-Tribunal.esp

@@ -1,0 +1,9 @@
+[package]
+name = "OAAB Tel Mora"
+version = "4.0.3"
+description = "Enhances the city of Tel Mora by adding new buildings, new quests, detailing the landscape, and more."
+homepage = "https://www.nexusmods.com/morrowind/mods/46177"
+authors = ["Melchior Dahrk"]
+
+[dependencies.mods.OAAB_Data]
+version = ">=2.1.3"

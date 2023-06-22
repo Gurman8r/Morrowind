@@ -11,9 +11,14 @@ Better Mining.esm
 TR_Mainland.esm
 Sky_Main.esm
 Cyr_Main.esm
+Wares-base.esm
 LeFemmArmor.esp
 True_Lights_And_Darkness_1.0-NoDaylight.esp
 True_Lights_And_Darkness_1.1.esp
+Wares_TR_npcs.esp
+Wares_TR_npcs_purist.esp
+Wares_VV_npcs.ESP
+Wares_VV_npcs_purist.ESP
 Beautiful cities of morrowind.esp
 Better Balanced Combat - Tamriel Rebuilt Patch.esp
 Better Balanced Combat.esp
@@ -28,11 +33,15 @@ Price Balance SHotN.ESP
 Better_Sounds.esp
 Price Balance.ESP
 RockyRedMountain1.1.ESP
+Wares_SHOTN_npcs.esp
+Wares_SHOTN_npcs_purist.esp
 Sky_Main_Grass.esp
+NOD - Wares.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
 Yet Another Guard Diversity - Regular.ESP
 OAAB - Shipwrecks.ESP
+Wares_VV_containers.ESP
 Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
@@ -49,6 +58,7 @@ Graht Morrowind Swamp Trees.ESP
 RavenRock_AllStores.ESP
 TR_Firemoth_Vanilla_patch.esp
 BCOM_Suran Expansion.ESP
+Waterfalls Tweaks.esp
 BCOM_Canal_02.ESP
 Nationalist Nerevarine.ESP
 BCOM - Taller Lighthouse.ESP
@@ -79,6 +89,7 @@ BetterGoverningAttributes.esp
 Cave Drips.ESP
 Communist Nerevarine.ESP
 Feminist Nerevarine.ESP
+Wares_lists_TD.ESP
 TR_Factions.esp
 Clear Your Name.esp
 Containers Animated.esp
@@ -87,6 +98,9 @@ Creatures Great House Dagoth Patch.esp
 Creatures Merged Objects Fix.esp
 STT_OneContainer2RuleThemAll.esp
 The Publicans.ESP
+Wares_PC_npcs.esp
+Wares_PC_npcs_purist.esp
+Wares_TR_traders.esp
 CyrodiilFromOE.ESP
 Descriptive Shrines.ESP
 Enchant_Made_Possible_fixed.ESP
@@ -112,7 +126,6 @@ No Arrow Weight.ESP
 OAAB - Shipwrecks - TR Patch.ESP
 RealSignposts.esp
 Rem_AC.esp
-Rem_AC_TR.esp
 Rem_AI.esp
 Rem_AI_TR.esp
 Rem_AL.esp
@@ -121,12 +134,10 @@ Rem_AT_TR.esp
 Rem_BC.esp
 Rem_BC_TR.esp
 Rem_GL.esp
-Rem_GL_TR.esp
 Rem_RR_TR.esp
 Rem_Solstheim.esp
 Rem_VM_TR.esp
 Rem_WG.esp
-Rem_WG_TR.esp
 Rich Creeper.ESP
 sei-urn_your_blings.esp
 Simple Camping.ESP
@@ -141,5 +152,18 @@ True Lights and Darkness PS TWEAKS.ESP
 xconstant.esp
 Diseases Restored.ESP
 skeleton.esp
+Wares_lists_OAAB.ESP
+Adventurer's backback.ESP
+ManyClothHelms.ESP
+Wares_lists_hold.ESP
+Wares_MOAR.ESP
+Wares_PC_containers.esp
+Wares_PC_traders.esp
+Wares_SHOTN_containers.esp
+Wares_SHOTN_traders.esp
+Wares_TR_containers.esp
+Better Robes TR.esp
+Rem_AC_TR.esp
+Rem_GL_TR.esp
+Rem_WG_TR.esp
 Vurt's Corals.esp
-Waterfalls Tweaks.esp

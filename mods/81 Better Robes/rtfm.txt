@@ -1,0 +1,9 @@
+Better Robes - Updated Tamriel Rebuilt Patch Missing Texture Fix or "A patch for a patch for a patch."
+
+INFO:
+This is a just a quick little patch to a excellent patch by Anonytroll.
+It fixes a broken texture in tr_pb_robe_com_01.nif.
+Quick fix by BurningRetrograde.
+
+INSTALLATION:
+Install in a mod manager (preferably not NMM) after Anonytroll's patch, the original Better Robes TR Patch, Better Robes, Tamriel Data, and Tamriel Rebuilt.
