@@ -2,8 +2,6 @@
 +SP Madd Leveler
 +SP Survival Needs
 +SP Frostwind
-+95 Beautiful Cities of Morrowind
-+93 Hair Pack Redone
 +92 Grahtwood Roost
 +91 Graht Morrowind Swamp Trees
 +90 OpenMW Containers Animated
@@ -68,6 +66,8 @@
 +28 Big Icons
 +27 Rain Splash
 +26 Lower First Person Sneak Mode
++25 Beautiful Cities of Morrowind
++24 Hair Pack Redone
 -23 Simple Camping
 +22 Parasol Particles
 +21 Idiolog Nerevarine
