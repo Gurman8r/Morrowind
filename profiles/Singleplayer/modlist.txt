@@ -7,7 +7,6 @@
 +SP Frostwind
 +SP Cooking and Eating
 +SP Abot Silt Striders
-+SP Abot Gondoliers
 +SP Abot Boats
 -MP Simple Camping
 -MP Better Governing Attributes

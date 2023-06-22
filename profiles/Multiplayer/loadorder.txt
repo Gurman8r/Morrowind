@@ -15,11 +15,6 @@ Wares-base.esm
 LeFemmArmor.esp
 True_Lights_And_Darkness_1.0-NoDaylight.esp
 True_Lights_And_Darkness_1.1.esp
-Wares_TR_npcs.esp
-Wares_TR_npcs_purist.esp
-Wares_VV_npcs.ESP
-Wares_VV_npcs_purist.ESP
-Beautiful cities of morrowind.esp
 Better Balanced Combat - Tamriel Rebuilt Patch.esp
 Better Balanced Combat.esp
 GlobalMapMarkers.ESP
@@ -33,10 +28,7 @@ Price Balance SHotN.ESP
 Better_Sounds.esp
 Price Balance.ESP
 RockyRedMountain1.1.ESP
-Wares_SHOTN_npcs.esp
-Wares_SHOTN_npcs_purist.esp
 Sky_Main_Grass.esp
-NOD - Wares.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
 Yet Another Guard Diversity - Regular.ESP
@@ -48,7 +40,6 @@ Tribunal Integrated.esp
 Anarchist Nerevarine.ESP
 Animal Behaviour.esp
 Argonian Breathing.esp
-BCOM_pathgrid_reset.ESP
 Vurt's Leafy West Gash.esp
 Vurt's Grazelands Unique Trees.ESP
 Know Thy Ancestors.ESP
@@ -57,35 +48,17 @@ Vurt's BC Tree Replacer II.ESP
 Graht Morrowind Swamp Trees.ESP
 RavenRock_AllStores.ESP
 TR_Firemoth_Vanilla_patch.esp
-BCOM_Suran Expansion.ESP
 Waterfalls Tweaks.esp
-BCOM_Canal_02.ESP
 Nationalist Nerevarine.ESP
-BCOM - Taller Lighthouse.ESP
 Argonian Full Helms_Iron_Stl_Orc.ESP
 HM_DDD_Ghostfence_v1.0.esp
-BCOM - Open Vivec Arena.esp
-BCOM_Ashlandish Maar Gan.ESP
-BCOM_OpenMW_plazas.ESP
-BCOM_Vivec_Planters.ESP
 Cantons_on_the_Global_Map_v1.1.esp
-BCOM_Sadrith_Mora_dock_expanded.ESP
 Ships of the Imperial Navy.esp
-BCOM_Stavs_MGO.ESP
-BCOM_Vivec_Bustling_Arena.ESP
-BCOM_Vivec_Street_Vendors.ESP
-BCOM_Brevur.ESP
-BCOM_Vivec_Temple_Fountains.ESP
 riders.esp
-BCOM_Decorated_Cantons.ESP
-BCOM_rotating_planets_GG.ESP
-BCOM_Tribal_Erabenimsun.ESP
-BCOM_Vivec_Arena_planters.ESP
 Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Movement.esp
 Better Clothes Complete.ESP
 Better Robes.ESP
-BetterGoverningAttributes.esp
 Cave Drips.ESP
 Communist Nerevarine.ESP
 Feminist Nerevarine.ESP
@@ -98,8 +71,6 @@ Creatures Great House Dagoth Patch.esp
 Creatures Merged Objects Fix.esp
 STT_OneContainer2RuleThemAll.esp
 The Publicans.ESP
-Wares_PC_npcs.esp
-Wares_PC_npcs_purist.esp
 Wares_TR_traders.esp
 CyrodiilFromOE.ESP
 Descriptive Shrines.ESP
@@ -117,7 +88,6 @@ HM_DDD_Strongholds_H_v1.0.esp
 HM_DDD_Strongholds_R_v1.0.esp
 HM_DDD_Strongholds_T_v1.0.esp
 Imperialist Nerevarine.ESP
-Interior exterior flag reset.ESP
 LowerFirstPersonSneak.ESP
 New Argonian Bodies - Clean.esp
 Robert's Bodies.ESP
@@ -140,7 +110,6 @@ Rem_VM_TR.esp
 Rem_WG.esp
 Rich Creeper.ESP
 sei-urn_your_blings.esp
-Simple Camping.ESP
 SR_Alchemy_merchant.esp
 STT_Container_TR.esp
 Thieves' Guild Stash.esp
@@ -155,15 +124,50 @@ skeleton.esp
 Wares_lists_OAAB.ESP
 Adventurer's backback.ESP
 ManyClothHelms.ESP
-Wares_lists_hold.ESP
 Wares_MOAR.ESP
 Wares_PC_containers.esp
 Wares_PC_traders.esp
 Wares_SHOTN_containers.esp
 Wares_SHOTN_traders.esp
 Wares_TR_containers.esp
-Better Robes TR.esp
 Rem_AC_TR.esp
 Rem_GL_TR.esp
 Rem_WG_TR.esp
 Vurt's Corals.esp
+Beautiful cities of morrowind.esp
+BCOM_pathgrid_reset.ESP
+BCOM_Suran Expansion.ESP
+BCOM_Canal_02.ESP
+BCOM - Taller Lighthouse.ESP
+BCOM - Open Vivec Arena.esp
+BCOM_Ashlandish Maar Gan.ESP
+BCOM_OpenMW_plazas.ESP
+BCOM_Vivec_Planters.ESP
+BCOM_Sadrith_Mora_dock_expanded.ESP
+BCOM_Stavs_MGO.ESP
+BCOM_Vivec_Bustling_Arena.ESP
+BCOM_Vivec_Street_Vendors.ESP
+BCOM_Brevur.ESP
+BCOM_Vivec_Temple_Fountains.ESP
+BCOM_Decorated_Cantons.ESP
+BCOM_rotating_planets_GG.ESP
+BCOM_Tribal_Erabenimsun.ESP
+BCOM_Vivec_Arena_planters.ESP
+Interior exterior flag reset.ESP
+Baan_Binif.ESP
+Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
+CAP Dome.esp
+Concept art palace.ESP
+DD_Caldera_Expansion.esp
+Immersive Mournhold.esp
+Nine-holes - Core.esp
+Nordic Dagon Fel.ESP
+OAAB_Grazelands.ESP
+OAAB_Tel Mora.ESP
+OAAB_Tel Mora_Female Guards.ESP
+OldVosTradepost.ESP
+Rem_GL - OAAB Landscape.esp
+RPNR_Library.ESP
+The_magic_rock_of_Maar_Gan.ESP
+BetterGoverningAttributes.esp
+Simple Camping.ESP

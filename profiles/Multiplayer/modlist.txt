@@ -6,8 +6,19 @@
 -SP Madd Leveler
 -SP Frostwind
 -SP Cooking and Eating
+-SP Abot Silt Striders
+-SP Abot Boats
 +MP Simple Camping
 +MP Better Governing Attributes
++108 The Magic Rock of Maar Gan
++107 OAAB Tel Mora
++106 OAAB Grazelands
++105 Nordic Dagon Fel
++104 Library of Vivec Enhanced
++103 Immersive Mournhold
++102 Concept Art Palace
++101 Caldera Mine Expanded
++100 Baan Binif
 +99 More Cloth Helms
 +74 Adventurers Backpack
 +73 Wares Ultimate
