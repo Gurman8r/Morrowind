@@ -3,7 +3,6 @@
 +SP Survival Needs
 +SP Frostwind
 +95 Beautiful Cities of Morrowind
--94 Simple Camping
 +93 Hair Pack Redone
 +92 Grahtwood Roost
 +91 Graht Morrowind Swamp Trees
@@ -69,11 +68,9 @@
 +28 Big Icons
 +27 Rain Splash
 +26 Lower First Person Sneak Mode
-+25 Nationalist Nerevarine
-+24 Imperialist Nerevarine
-+23 Feminist Nerevarine
-+22 Communist Nerevarine
-+21 Anarchist Nerevarine
+-23 Simple Camping
++22 Parasol Particles
++21 Idiolog Nerevarine
 +20 Alchemy Merchant
 +19 Lovely Loading Screens
 +18 Better Heads
@@ -96,6 +93,3 @@
 +00 Official Bethesda Plugins
 *DLC: Bloodmoon
 *DLC: Tribunal
-*Unmanaged: Creatures
-*Unmanaged: Creatures (lore)
-*Unmanaged: Creatures (Semi)
