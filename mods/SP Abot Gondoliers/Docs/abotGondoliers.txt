@@ -1,0 +1,210 @@
+The Elder Scrolls III MORROWIND: Gondoliers
+
+VERSION HISTORY:
+
+1.11
+- couple fixes in configuration menu
+- should fix a possible glitch with waterwalking if player was using constant effect enchanted items while travelling
+-  there's a new configurable option that, if you have Morrowind Code Patch SetAngle actor fix enabled, should allow player to better follow boat/riverstrider abrupt rotations in 1st person view mode. You can try and set it on the fly from the configuration menu, keep in mind that smaller value = more sensitivity. Default value is 60. You can also change the related global variable directly from console using e.g. set ab01ARA to 45
+
+1.10b
+- added to the archive missing abotGondoliersRV.esp
+
+1.10
+- fixed a missing scenic route dialog option to Telvanni Compound for Talsi Uvayn (thanks TaxAkla!)
+
+1.9
+- fixed unintended changed position of an 'ex_imp_towerb_light_01' in 'Ebonheart 2,-13'
+- updated some dead links in readme
+
+1.8c
+- removed fading in/out from black, was still causing problems with "Skip rest of scenic trip" option
+
+1.8b
+- fixed a fading from black command with "Skip rest of scenic trip" option
+
+1.8
+- added ab01goAngle global float variable containing gondola angle
+for possible interaction with other mods (e.g. following companions)
+
+1.7
+- improved code robustness
+- added (configurable) topic to access configuration menu also from dialog
+- improved route from Ebonheart to Vivec Temple
+
+1.6
+- added more safety code to auto reset speed to standard if needed 
+- removed unnecessary TCL on start
+
+1.5
+- fixed night lantern flickering during player trip
+- added a ladder from water to gondolier place at Ebonheart
+- changed configuration menu sound
+- removed changes to fMaxHeadTrackDistance GMST setting
+
+1.4
+- added (configurable) extra gondolier going from Ebonheart docks to 
+Vivec Temple and Hlaalu cantons. 
+- added (configurable) extra gondolier going from Tel Mora to Firewatch 
+docks if Tamriel Rebuilt is detected/Blight is gone. 
+- changed a caravaner reference to gondolier in comments
+- added safety code to auto reset speed to standard if needed 
+- added trip fee display
+- added disposition check to offer scenic trips similar to normal 
+gondola trips
+
+1.3
+- added in the extras folders a version that does not set
+fMaxHeadTrackDistance GMST 
+pros: NPCS will turn and look at you as usual 
+cons: player will look at his feet in 3rd person view when travelling by
+gondola 
+
+1.2
+- random trip skipping bug should be gone
+- added specific .esp version for Redesigned Vivec.esp or
+PW_Redesigned Vivec-Vivec_Expansion.esp, including the Docks gondolier
+- added compatibility with HG Vivec Cantons.esp
+- fixed player moving lips instead of gondolier at trip end goodbye
+- increased max configurable speed
+- added some scenic passengers
+- now also scenic gondoliers go back!
+- improved scripts and routes
+- added some new gondolier comments (thanks Athirena!)
+- stripped waypoint placeholders to separated .esp for modders
+
+1.1
+- invisibility effect removing fixed
+- moved dark elf BB texture reference to a subfolder to avoid replacing BB dark
+ elf texture in use
+
+1.0/beta - first release
+
+
+USAGE:
+Tribunal or Bloodmoon scripting engine required
+Tribunal and/or Bloodmoon.esm loading not required
+
+If you are using Redesigned Vivec.esp or
+PW_Redesigned Vivec-Vivec_Expansion.esp load abotGondoliersRV.esp,
+else load abotGondoliers.esp.
+
+INFO:
+Using a mix of my water life & silt strider mod tech, I'm happy to
+introduce to you real time travel Vivec gondoliers.
+
+To enjoy the scenic trips use the gondolier "- scenic travel" dialog
+topic.
+
+To dismount from the gondola or reach destination immediately activate
+the gondolier while sailing. From the same menu you can also configure
+the mod.
+
+To fully enjoy the mod as intended, you should have last MGE/MGE XE
+distant land, some MGE macro keys set to move the 3rd person view
+camera, and last MCP (Morrowind Code Patch) Vanity camera lock option
+checked. This will allow you to pan the camera and enjoy a much more scenic
+experience during the trips.
+
+As usual, I tried to be as compatible as possible, so routes are not so
+straight but it is fully compatible with Vivec Expansion
+(which is a great addition for this mod if your computer is powerful enough).
+
+
+KNOWN GLITCHES:
+Light lantern on nocturnal gondoliers can flicker during cell changes. 
+If you can't bear it, just disable it from the configuration menu. 
+
+To avoid most hostile attacks/Vivec Expansion pickpockets following you 
+when sailing, player by default is set invisible by script (a 
+...invisible invisibility effect).
+Be warned though, some pickpockets from Vivec Expanded seem to be able
+to catch a glimpse of you when illuminated by gondolier night lantern,
+so in that case you may want to disable "light lantern light" option
+using the configuration menu. 
+
+Don't use a constant invisibility item while travelling, you don't need 
+it and probably you will have to wait the end of the trip before the 
+invisibility transparency of your spell is reset unequipping the 
+enchanted item. 
+
+If you are using latest MGE-XE with dynamic ripples, better set
+height of waves to about 40%
+ 
+
+TESTING ONLY:
+set ab01debug to 25 will enable some debugging messages.
+
+
+TECH NOTES:
+Speed change selected using the configuration menu is effective when 
+next waypoint with different scheduled speed is reached. 
+
+
+RELATED/SUGGESTED MODS:
+If your Morrowind setup can handle their FPS draining, some mods 
+redesigning Vivec are really great for a scenic gondola experience:
+
+1. Vivec Expansion by Hoghead the Horrible
+Nexus: http://morrowind.nexusmods.com/mods/571/
+MMH: http://mw.modhistory.com/download--5141
+
+2. Redesigned Vivec by Piratelord (*)
+download: http://piratesretreat.webs.com/Vivec.htm
+MMH: http://mw.modhistory.com/download--14633
+
+3. or get the Pseron Wyrd unofficial combined version of them (*)
+MMH: http://mw.modhistory.com/download--14742
+download: http://www.morrowind4kids.com/pseronwyrd/PW_Redesigned_Vivec-Vivec_Expansion.zip
+
+4. HG Vivec Cantons by Holy_Handgrenade
+MMH: http://mw.modhistory.com/download--10043
+
+5. MNC: Ebonheart by Mercarryn
+MMH: http://mw.modhistory.com/download-87-14237
+
+6. Tamriel Rebuilt
+Nexus: http://morrowind.nexusmods.com/mods/42145/
+GHF: http://download.fliggerty.com/download-48-720
+
+(*) Note: 2. and 3. move physical cantons so load abotGondolierRV.esp instead of 
+abotGondolier.esp when using them.
+
+For best effect, I like PW_Redesigned Vivec-Vivec_Expansion.esp + abotGondolierRV.esp
+or Vivec Expansion + HG Vivec Cantons + abotGondoliers.esp.
+I experienced only a noticeable conflict between 1. and 4., easily fixable deleting 
+a duplicated Foreign Quarters docks gondola.
+
+
+MODDERS ONLY:
+If you are a modder willing to create your waypoints, the relevant code
+section in the ab01goGondXXScript(s) is after the set y3 to ab01goSpeed line.
+Anti-headache hint: you may need to split nested ifs if things do not seem
+to work (e. g. x_dext and y_dest remain 0).
+I really suggest you place waypoint markers in TESCS and copy/paste
+coordinates to the script, much better than handwrite them.
+Please don't use identifiers in the range 00..99 (e.g. ab01goGond99Script),
+I'd like to be able to use them in future expansions.
+I have put in the extras folder a couple of example mods with some 
+waypoints placed as reference for copy/paste coordinates.
+
+
+CREDITS
+Kudos to Arcimaestro Antares for the original gondolier animation and mod,
+http://mw.modhistory.com/download-7-6230
+I think I found the right code tools to use for the job instead of the limited
+Morrowind AI.
+The passenger lady is from Lidicus'URM creatures (seducer)
+http://mw.modhistory.com/download-68-6223
+dressed with Korana's flemish dress from Clothiers of VVardenfell
+http://www.nexusmods.com/morrowind/mods/27167/
+
+The sitting passenger is a reworked drummer resource by Lady Eternity.
+
+As usual, feel free to use anything done by me, just give credit when
+credit is due and be sure to be compatible with this mod (that usually
+means: always use different ids, not super-easy but if you are a modder
+capable to tackle with the code you should know how to do it).
+
+-abot
+

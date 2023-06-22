@@ -1,0 +1,1 @@
+Example helper waypoints for modders only. You can use them to copy/paste waypoint coordinates to scripts.

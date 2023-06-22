@@ -1,0 +1,527 @@
+The Elder Scrolls III MORROWIND: Boats
+by abot & Arcimaestro Antares
+
+VERSION HISTORY:
+
+Note that differently from latest TR "vision" changes, my goal was and still is to be as compatible as possible with Bethesda original routes/shipmasters and preserve the huge work on real-time routes I have already done, so some changes to travel routes done by Tamriel Rebuilt may/will be unsupported by scenic travel.
+
+1.24
+- added EnableLevitation command to avoid problems if some mod uses DisableLevitation withou using EnableLevitation when done
+- should be compatible with TR_Mainland.esm version 21.01
+
+1.23
+- fixed a possible glitch with player temporary transparency after travel 
+- should be compatible with TR_Mainland.esm version 20.02
+
+1.22
+- added a new configuration option "Disable scenic ship at anchor in Seyda Neen" for better compatibility with other mods potentially using the scenic ship at anchor area
+- floating animation of the ship at anchor in Seyda Neen done by script to avoid possible problems with the previously used .nif animation
+- tweaked transparency of ship sails
+
+1.21
+- should be compatible with TR_Mainland.esm version 18.09
+
+1.20
+- fixed a possible problem with the end trip script
+- should be compatible with TR_Mainland.esm version 18.07
+
+1.19
+- should be compatible with TR_Mainland.esm version 17.09 - includes needed changes to restore boat routes and AI to/from Bal Oyra, no need to use a mod slot for TR_OldTravel.esp
+
+1.18d
+fixed missing extra trip NPCs slipped in abotBoats.esp contained in 1.18c package
+
+1.18c
+fixed a possible bug on reloading a previous save, changed Darnim to Ildrim in ab01TR_Travels.esp
+
+1.18b
+fixed a couple of missing static references causing error on start in abotBoats.esp, other minor changes to scripts, more cleaned ab01TR_Travels.esp
+
+1.18
+- should be compatible with TR_Mainland.esm version 16.12
+- rock collision fixes
+- better compatibility with Crooked Tower, LGNPC_GnaarMok, Shipwreck Home
+- added code to allow player to better follow boat/riverstrider abrupt rotations in 1st person view mode to some boats that were still missing it. You can tweak it from the in-game configuration menu.
+
+1.17
+- should be compatible with TR_Mainland.esm version 16.03
+-  there's a new configurable option that, if you have Morrowind Code Patch SetAngle actor fix enabled, should allow player to better follow boat/riverstrider abrupt rotations in 1st person view mode. You can try and set it on the fly from the configuration menu, keep in mind that smaller value = more sensitivity. Default value is 60. You can also change the related global variable directly from console using e.g. set ab01ARA to 45
+- fixed a reference to ab01ssNoScenic variable meant to be ab01boNoScenic in configuration script
+- fixed boat hull/river striders splash doubling/out of sync sound
+
+1.16
+- slower scenic boats when player is not on boat
+- better compatibility with Trade Disputes
+- should be compatible with TR_Mainland.esm version 15.12.
+
+
+1.15
+- compatibility with Tamriel Rebuilt 14.08
+http://www.nexusmods.com/morrowind/mods/42145/
+- Bildam Nirith no more requires "Enable trips to mainland" option on to allow travel from Helnim to Sadrith Mora
+- traveling FROM the Mainland should now be enabled by default also when using a game saved from a previous version of the mod
+- added extra scenic trip route from Ebonheart to Almas Thirr (it makes sense using it only if you have TR alpha loaded)
+- added a boat near Ammar boatmaster
+- changed game settings so head tracking distance is practically reduced only in exteriors. This way you can avoid player continuosly moving head up-down when travelling, but keep head tracking near to default in interiors.
+
+1.14
+- fixed possible restoring of some magicka after traveling when player sign was Atronach
+- fixed a wrong waypoint causing collision with a rock near Tel Branora
+- fixed a wrong scenic spawning boat near Tel Mora
+- updated for Tamriel Rebuilt Sacred East v 1.5
+- lowered Data Files\Sound\abot\water\boat_waves.wav volume
+
+1.13
+- updated for Tamriel Rebuilt Sacred East v 1.2
+- fixed incompatibility with mods deleting Ammar cell name (usually BTB settings)
+- fixed Ammar boat trip location end
+- changed one boat/ship texture
+- some script tweaking
+
+1.12b
+- fixed 2 texture paths
+
+1.12
+- updated for Tamriel Rebuilt Sacred East 1.1 compatibility
+- fixed a scenic script naming
+- fixed a scenic route waypoint
+- minor boat texture changes
+- changed some routes for better compatibility with "The Illumination of Conundwala" mod
+
+1.11
+- updated for Tamriel Rebuilt Sacred East compatibility!
+- added new TR routes!
+- fixed 2 global variables type from short to float. Now the
+"Add standard trip duration" configuration option should work as expected
+- fixed a Khuul-Solstheim scenic spawn point
+- boat hull sound will be overwritten/silenced by sound replacers no more
+
+1.10
+- fixed one glitch with configuration menu back button
+- moved Sadas Plantation dock river strider activators a little
+- fixed ab01boRivStrid48b wrongly assigned script
+- added some scenic spawning points
+- reduced view bobbing at nighttime
+
+1.09
+- added Arcimaestro Antares' TR river striders!
+- added (configurable) topic to access configuration menu also from dialog
+- added configuration menu option to set a less foggy weather
+- added configuration menu option to replace original docked TR river striders
+- fixed Marog destination incompatibility with BTB - Settings.esp
+- route and script adjusting
+
+1.08
+- fixed a bug with Nevosi Hlan route to Sadrith Mora in abotBoatsTR.esp
+
+1.07
+- fixed a (rare) potential crashing
+- added extra boat route and shipmasters from Sadrith Mora to Helnim and back
+- added a ladder to ship model
+- Sadrith Mora - Tel Fyr route is now configurable by menu as
+enabled/disabled/enabled only when Corprus quest is done (default)
+- removed some unused things from abotBoats.esp
+- extra/to Tamriel Rebuilt mainland routes are now provided by new shipmasters,
+allowing also standard companion compatible fast travel.
+- better compatibility with TR_CensusAndExciseTravel.esp
+
+1.06
+- Captain Frand Rolston wanders no more and is disabled until player character
+ creation is complete
+- added extra boat route/shipmasters from Sadrith Mora to Tel Fyr and back
+- added (configurable) lanterns to shipmasters
+- fixed possible collision with boat gone back
+- scenic spawning scripts revision
+- some more shipmaster comments
+
+1.05
+- fixed a wrongly assigned mesh
+- fixed some glitches on extra trips availability
+- fixed Seyda Neen scenic ship mesh
+- added scenic animated Frand Rolston rowboat in Seyda Neen
+
+1.04
+- Tamriel Rebuilt boat routes added!
+- fixed a glitch with back button on configuration menu
+- tweaked ship mesh a little near oar
+- fixed a scenic colliding boat in Vivec
+- removed a scenic boat spawn point in Vivec
+- fixed conflict with Hla Oad boat moved by Mudcrab Island
+- added Gnaar Mok fast travel destination to Ald Velothi extra
+shipmaster Marena Hlan
+- added Vos fast travel destination to Firewatch extra
+shipmaster Dalam Vendal
+- added scenic ship to Seyda Neen to extra shipmaster Frand Rolston
+- sail08 texture darkened a little
+
+1.03
+- fixed a conflict with one rock near Sadrith Mora
+- fixed a wrong version fisherman bb texture
+- better compatibility with Redesigned Vivec
+
+1.02b
+- fixed some missing textures
+
+1.02
+- added Arcimaestro Antares' new ship sails and shipmaster animations!
+- fixed a dialog error with Rindral Dralor, Vevrana Aryon, Blatta Hateria
+- fixed a bug with Blatta Hateria end trip
+- route change to avoid colliding with a vanilla rock near Khuul
+- route change for better compatibility with Mournhold Clockmaker 1.0.esp
+- flipped reading passenger skirt UV, seems to look better
+- added vanilla/colored version of sails textures so you can keep your
+preferred version
+
+1.01
+- added Arcimaestro Antares' new boat sails and shipmaster animations, yay!
+- reworked shipmaster heads and clothes
+- tweaked routes speed
+- fixed a conflict with one of Vurt's Ashlands Overhaul2.esp trees near Molag Mar
+- reworked some shipmaster's comments
+- set boats a little higher for better compatibility with MGE dynamic waves
+
+1.00 - first release
+
+
+INFO:
+This is probably just for people who liked my other silt striders and
+gondoliers mod.
+
+You can now also travel by boat in real time, and dismount anywhere in
+between trip starting and ending points (e. g. you can take the boat
+from Ebonheart to Hla Oad and waterwalk/swim to Seyda Neen when you are
+passing nearby).
+
+Note: Real time travel by boat is LONG. If you are not interested in
+scenery views you will probably find this mod boring. You have been
+warned.
+
+
+USAGE:
+Normal version requires Bloodmoon.esm.
+Tamriel Rebuilt version requires Tribunal.esm, Bloodmoon.esm,
+TR_Data.esm, TR_Mainland.esm.
+
+If you have Tamriel Rebuilt installed, load abotBoatsTRYYMM.esp, ELSE
+load abotBoats.esp (do not load both).
+
+abotRiverStridersTRYYMM.esp NEEDS abotBoatsTRYYMM.esp and MUST be
+loaded/dated AFTER it.
+
+Also, to avoid MGE drawing the reflection/shadows of replaced
+river striders, you should add to your MGE exception list the line
+
+tr\cr\tr_riverstrider_nr.nif=ignore no_script
+
+and regenerate distant land.
+
+
+To enjoy the scenic trips use the shipmaster "- scenic travel" dialog
+topic.
+
+To dismount from the boat or reach destination immediately activate
+the boat while sailing. From the same menu you can also configure the
+mod.
+
+From version 1.09, the configuration menu can also be accessed from
+a (configurable) dialog topic.
+
+From the configuration menu you can enable/disable the extra trips to
+Seyda Neen, Ald Velothi, Tel Fyr.
+If you are using the Tamriel Rebuilt version, you can enable also routes
+to and from Firewatch and Helnim, and other extra routes are available
+with the river striders add-on.
+
+You can also start the configuration menu from the game console if you
+so prefer, typing
+startscript ab01bogconfigscript
+
+IMPORTANT!
+While extra trips are enabled by default, the routes to Tamriel Rebuilt
+mainland are enabled by default only if the main quest has been completed.
+If you want to enable mainland routes from the start, just use the
+included configuration menu option.
+To enable supported routes to TR_preview.esp you need also to select
+"Yes, + unreleased TR maps" in the "Enable extra trips" configuration option.
+
+In a similar way, Sadrith Mora-Tel Fyr route is enabled by default only
+when Corprus quest is done, if you want to enable it from the start
+just use the related configuration menu option.
+
+To fully enjoy mod potential, you should have latest MGE/MGE XE distant
+land, MGE/XE "Customize 3rd person camera" checked (you don't need to change
+standard 0 -160 0 values, just have the checkbox ticked), some MGE keys
+set to move the 3rd person view camera (I like using the arrow keys), and
+last but not least MCP(Morrowind Code Patch) with these options checked:
+reduce camera clipping, vanity camera lock.
+
+This will allow you to pan the camera in 3rd person view mode and enjoy a
+more stable and much more scenic experience during boat trips.
+
+For infos about setting MGE keys/macros, see
+http://sourceforge.net/apps/mediawiki/morrgraphext/index.php?title=Macro_Editor
+
+Oh, and don't forget your preferred tree replacers/landscape enhancers
+of course!
+
+Since version 1.02 there are vanilla/color new sails textures in folders
+Data Files\Textures\abot\bo\vanilla\
+Data Files\Textures\abot\bo\color\
+
+e.g. if you don't like the couple of new recolored red/blue boat sails,
+you can replace them with vanilla sails, just copying
+Data Files\Textures\abot\bo\vanilla\sail07.dds
+over Data Files\Textures\abot\bo\sail07.dds,
+Data Files\Textures\abot\bo\vanilla\sail08.dds
+over Data Files\Textures\abot\bo\sail08.dds
+
+Current routes:
+* new shipmaster
+(1) if extra trips enabled
+(2) if related quest is done
+(3) Tamriel Rebuilt version only
+(4) with river striders loaded only
+(5) meant for TR_Preview testing only, the "Yes, + unreleased TR maps" configuration option
+will also auto enable trips to mainland regardless of "Enable trips to mainland" option.
+
+from Ald Velothi(1) (Marena Hlan*) to Khuul, Gnaar Mok
+from Dagon Fel (Haema Farseer) to Khuul, Sadrith Mora, Tel Aruhn, Tel Mora, Molag Mar
+from Ebonheart (Blatta Hateria) to Holamayan(2)
+from Ebonheart (Nevosi Hlan) to Hla Oad, Sadrith Mora, Tel Branora, Vivec
+from Ebonheart(1) (Sansi Andrethi*) to Seyda Neen, Ildrim(3)(2), Old Ebonheart(5), Andothren(5), Almas Thirr(5)
+from Fort Frostmoth (Basks-In-The-Sun) to Khuul, Raven Rock
+from Gnaar Mok (Valveli Arelas) to Hla Oad, Khuul
+from Gnaar Mok(1)(Rogus Othren*) to Ald Velothi
+from Hla Oad (Baleni Salavel) to Ebonheart, Gnaar Mok, Molag Mar, Vivec
+from Holamayan (Vevrana Aryon) to Ebonheart(2)
+from Khuul (Talmeni Drethan) to Dagon Fel, Gnaar Mok
+from Khuul(1)(Miron Balur*) to Ald Velothi
+from Molag Mar (Rindral Dralor) to Hla Oad, Tel Branora, Vivec
+from Raven Rock (Veresa Alver) to Fort Frostmoth(2)
+from Sadrith Mora (Gals Arethi) to Ebonheart, Dagon Fel, Tel Branora, Tel Mora
+from Sadrith Mora(1)(2) (Bralin Milar*) to Tel Fyr
+from Seyda Neen(1) (Captain Frand Rolston*) to Ebonheart, Old Ebonheart(5), Andothren(5)
+from Tel Aruhn (Daynas Darys) to Dagon Fel, Tel Mora, Vos
+from Tel Branora (Nireli Farys) to Ebonheart, Molag Mar, Sadrith Mora, Vivec
+from Tel Fyr(1)(2) (Rogas Tistar*) to Sadrith Mora
+from Tel Mora (Tonas Telvani) to Dagon Fel, Sadrith Mora, Tel Aruhn, Vos
+from Vos (Sedyni Veran) to Sadrith Mora, Tel Aruhn, Tel Mora
+
+from Alt Bosara(3) (Hlavora Gilnith) to Necrom, Tel Mothrivra, Llothanis
+from Necrom(3) (Galore Nothro*) to Bal Oyra, Tel Ouada, Gorne (1)
+from Necrom(3) (Tedril Nothro) to Alt Bosara, Enamor Dayn
+from Necrom(3) (Relam Salor*) to Alt Bosara, Necrom Lighthouse
+from Necrom Lighthouse(3)(1) (Nevrile Vendo*) to Alt Bosara, Necrom
+from Ammar(3)(1) (Manis Varo*) to Ildrim, Helnim
+from Bahrammu(3) (Marthen Redri) to Bal Oyra
+from Bal Oyra(3) (Viania Claeni) to Firewatch, Tel Ouada, Bahrammu
+from Ildrim (3) (Ieva Llori) to Marog, Helnim
+from Ildrim(3)(2)(1) (Talis Rothrano*) to Tel Branora, Seyda Neen, Ammar, Old Ebonheart(5)
+from Firewatch(3)(2) (Dalam Vendal*) to Vos
+from Firewatch(3) (Virevar Tilvayn) to Bal Oyra, Helnim, Tel Ouada
+from Helnim(3) (Andrere Moriard) to Firewatch, Marog, Ildrim
+from Helnim(3)(2) (Bildam Nirith*) to Sadrith Mora, Ammar(1)
+from Marog(3) (Selothril Llana) to Helnim, Ildrim
+from Sadrith Mora(3)(2) (Orvas Shand*) to Helnim
+from Tel Ouada(3) (Dunveri Rodran) to Bal Oyra, Firewatch
+from Vos(3)(2) (Aleri Samori*) to Firewatch
+
+from Alt Bosara(3)(4) (Masalmalu Mendasi) to  Llothanis, Tel Mothrivra
+from Gah Sadrith(3)(4) (Yugil Nethrit) to Port Telvannis
+from Llothanis(3)(4) (Bolnosdin Grit) to Alt Bosara, Tel Ouada, Port Telvannis
+from Port Telvannis(3)(4) (Fina Hertish) to Tel Ouada, Llothanis
+from Port Telvannis(3)(4) (Gadam Costis) to Gah Sadrith, Sadas Plantation
+from Sadas Plantation(3)(4) (Mordinara Valethi) to  Port Telvannis
+from Tel Mothrivra(3)(4) (Orvano Tralen) to Alt Bosara
+from Tel Ouada(3)(4) (Aamunos Rolvar) to Llothanis, Port Telvannis
+
+from near Baldrahn(3)(4)(1) ( Remavo Meno*) to near Ranyon-ruhn, Tel Ouada
+from Tel Ouada(3)(4)(1) (Idros Meno*) to near Ranyon-ruhn, near Baldrahn
+from near Ranyon-ruhn(3)(4)(1) (Aren Saren*) to Tel Ouada,  near Baldrahn
+from near Tel Mothrivra(3)(4)(1) (Adosi Vendu*) to Boethian Falls, Hla Bulor
+from Hla Bulor(3)(4)(1) (Nalene Relas*) to near Tel Mothrivra, Boethian Falls
+from Boethian Falls(3)(4)(1) (Meden Moras*) to near Tel Mothrivra, Hla Bulor
+
+
+UPDATING:
+If you have Wrye's Mash installed, suggested procedure is to use Mash updaters
+
+KNOW GLITCHES:
+- rotations are a little abrupt
+
+- no companions aboard
+
+- the visual bobbing while sailing is not perfect and can sometimes lead
+to weird player angles. Correct angles are reset at the end of the trip,
+but if you can't bear with it,  just disable the option from the configuration menu
+
+- like most real-time movement scripts, if you drop a object while sailing
+it will not move with you, so don't do it!
+
+- I tried to minimize them, but there may be possible colliding between
+ player boat and a scenic/going back boat.
+Nothing serious really happens, the other boat should disappear/does not
+really collide, but it is a little immersion-breaking.
+A good way to avoid this with boats going back is to wait for the boat
+going back to be a little distant before taking a new trip.
+
+- There are no usable water routes available without mod conflicts
+(e.g. Redesigned Vivec, Vivec Expansion) and/or heavy vanilla
+landscape/bridges changes for Ano Andaram (the shipmaster near the
+Vivec silt strider), so I decided to skip him and add the missing
+routes to the Ebonheart shipmaster instead.
+The scenic routes with Ano Andaram as destination have been similarly
+targeted to Ebonheart docks or Vivec Temple docks.
+There is not a dedicated scenic boat service (a new shipmaster) from
+Vivec Temple dock to Ebonheart because I think who is using boats will
+be using gondoliers also, and there is a gondolier route already from
+Vivec temple to Ebonheart docks.
+
+- the river strider rowing sound may sometimes double/go out of sync
+when wings are spread
+
+-  without MCP reduce camera clipping/MGE active, you may experience
+stuttering while travelling on river strider
+
+
+TECH NOTES:
+To avoid the need of thousands of waypoints for the routes, I used
+geometry and positioning instead of AI, creatures instead of activators
+to bypass cellchange problems, Face command to rotate.
+
+As usual, I tried to be as compatible as possible, so routes are not so
+straight but landscape is unchanged and objects moved are minimal.
+
+To avoid hostile attacks when travelling, player by default is set
+invisible by script (a ...invisible invisibility effect).
+Don't use a constant invisibility item while travelling, you don't need
+it and probably you will have to wait the end of the trip before the
+invisibility transparency of your spell is reset unequipping the
+enchanted item.
+
+Care has been taken trying to be compatible with other mods, but being
+so many mods around obviously this can not be guaranteed.
+
+Speed change selected using the configuration menu is effective when
+next waypoint with different scheduled speed is reached.
+
+When possible (e.g. route is not too long/narrow) there are 2
+distinct/parallel routes for boats with/without player aboard.
+When this is not possible (e.g. Molag Mar/Dagon Fel routes) they both
+use the same route, so boat crashing each other should be rare due to
+different boat speeds, but still possible as stated in "know glitches"
+section.
+
+Real time transport fees are aligned with standard Morrowind
+(calculated as the crow flies), not on effective trip distance, so for
+instance Firewatch - Tel Ouada costs less than Firewatch - Bal Oyra,
+even if Bal Oyra is in between.
+Real time transport fees do not change with disposition like normal
+fast travel do though.
+
+It is not simple making scripted creature animations work seamlessly with
+current MCP animation fix installed, anyway I think the chosen compromise
+(using playgroup idle3 1 to keep respecting loop start/stop at the price
+of a possible river strider legs stutter when spreading wings) works well
+enough with or without current MCP fix.
+
+If seeing the mod coloured in yellow while using Mash annoys you, just
+click the mod and the "save" button on bottom right to update the master list.
+
+
+TESTING ONLY:
+set ab01debug to 25 will enable some debugging messages.
+set ab01boSpeed to 1000 or whatever for faster debugging
+
+If you find a problem with a boat, bug report may be more helpful if you:
+- open the game console
+- click the boat (you should see the boat id in the game console window header)
+- type in the game console:
+SV
+to show boat script variable values
+- tell me what the problem is and:
+the boat id, dest, pass, xd, yd values
+
+You can also set the step variable from 1 to -1 to reverse trip when debugging
+
+
+CREDITS
+abot: scripting, dialogue, general tampering
+Arcimaestro Antares: new meshes and animations
+
+This mod is a tribute to everyone contributing to MGE, MGE XE, MCP, to
+scenery/trees modders, to Tamriel Rebuilt team for giving us more and
+better world to enjoy.
+
+Extra huge thanks to Arcimaestro Antares for the beautiful new
+animations (and patience!), blame him for the scenic sunsets you may lose
+while zooming at the lady ;-)
+
+Thanks to Arcimaestro Antares, ddfields, Hul, and anybody else reporting
+bugs and giving feedback/suggestions.
+
+The new boat, ship animation and river strider mesh/animation have been
+done from scratch in Blender by Arcimaestro Antares, river strider textures
+(except the eye) are reworked standard Bethesda.
+
+A shipmaster/fish hunter are from Phaedrus' slaughterfish hunters
+http://mw.modhistory.com/download-55-13476
+,bodies are from Better Bodies
+http://mw.modhistory.com/download-44-6037
+, heads and hairs are from Better Heads (heads retexture by
+Petethegoat)
+http://mw.modhistory.com/download-43-5563
+
+, shirts and pants are from Better Clothes
+http://mw.modhistory.com/download-44-14097
+and from Plangkye's More Better Clothes
+http://mw.modhistory.com/download-56-6647
+
+One passenger lady is a reworked sitting lady by Lady Eternity from
+Dragons Breech resources, with a head retexture by Emma based on a mesh
+by Rhedd and Allerleirauh, hair by Ren, book retexture from Better Books
+by William The Taffer.
+http://modhistory.fliggerty.com/index.php?dlid=3896
+http://lovkullen.net/Emma/faces.htm
+http://mw.modhistory.com/download-42-11185
+http://mw.modhistory.com/download-24-11795
+
+The other lady is from Lidicus'URM creatures (seducer) dressed with
+Korana's flemish dress from Clothiers of VVardenfell
+http://mw.modhistory.com/download-26-6223
+http://www.tesnexus.com/downloads/file.php?id=27167
+
+Ship ladder is a reworked mesh from Darknuts's Greater Dwemer Ruins Vol. 1
+http://mw.modhistory.com/download-11-11646
+Other items and levitation magic effect are reworked standard game
+meshes.
+
+Some caravaner's comments come from
+http://www.uesp.net/wiki/Tes3Mod:Tamriel_Rebuilt and some from
+Beth Forums users (thanks Athirena and Dragon32).
+
+A wave sound is from http://www.flasherdot.org,
+others are reworked Morrowind sounds.
+
+river strider rowing sound is from
+http://www.freesound.org/people/transitking/sounds/11505/
+
+river strider eye texture is reworked from
+http://commons.wikimedia.org/wiki/File:Krilleyekils.jpg
+
+I have changed levitation magic effect mesh to be invisible for better
+immersion when travelling.
+If for any reason you want to restore the original effect,
+you can delete the Data Files\Meshes\e\magic_hit_Levitate.nif
+
+As usual, feel free to use for modding/playing Morrowind anything done
+by me or Arcimaestro Antares, just give credit when credit is due and
+be sure to be compatible with this mod (this usually means: always use
+different ids, not super-easy, but if you are a moddercapable to tackle
+with the code you should know how to do it).
+
+Be prepared though, the real hard work is creating the routes!
+
+Anyway, I really love this mod, maybe you'll like it too.
+
+-abot

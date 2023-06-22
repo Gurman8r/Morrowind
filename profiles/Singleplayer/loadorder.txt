@@ -36,7 +36,6 @@ RockyRedMountain1.1.ESP
 Wares_SHOTN_npcs.esp
 Wares_SHOTN_npcs_purist.esp
 Sky_Main_Grass.esp
-NOD - Wares.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
 Yet Another Guard Diversity - Regular.ESP
@@ -152,7 +151,6 @@ Diseases Restored.ESP
 skeleton.esp
 Wares_lists_OAAB.ESP
 Adventurer's backback.ESP
-Wares_lists_hold.ESP
 Wares_MOAR.ESP
 Wares_PC_containers.esp
 Wares_PC_traders.esp
@@ -190,3 +188,9 @@ Yurt Crafting.ESP
 OpenMW - YurtCrafting.esp
 SleepOrSuffer.esp
 SleepOrSuffer-Tribunal.esp
+abotBoats.esp
+abotBoatsTR2101.esp
+abotGondoliers.esp
+abotGondoliersRV.esp
+abotRiverStridersTR2101.esp
+abotSiltStriders.esp

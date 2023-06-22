@@ -1,0 +1,315 @@
+The Elder Scrolls III MORROWIND: Silt Striders 
+
+VERSION HISTORY:
+
+1.25
+- moved some waypoints for better compatibility with:
+Discoveries & Adventures and Caldera Priory
+- support for Tamriel Rebuilt areas is limited to TR version 21.01 only, so:
+if you are not using/using a version of Tamriel Rebuilt newer than 21.01,
+just load abotSiltStriders.esp, it will work for Vvardenfell as usual.
+IF AND ONLY IF you are using like me the old Tamriel Rebuilt version 21.01
+(before they broke half of my previous TR waypoints),
+install and load abotSiltStridersTR2101.esp instead of abotSiltStriders.esp
+
+1.24
+- added EnableLevitation command to avoid problems if some mod uses DisableLevitation without using EnableLevitation when done
+- added a trellis/overhang version from https://www.nexusmods.com/morrowind/mods/48664
+
+1.23
+- fixed a possible glitch with player temporary transparency after travel 
+- abotSiltStridersTR2002.esp should be compatible with TR_Mainland.esm, TR_Preview.esp version 20.02
+load abotSiltStridersTR2002.esp AFTER any TR_Travels*.esp
+
+1.22
+- added back some scenic strider spawners that were missing from the TR version
+- abotSiltStridersTR1912.esp should be compatible with TR_Mainland.esm, TR_Preview.esp version 19.12
+load abotSiltStridersTR1912.esp AFTER any TR_Travels*.esp
+
+1.21
+- abotSiltStridersTR1809.esp should be compatible with TR_Mainland.esm, TR_Preview.esp version 18.09
+load abotSiltStridersTR1809.esp AFTER any TR_Travels*.esp
+
+1.20
+- abotSiltStridersTR1807.esp should be compatible with TR_Mainland.esm, TR_Preview.esp version 18.07
+load abotSiltStridersTR1807.esp AFTER any TR_Travels*.esp
+
+1.19
+- should be compatible with TR_Mainland.esm, TR_Preview.esp version 17.09
+It should work without extra TR_OldTravels.esp, I don't use it, but if you want to use TR_OldTravels.esp, load it BEFORE abotSiltStriders1709.esp
+- added back levitation effect to striders, should be a little less stuttering while travelling, they may float more though- includes needed changes to restore strider routes and AI to/from Bal Oyra, no need to use a mod slot for TR_OldTravel.esp, it would be half working anyway as it does not add the missing AI destinations back
+- removed the one landscape change in Vvardenfell
+
+1.18
+- should be compatible with TR_Mainland.esm version 16.12
+
+1.17
+- fixed Daras Aryon not offering Silt Strider scenic travel from Maar Gan
+- changed a Seyda Neen waypoint foe better compatibility with Xen-Arien's Manor mod
+- should be compatible with TR_Mainland.esm version 16.09
+
+1.16
+- reduced scenic Seyda Neen lighthouse light brightness/radius
+- should be compatible with TR_Mainland.esm version 16.03
+
+1.15
+- fixed a waypoint for Gnisis scenic strider, it should work better with Gnisis scenic bridge mods
+- fixed a waypoint for Akamora scenic strider
+- better compatibility with TR_Mainland.esm contained in Tamriel Rebuilt 15.12
+- there's a new configurable option that, if you have Morrowind Code Patch SetAngle actor fix enabled, should allow player to better follow strider abrupt rotations in 1st person view mode. You can try and set it on the fly from the configuration menu, keep in mind that smaller value = more sensitivity. Default value is 60. You can also change the related global variable directly from console using e.g. set ab01ARA to 45
+
+1.14
+- now compatible with Tamriel Rebuilt 14.08
+http://www.nexusmods.com/morrowind/mods/42145/
+- changed striders walking sounds a little
+- scenic striders should travel with less floating and emit walking sounds
+- changed game settings so head tracking distance is practically reduced only in exteriors, this way you can avoid player continuously moving head up-down when travelling and keep head tracking distance near to default in interiors.
+- toned down extra (configurable on/off) Seyda Neen Lighthouse lights a little
+
+1.13
+- slightly reduced stuttering while riding over rocky terrain
+- better compatibility with Mills of Morrowind mod
+- better compatibility with Seyda Neen Transport mod
+
+1.12
+- changed for compatibility with Tamriel Rebuilt v1.5
+- completed scenic routes to Akamora, Sailen, Tel Muthada and Bosmora.
+Note that to make this possible, some trees/rocks have been moved/resized, so it is important you use correct Tamriel Rebuilt version and regenerate distant land
+- striders should now swim instead of dive in very deep water
+- fixed possible restoring of some magicka after traveling when player sign is Atronach
+- tweaked code to reduce spawning of new scenic striders and test for possible collision when player is on another approaching strider
+- added optional collision-fixed Vurt's tree meshes, so they cause no more stuttering collision problems. If you are using Morrowind Graphics Overhaul 3 with Vurt's west gash lite flora replacer option (or the same original Vurt's replacer), I suggest you copy the collision-fixed tree meshes from 
+Data Files\extras\Meshes\f\
+to 
+Data Files\Meshes\f\
+and (if you are using Morrowind Graphics Overhaul) to
+MGSOO\Options\T_WG_B\Data Files\Meshes\f\
+
+1.11
+- compatibility with Tamriel Rebuilt Sacred East 1.2
+- fixed a missing "Never mind" choice from Ald-Ruhn caravaner dialog
+
+1.10
+- compatibility with TR_Mainland.esm
+- new routes for Necrom, Sailen
+- sounds revision
+
+1.9
+- added (configurable) topic to access configuration menu also from dialog
+- fixed missing strider walking sound
+- fixed a missing Seyda Neen dialog for Suran caravaner
+- dialog reorganized
+- animation scripting improved
+ 
+1.8
+- fixed a (very rare) potential crashing bug
+- fixed a sound filter bug causing other creatures to use strider sounds
+
+1.7
+- fixed possible unneeded collision disabling
+- fixed possible glitch on extra trips availability
+
+1.6b
+- fixed a caravaner mesh helmet position
+
+1.6
+- prices should be better aligned with level 1 player
+- added disposition >= 20 check like standard trips
+- fixed a caravaner comment randomization glitch
+- improved Helnim/Ranyon-ruhn route
+- changed configuration menu sound
+- changed fMaxHeadTrackDistance GMST value to 8
+- changed magic_hit_Levitate.nif to be invisible
+
+1.5
+- fixed another possible skipping of scenic travel
+- less aggressive change to fMaxHeadTrackDistance
+- added in the noGMSTchange folder a version that does not set fMaxHeadTrackDistance GMST
+pros: NPCS will turn and look at you as usual
+cons: player will look at his feet in 3rd person view when travelling by strider
+
+1.4
+- fixed possible skipping of scenic travel (note for scripters:
+it seems player->OnKnockOut can be true even when it should not)
+- changed spawned strider route near Seyda Neen a little for 
+better compatibility with Firemoth/Silgrad Tower boat
+
+1.3
+- moved caravaner dark elf BB texture reference in meshes to a 
+subfolder to avoid replacing BB dark elf texture in use
+- fixed a scenic spawning route point near Gnisis
+- added configuration option to allow/disallow strider trellis
+- added more caravaner comments by Athirena
+
+1.2
+- more caravaner comments galore (big thanks to Athirena!)
+- better compatibility with Vivec Expansion and Morrowind Rebirth
+- re-added missing Data Files\Meshes\e\magic_hit_Levitate.nif to the archive
+- fixed a bug in triptime calculation in abotSiltStriders.esp
+- some code and meshes optimization
+- changed fMaxHeadTrackDistance value
+
+1.1
+- added Tamriel Rebuilt silt striders
+- moved some waypoints for better compatibility
+- fixed scenic strider spawning in Gnisis
+- removed %PCRank references in dialog
+- tweaked strider meshes, added strider passenger, blinking eyes 
+- changed/added caravaner comments
+- added health regeneration during travel 
+
+1.0/beta - first release 
+
+
+USAGE: abotSiltStriders.esp: Tribunal or Bloodmoon scripting engine 
+required Tribunal and/or Bloodmoon.esm loading not required 
+
+abotSiltStridersTRYYMM.esp: Tribunal,esm, Bloodmoon.esm, Tamriel_Data.esm, TR_Mainland.esm
+
+IF YOU HAVE TAMRIEL REBUILT INSTALLED, LOAD ONLY abotSiltStridersTRYYMM.esp, 
+ELSE LOAD abotSiltStriders.esp
+
+INFO:
+ I wanted to travel Morrowind on top of a real Silt Strider so strongly, and after years waiting for some similar mod to be completed, I decided to try myself. 
+
+To avoid the need of thousands of waypoints for the routes, I used geometry and positioning instead of AI, and creature collision to detect and go past minor obstacles/slopes, disabling collision only when needed. 
+
+To enjoy the scenic trips use the caravaner "- scenic travel" dialog topic. 
+
+To dismount from the strider or reach destination immediately activate the strider while riding. From the same menu you can also configure the mod. 
+
+To fully enjoy the mod as intended, you should have last MGE/MGE XE distant land, some MGE macro keys set to move the 3rd person view camera, and last MCP (Morrowind Code Patch) Vanity camera lock option checked.
+This will allow you to pan the camera and enjoy a more stable and much more scenic experience during silt striders trips. 
+
+Oh, and your preferred tree replacers/landscape enhancers of course! 
+
+As usual, I tried to be as compatible as possible, so routes are not so straight but landscape/trees are nearly unchanged (except some landscape under a boulder on top of a mountain, I think that spot should not conflict with anything). 
+
+
+CURRENT ROUTES:
+
+From Ald'ruhn to Balmora, Gnisis, Khuul, Maar Gan (Navam Veran)
+From Balmora to Ald'ruhn, Seyda Neen, Suran, Vivec (Selvil Sareloth)
+From Gnisis to Ald'ruhn, Khuul, Maar Gan, Seyda Neen (Punibi Yahaz)
+From Khuul to Ald'ruhn, Gnisis, Maar Gan (Seldus Nerendus)
+From Maar Gan to Ald'ruhn, Gnisis, Khuul (Daras Aryon)
+From Molag Mar to Suran, Vivec (Dilami Androm)
+From Seyda Neen to Balmora, Gnisis, Suran, Vivec (Darvame Hleran)
+From Suran to Balmora, Molag Mar, Seyda Neen, Vivec (Folsi Thendas)
+From Vivec to Balmora, Molag Mar, Seyda Neen, Suran (Adondasi Sadalvel)
+
++ Tamriel Rebuilt version only:
+From Bal Oyra to Tel Ouada, Ranyon-ruhn (Drenar Valeth)
+From Helnim to Ranyon-ruhn, Tel Muthada (Sera Bavan)
+From Ranyon-ruhn to Bal Oyra, Tel Ouada, Helnim (Milara_Selenoth)
+From Tel Muthada to Helnim, Akamora (Valna Sippusoti)
+From Tel Ouada to Bal Oyra, Ranyon-ruhn (Varusha Caril)
+From Akamora to Necrom, Sailen, Tel Muthada (Dravil Bradyn)
+From Necrom to Sailen, Akamora (Vernis Drethan)
+From Sailen to Necrom, Akamora, Bosmora (Fathusa Balvel)
+From Bosmora to Sailen (Hlor Gonav)
+
+
+KNOWN GLITCHES:
+
+A noticeable stuttering in 1st person view when riding at great speed over rocky terrain.
+
+When enabling back collision there is a 1 frame stutter due to player being warped on the ground by the engine for one frame, no matter what magic effect/scripting command is used. I have found no remedy for this engine quirk so far. 
+
+To avoid hostile attacks when traveling, player by default is set invisible by script (a ...invisible invisibility effect). Don't use a constant invisibility item while riding, you don't need it and probably you will have to wait the end of the trip before the invisibility transparency of your spell is reset unequipping the enchanted item. 
+
+Care has been taken trying to be compatible with other mods, but being 
+so many mods around obviously this can not be guaranteed. 
+
+
+COMPATIBILITY NOTES 
+
+- Living Cities of Vvardenfell (NPC LCV Schedules 03.esp)
+There is probably a typo in the scheduling of the Khuul caravaner Seldus Nerendus that makes him disappear for half a day.
+If you are able to edit and compile scripts, you can fix this replacing
+"seldus nerendus"->positionCell -65939 13552 975 4218 "Khuul"
+in the script SC_Khuul_1
+with
+"seldus nerendus"->positionCell -65939 135552 975 4218 "Khuul"
+and replacing
+"seldus nerendus"->positionCell -65939 13552 975 4218 "Khuul"
+"seldus nerendus"->aiTravel -65939 13552 975
+with
+"seldus nerendus"->positionCell -65939 135552 975 4218 "Khuul"
+"seldus nerendus"->aiTravel -65939 135552 975
+in the script SC_Khuul_2. 
+
+If you are not familiar with TESCS, you can use 
+ab01NPCLCVSchedulesFix.esp, load it after NPC LCV Schedules 03.esp. 
+
+Some of Vurt's BC trees have low leaves with collision still enabled, which can cause stuttering when colliding with the strider. Hopefully this will be fixed in next BC trees releases. 
+
+I changed the waypoints near Gnisis strider port to avoid colliding with the imperial bridge added by Morrowind Rebirth mod. There are still problems with a tree placed right in front of Balmora strider port and a scenic rock arc over the Odai river. 
+After this I tried no more to keep compatibility with Rebirth, so there may be other problems.
+
+TECH NOTES:
+
+speed change selected using the configuration menu is effective when next waypoint with different scheduled speed is reached. 
+
+
+TESTING ONLY:
+set ab01debug to 25 will enable some debugging messages. 
+
+
+CREDITS
+
+I started working on this for myself, inspired by a mod on development by Fliggerty for the last 4 years, because I really wanted 
+real, scenic striders so badly. 
+
+I have offered my help/work in this mod to try and finish that mod in a faster way, but after a while I decided to keep on my own, I think I am using a different approach to routing (setpos instead of AI). 
+
+This mod is a tribute to everyone contributing to MGE, MGE XE, MCP, to scenery/trees modders, to Tamriel Rebuilt team for giving us more and better world to stride. 
+
+The great original Silt Strider animation is by Lingarn, I have NIFskoped it a lot to suit mod needs. 
+http://www.mediafire.com/file/6546hje6e7q658a/ID3266-2-20-Silt+Striders+v1.0-20040322.zip 
+
+The caravaner's plastic pose is from Phaedrus' slaughterfish hunters 
+http://mw.modhistory.com/download-44-13476
+, his head and hair are from Better Heads (head retexture by Petethegoat) 
+http://mw.modhistory.com/download--3286
+
+his loincloth is by Dereko from Better Clothes
+http://mw.modhistory.com/download-21-14097
+
+, his shirt is from Plangkye's More Better Clothes (sorry for the late
+ credit Plangkye, I just realized it was not from the original BB) 
+http://mw.modhistory.com/download-21-6647
+
+, see through helmet is original in game mesh tweaked by Deamon2000/Hollow_Fang in Helms Of Sight 2.0 
+http://mw.modhistory.com/download-70-12344
+
+One passenger lady is a reworked sitting lady by Lady Eternity from Dragons Breech resources, with a head retexture by Emma based on a mesh by Rhedd and Allerleirauh, hair by Ren, book retexture from Better Books by William The Taffer. 
+http://mw.modhistory.com/download-72-79
+http://lovkullen.net/Emma/faces.htm 
+http://mw.modhistory.com/download-42-11185
+http://mw.modhistory.com/download-44-3109
+
+The other lady is from Lidicus' URM creatures (seducer) dressed with 
+Korana's flemish dress from Clothiers of VVardenfell 
+http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=7400 
+http://mw.modhistory.com/download-26-6223
+
+Other cargo items and levitation magic effect are reworked standard game meshes. 
+
+Some caravaner's comments come from 
+http://www.uesp.net/wiki/Tes3Mod:Tamriel_Rebuilt
+and some from Beth Forums users (special thanks to Athirena and Dragon32).
+
+Overhang/crates from Silt Strider Replacer mod
+https://www.nexusmods.com/morrowind/mods/48664
+
+
+I've hidden levitation magic effect so it should usually be not visible when traveling. If for any reason you want to restore the original effect, you can delete the Data Files\Meshes\e\magic_hit_Levitate.nif 
+
+As usual, feel free to use anything done by me, just give credit when credit is due and be sure to be compatible with this mod (that usually means: always use different ids, not super-easy but if you are a modder capable to tackle with the code you should know how to do it).
+Be prepared though, the real hard work is creating the routes! 
+
+Anyway, I really love this mod, maybe you'll like it too. 
+
+-abot 
+
