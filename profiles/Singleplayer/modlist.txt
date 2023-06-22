@@ -20,9 +20,9 @@
 +102 Concept Art Palace
 +101 Caldera Mine Expanded
 +100 Baan Binif
-+99 More Cloth Helms
-+98 Adventurers Backpack
-+97 Wares Ultimate
++99 Glass Halberd Spike
++98 Animal Behaviour
++97 OAAB Shipwrecks
 +96 Waterfalls Tweaks
 +95 Riders
 +94 Ships of the Imperial Navy
@@ -44,9 +44,9 @@
 +78 Better Clothes Complete
 +77 Liztails Bodies
 +76 Roberts Bodies
-+75 Animal Behaviour
-+74 OAAB Shipwrecks
-+73 Glass Halberd Spike
++99 More Cloth Helms
++74 Adventurers Backpack
++73 Wares Ultimate
 +72 Darknuts Textures
 +71 Enchanting Made Possible
 +70 Constant Effect
