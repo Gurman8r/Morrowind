@@ -41,9 +41,10 @@ Animal Behaviour.esp
 Argonian Breathing.esp
 BCOM_pathgrid_reset.ESP
 Vurt's Leafy West Gash.esp
+Vurt's Grazelands Unique Trees.ESP
+Know Thy Ancestors.ESP
 mistify.ESP
 Vurt's BC Tree Replacer II.ESP
-Vurt's Grazelands Unique Trees.ESP
 Graht Morrowind Swamp Trees.ESP
 RavenRock_AllStores.ESP
 TR_Firemoth_Vanilla_patch.esp
@@ -59,11 +60,13 @@ BCOM_OpenMW_plazas.ESP
 BCOM_Vivec_Planters.ESP
 Cantons_on_the_Global_Map_v1.1.esp
 BCOM_Sadrith_Mora_dock_expanded.ESP
+Ships of the Imperial Navy.esp
 BCOM_Stavs_MGO.ESP
 BCOM_Vivec_Bustling_Arena.ESP
 BCOM_Vivec_Street_Vendors.ESP
 BCOM_Brevur.ESP
 BCOM_Vivec_Temple_Fountains.ESP
+riders.esp
 BCOM_Decorated_Cantons.ESP
 BCOM_rotating_planets_GG.ESP
 BCOM_Tribal_Erabenimsun.ESP
@@ -127,7 +130,6 @@ Rem_WG_TR.esp
 Rich Creeper.ESP
 sei-urn_your_blings.esp
 Simple Camping.ESP
-skeleton.esp
 SR_Alchemy_merchant.esp
 STT_Container_TR.esp
 Thieves' Guild Stash.esp
@@ -136,7 +138,8 @@ TR_Preview.ESP
 TR_Travels.ESP
 TR_Travels_Preview_and_Mainland.ESP
 True Lights and Darkness PS TWEAKS.ESP
-Vurt's Corals.esp
 xconstant.esp
 Diseases Restored.ESP
-Know Thy Ancestors.ESP
+skeleton.esp
+Vurt's Corals.esp
+Waterfalls Tweaks.esp

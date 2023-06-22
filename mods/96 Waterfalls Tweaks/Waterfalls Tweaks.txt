@@ -1,0 +1,20 @@
+Waterfalls Tweaks v1.0
+
+The effect of vanilla falling water is pretty poor, specially where it "penetrate" the sea.
+Fortunately, there are some good mods that provide some better waterfall meshes and textures but only one, for what I know, it's able to mask the thing.
+This mod is Better Waterfalls and my mod resizes (or eliminate!) the water splash to (in my opinion) a more reasonable size.
+This also, I have the impression, graphically better synchronizes the animations. Yes... dedicated to maniacs of the details.
+
+
+List of changes:
+
+The resizing have been done on all exterior waterfalls of Vivec and Molag Mar.
+
+In water spout cases (those inside the various Canalworks and in Mournhold) the splash has been simply deleted, for these reasons:
+1- It wasn't possible to resize it more than that, and I'm not able to modify animations (yet..?).
+2- The animations are a work of MelchiorDahrk and I would not modify his files anyway.
+3- The water that falls now simply flow... I like it. And I bet you'll not be nostalgic of the effect of water particles that pass through the stone.
+
+Bonus: I've noticed that in Canalworks there was a mysterious blue light sticked to the waterfalls... I've deleted it. If you want it... I can do a modular version... but...
+
+Natural waterfalls are untouched.
