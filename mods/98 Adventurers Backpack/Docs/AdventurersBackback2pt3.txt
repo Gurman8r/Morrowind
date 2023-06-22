@@ -1,0 +1,83 @@
+			Adventurer's Backpack
+			By Danae
+
+Version: 2.3
+Requires: Morrowind, Tribunal and Bloodmoon
+
+------------
+Description
+------------
+Add a wearable, scripted and enchanted backpack to the game as well a an enchanted neck pouch.
+
+You may get a backpack from Elone if you ask her about Blade Trainers or purchase one from traders.
+
+When you equip the backpack for the first time, you will get to choose which survival mod you are using: Necessities of Morrowind, Bare Necessities, Frostfall, Water&Thirst + Cooking&Eating, none or Companion backpack.
+
+- NoM: a bedroll, firekit and frying pan + feather 40 points
+- Bare Necessities: a bedroll, a tent and a bottle of water  + feather 40 points
+- Frostwind: a bedroll, a firekit and a tent + feather 40 points
+- Hunger & Thirst: a cookfire and a water catcher + feather 40 points
+- None: feather 60 points
+- Companion: 100 AR, feather 60 points, CANNOT be equipped by the player
+
+- Neck pouch: feather 5 points
+
+Mod cleaned with tes3cmd and testool
+
+--------
+Install
+--------
+Unzip in your Data Folder or use your prefered mod installer
+Load this BEFORE any survival mod (NoM, BN, Frostwind/Ashfall)
+
+
+
+Known Issues
+--------------------
+None (but respect the load order!)
+
+You do NOT need MWSE to run this mod. 
+	With MWSE: the backpack does not take the pauldron slot, you may equip both pauldrons + backpack.
+	Without: the backpack is worn instead of a left pauldron: you can equip right pauldron + backpack
+
+Changelog
+----------------
+Version 1.0 	Original release
+Version 1.1 	Improved the script
+Version 1.2 	Traders add supllies to the backpack for a fee.
+Version 1.3 	Changed the weight of the backpack, they are now medium armour
+	    	Fixed a dialogue loop
+Version 1.4 	Caught a couple of typos.
+	    	Removed the NOM version
+	    	Adventurer's backpack - simple only has the feather enchant;ent but no script (activtating the backpack won't 		give you items) and traders won't offer to add supplies to your backpack
+	    	Fixed another dialogue loop
+	    	Fixed the script on the backpack with enchater supplies
+Version 2.0	Removed the second type of backpack (the uglier one)
+		Removed the dialogues to add extra items to the backpack (never used it myself)
+		Added new scripts to accomodate all major survival mods all in one esp
+		The non scripted backpack has a stronger feather enchantment
+Version 2.0a	Hotfix ashfall backback script
+Version 2.1	MWSE update: backpack does NOT take the pauldron slot
+		Arnour rating 0, feather +10
+Version 2.2	Ashfall backpack removed (Ashfall has its own sext packback)
+		Added Hunger&Thirst backpack to work with Water and Thirst ﻿and Cooking and Eating, 2 mods by RacerPlume
+		Removed the requirement to have firekits for Frostwind and NoM backpacks
+Version 2.3	Added a Neck Pouch by request
+
+Contact
+------------
+Contact me (Danae123) over at the Nexus as well as on Discord (Danae#1031) and even better, come say hi during the livestreams on Twitch (https://www.twitch.tv/danaeplays)
+
+
+Credits
+----------
+MYJ for the backpack model
+Bethesda Softworks  Morrowind and the Construction Set.
+Brucoms for the readme generator
+Aurel300 for fixing my script.
+Greatness7 for the MWSE version
+
+Permissions
+------------------
+You must ask permission to modify my mod.
+Permission will be given, I just like to know if my mods are used somewhere :)
