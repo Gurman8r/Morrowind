@@ -1,0 +1,6 @@
+Morrowind.bsa
+Tribunal.bsa
+Bloodmoon.bsa
+TR_Data.bsa
+PC_Data.bsa
+Sky_Data.bsa
