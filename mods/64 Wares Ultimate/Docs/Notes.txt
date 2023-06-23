@@ -1,0 +1,88 @@
+﻿Wares Complete and modular a.k.a Wares 3.0
+
+Merged and modular versions of WARES for Vvardenfell, Tamriel Rebuilt, Skyrim Home of the Nords, and Province Cyrodiil including items, traders, npcs and containers.
+﻿
+At its core, Wares provides variety to your game.
+Based on your modlist, Wares will work with vanilla items, Tamriel Data items, or items from any Wares-aware mod (if you don't like a wares-aware mod, use the original).
+This version is modular so you get as much as you want and nothing else. 
+
+- Wares_base.esm
+	You must have this installed and enabled.
+	Adds vanilla items to Wares lists
+	Adds Wares containers to vanilla traders
+
+- Wares_TD_items
+	This adds Tamriel Data items to Wares levelled lists.
+	Required for PC, TR and SHOTN plugins
+	Wares levelled lists are then injected into the game in 3 different ways (traders, npcs and containers) that are complementary but also modular.
+	Unique and high-end items (glass, Daedric...) are not added to the lists.
+
+- Wares Traders (recommended)
+	This gives the traders an invisible container with relevant items from Wares lists to sell.
+	By default (Ware_base.esm) Vvardenfell traders all have their containers. For TR, SHOTN and PC, you need the corresponding plugin (Wares_trader_<>.esp)
+	The traders are Alchemists and Apothecary, Bookseller, Healer Service, Priest Service, Wise Woman Service, Assassin Service, Clothier, Enchanter Service, Publican Service, Savant Service, Smith Service, Thief Service, Trader Service, Pawnbroker Service.
+	These containers are in addition to what the traders normally sell (untouched by Wares).
+	Factions play a role, for example, only a trader from the Imperial Legion will have more imperial weapons and armour to sell.
+	Trader levelled lists are not levelled, for the most part, a trader will not only stock low-quality items because one potential customer (the player) is weak and poor.
+	Traders have limited quantities of items but they are renewed over time.
+	The optional plugin MOAR increases the number of items all these traders have.
+
+- Wares NPCs (optional)
+	NPCS may have some items in their inventories replaced.
+For example, Fargoth wears a common shirt, with Wares_NPC, he may have any other common shirt instead.
+WARNING 1 Unlike common shirts, not all items are perfectly equal in value/armour/damage. Nels Lando has a pair of Netch Leather boots, he may get Chitin or Fur boots instead (more options with TD_lists and other mods).
+WARNING 2 if you have a lot of Wares-aware mods (FCOT, Korana, Hilgya...) you may find some npcs with garish tastes due to the randomness of things.
+	Even more so than with traders, the value/quality of items given to npcs is reduced: from level 30 you may see npcs in with some Orcish gear at best.
+	Faction clothing (great house robes/shirts, Ashlander clothes) is not taken from NPCs.
+	Some classes are NOT modified at all: guards, ordinators, slaves, paupers, farmers and miners.
+	Some factions are NOT modified at all: Morag Tong, Skaal, Imperial Legion, Temple, Imperial Cult, Dark Brotherhood, Sixth House, Talos Cult, Imperial Knights, Hand of Almalexia, Royal Guard, Mages Guild, Ashlanders and Berserkers.
+
+- Wares Containers (optional)
+	Much like an NPC's inventory, containers may have an item swapped for another approximately the same. This means you don't get more loot, just a more varied selection of loot.
+Vanilla levelled lists are untouched, containers that get their inventories from vanilla levelled lists won't be changed as a result.
+WARNING This means that you may find slightly worse items than you normally get from a container, or slightly better!
+
+	Wares-Aware mods??
+Items from these mods have been added to Wares lists, so you may find them at shops, or on npcs
+See the recommended sections for most Wares-Aware mods
+WARNING: due to how levelled lists work, you may find that if you have a single Wares-aware mod, its items are everywhere (because the pool of items is very small). The opposite is true, if you have many Wares-Aware mods, items from a single mod are pretty rare.
+
+	Warsifier??
+This online tool lets you add Wares lists into a plugin.
+You can choose if you want traders, npcs or containers.
+
+
+﻿INSTALLATION
+You only have the base game:
+Wares_base.esm
+Wares_Vv_npcs and/or Wares_Vv_containers 
+
+You only have the base game but want more items (requires Tamriel_Data.esm)
+Wares_base.esm and Wares_TD_items.esp
+Wares_Vv_npcs and/or Wares_Vv_containers
+
+You have the base game and Tamriel Rebuilt (requires TR_Mainland.esm and Tamriel_Data.esm)
+Wares_base.esm and Wares_TD_items.esp
+Wares_TR_traders and/or Wares_TR_npcs and/or Wares_TR_containers
+
+You have the base game and SHOTN (requires Sky_Main.esm and Tamriel_Data.esm)
+Wares_base.esm and Wares_TD_items.esp
+Wares_SHOTN_traders and/or Wares_SHOTN_npcs and/or Wares_SHOTN_containers
+
+You have the base game and PC (requires Cyrodiil_Main.esm and Tamriel_Data.esm)
+Wares_base.esm and Wares_TD_items.esp
+Wares_PC_traders  and/or Wares_PC_npcs and/or Wares_PC_containers 
+
+You want traders to have more wares
+CHOOSE Wares_MOAR.esp
+
+-------------------------------------------------------------------------------------
+Load NPC plugins as early as possible to avoid conflicts
+Merge objects and lists with tes3merge
+﻿--------------------------------------------------------------
+
+﻿
+CREDITS
+Byblos for his Traders 300, Fliggerty, Sandman and Friends for Helluva: they are the direct inspiration for Wares
+Aurel300 who coded the Warsifier
+Eddie for his feedback and help
