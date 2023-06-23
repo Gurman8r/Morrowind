@@ -14,18 +14,16 @@ Wares-base.esm
 LeFemmArmor.esp
 True_Lights_And_Darkness_1.0-NoDaylight.esp
 True_Lights_And_Darkness_1.1.esp
-Better Balanced Combat - Tamriel Rebuilt Patch.esp
-Better Balanced Combat.esp
 Beautiful cities of morrowind.esp
 GlobalMapMarkers.ESP
 Creatures (lore).esp
 Creatures (Semi).esp
 Creatures.esp
+Price Balance.ESP
 Price Balance for Tamriel.ESP
 Price Balance Tamriel Rebuilt.ESP
 Price Balance SHotN.ESP
 Better_Sounds.esp
-Price Balance.ESP
 Sky_Main_Grass.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
@@ -37,7 +35,6 @@ Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
 Anarchist Nerevarine.ESP
-Animal Behaviour.esp
 Argonian Breathing.esp
 Yet Another Guard Diversity - Regular.ESP
 Vurt's Leafy West Gash.esp
@@ -65,7 +62,6 @@ STT_OneContainer2RuleThemAll.esp
 Nine-holes - Core.esp
 HM_DDD_Ghostfence_v1.0.esp
 Cantons_on_the_Global_Map_v1.1.esp
-Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Movement.esp
 Better Clothes Complete.ESP
 Better Robes.ESP
@@ -144,7 +140,6 @@ BCOM_Vivec_Temple_Fountains.ESP
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
 Rem_AL.esp
-Rem_GL - OAAB Landscape.esp
 riders.esp
 Rem_GL.esp
 Rem_GL_TR.esp
@@ -154,19 +149,24 @@ BCOM_rotating_planets_GG.ESP
 BCOM_Tribal_Erabenimsun.ESP
 BCOM_Vivec_Arena_planters.ESP
 Interior exterior flag reset.ESP
+Rem_GL - OAAB Landscape.esp
 Nordic Dagon Fel.ESP
-Simple Camping.ESP
 Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
+Concept art palace.ESP
+CAP Dome.esp
+OAAB_Tel Mora_Female Guards.ESP
+Simple Camping.ESP
 Thieves' Guild Stash.esp
 ManyClothHelms.ESP
-Concept art palace.ESP
 Rem_AI.esp
-CAP Dome.esp
 Vurt's Corals.esp
-OAAB_Tel Mora_Female Guards.ESP
 Rem_AC.esp
 Rem_WG.esp
 BetterGoverningAttributes.esp
 Fishing-Expansion.esp
 Fishing.ESP
 BCOM_White_Suran.ESP
+Animal Behaviour.esp
+Better Balanced Combat.esp
+Better Balanced Combat - Siege at Firemoth Patch.esp
+Better Balanced Combat - Tamriel Rebuilt Patch.esp
