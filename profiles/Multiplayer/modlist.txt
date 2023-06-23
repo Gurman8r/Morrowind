@@ -19,9 +19,9 @@
 +102 Concept Art Palace
 +101 Caldera Mine Expanded
 +100 Baan Binif
-+99 More Cloth Helms
-+74 Adventurers Backpack
-+73 Wares Ultimate
++99 Better Balanced Combat
++98 Animal Behaviour
++97 OAAB Shipwrecks
 +96 Waterfalls Tweaks
 +95 Riders
 +94 Ships of the Imperial Navy
@@ -34,7 +34,7 @@
 +87 Khajiit Head Pack
 +86 One Container 2 Rule Them All
 +85 Better Waterfalls
-+84 Better Balanced Combat
++84 Glass Halberd Spike
 +83 Cave Drips
 +82 Raven Rock All Stores
 +81 Better Robes
@@ -43,9 +43,8 @@
 +78 Better Clothes Complete
 +77 Liztails Bodies
 +76 Roberts Bodies
-+98 Animal Behaviour
-+97 OAAB Shipwrecks
-+99 Glass Halberd Spike
++74 Adventurers Backpack
++73 More Cloth Helms
 +72 Darknuts Textures
 +71 Enchanting Made Possible
 +70 Constant Effect
@@ -54,6 +53,7 @@
 +67 Argonian Full Helms
 +66 No Arrow Weight
 +65 Urn Your Blings
++64 Wares Ultimate
 +63 Better Balanced Movement
 +62 Creatures XI
 +61 Yet Another Guard Diversity
@@ -104,7 +104,6 @@
 +16 Expansion Delay
 +15 Graphic Herbalism
 +14 Know Thy Ancestors
-+13 Better Mining
 +12 Pickpocket
 +11 Project Atlas
 +10 Vurts Replacers
