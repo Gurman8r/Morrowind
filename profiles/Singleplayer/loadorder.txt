@@ -12,10 +12,6 @@ Sky_Main.esm
 Cyr_Main.esm
 Wares-base.esm
 LeFemmArmor.esp
-True_Lights_And_Darkness_1.0-NoDaylight.esp
-True_Lights_And_Darkness_1.1.esp
-Better Balanced Combat - Tamriel Rebuilt Patch.esp
-Better Balanced Combat.esp
 Beautiful cities of morrowind.esp
 GlobalMapMarkers.ESP
 Creatures (lore).esp
@@ -44,12 +40,10 @@ Know Thy Ancestors.ESP
 mistify.ESP
 Wares_lists_TD.ESP
 Wares_TR_traders.esp
-abotBoatsTR2101.esp
 Vurt's BC Tree Replacer II.ESP
 Graht Morrowind Swamp Trees.ESP
 TR_Firemoth_Vanilla_patch.esp
 TR_Factions.esp
-Uncharted Artifacts.esp
 BCOM_pathgrid_reset.ESP
 OAAB_Tel Mora.ESP
 Baan_Binif.ESP
@@ -57,7 +51,6 @@ Nationalist Nerevarine.ESP
 DD_Caldera_Expansion.esp
 Immersive Mournhold.esp
 RavenRock_AllStores.ESP
-STT_OneContainer2RuleThemAll.esp
 BCOM_Suran Expansion.ESP
 Waterfalls Tweaks.esp
 BCOM_Canal_02.ESP
@@ -67,11 +60,8 @@ HM_DDD_Ghostfence_v1.0.esp
 BCOM - Open Vivec Arena.esp
 BCOM_OpenMW_plazas.ESP
 BCOM_Vivec_Planters.ESP
-abotRiverStridersTR2101.esp
-abotBoats.esp
 Argonian Full Helms_Iron_Stl_Orc.ESP
 Cantons_on_the_Global_Map_v1.1.esp
-Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Movement.esp
 Better Clothes Complete.ESP
 Better Robes.ESP
@@ -84,7 +74,6 @@ Containers Animated.esp
 Creatures 6th House Patch.esp
 Creatures Great House Dagoth Patch.esp
 Creatures Merged Objects Fix.esp
-Frostwind.ESP
 The Publicans.ESP
 RPNR_Library.ESP
 CyrodiilFromOE.ESP
@@ -112,19 +101,15 @@ Rem_BC_TR.esp
 Rem_RR_TR.esp
 Rem_Solstheim.esp
 Rem_VM_TR.esp
-Rich Creeper.ESP
 sei-urn_your_blings.esp
 SR_Alchemy_merchant.esp
-STT_Container_TR.esp
 TR_OldTravels.ESP
 TR_Preview.ESP
 TR_Travels.ESP
 TR_Travels_Preview_and_Mainland.ESP
-True Lights and Darkness PS TWEAKS.ESP
 xconstant.esp
 Diseases Restored.ESP
 Wares_lists_OAAB.ESP
-Water and Thirst.ESP
 Adventurer's backback.ESP
 Wares_MOAR.ESP
 Wares_PC_containers.esp
@@ -143,7 +128,6 @@ BCOM_Vivec_Bustling_Arena.ESP
 BCOM_Vivec_Street_Vendors.ESP
 BCOM_Brevur.ESP
 BCOM_Vivec_Temple_Fountains.ESP
-abotSiltStriders.esp
 abotRainSplash.esp
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
@@ -170,14 +154,28 @@ Vurt's Corals.esp
 OAAB_Tel Mora_Female Guards.ESP
 Rem_AC.esp
 Rem_WG.esp
-SkipTutorial1.0.esp
-Madd Leveler - Base.esp
-Madd Leveler - Madd Skills.esp
-SleepOrSuffer.esp
-SleepOrSuffer-Tribunal.esp
-Yurt Crafting.ESP
-OpenMW - YurtCrafting.esp
-Cooking and Eating.ESP
 Fishing-Expansion.esp
 Fishing.ESP
 BCOM_White_Suran.ESP
+RedMountainReborn.esp
+abotBoats.esp
+abotBoatsTR2101.esp
+abotRiverStridersTR2101.esp
+abotSiltStriders.esp
+Cooking and Eating.ESP
+Frostwind.ESP
+Madd Leveler - Base.esp
+Madd Leveler - Madd Skills.esp
+OpenMW - YurtCrafting.esp
+SkipTutorial1.0.esp
+SleepOrSuffer-Tribunal.esp
+SleepOrSuffer.esp
+Water and Thirst.ESP
+Yurt Crafting.ESP
+Better Balanced Combat.esp
+Better Balanced Combat - Siege at Firemoth Patch.esp
+Better Balanced Combat - Tamriel Rebuilt Patch.esp
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+True_Lights_And_Darkness_1.1.esp
+True Lights and Darkness PS TWEAKS.ESP
+Rich Creeper.ESP

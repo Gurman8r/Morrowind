@@ -51,7 +51,6 @@ OAAB_Tel Mora.ESP
 Vurt's BC Tree Replacer II.ESP
 Immersive Mournhold.esp
 RavenRock_AllStores.ESP
-STT_OneContainer2RuleThemAll.esp
 GITD_WL_RR_Interiors.esp
 Argonian Breathing.esp
 Graht Morrowind Swamp Trees.ESP
@@ -85,7 +84,6 @@ BCOM_Vivec_Street_Vendors.ESP
 BCOM_Brevur.ESP
 BCOM_Vivec_Temple_Fountains.ESP
 Nordic Dagon Fel.ESP
-Simple Camping.ESP
 Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
 Rem_GL - OAAB Landscape.esp
 riders.esp
@@ -97,7 +95,6 @@ BCOM_White_Suran.ESP
 Better Balanced Movement.esp
 Better Clothes Complete.ESP
 Better Robes.ESP
-BetterGoverningAttributes.esp
 Concept art palace.ESP
 CAP Dome.esp
 Cave Drips.ESP
@@ -118,7 +115,6 @@ Fishing.ESP
 FreeTheSlaves!.ESP
 GMST Sunder Scar Region.ESP
 Graht Morrowind Swamp Trees_Platforms.ESP
-Uncharted Artifacts.esp
 GrahtwoodRoost.esp
 HM_DDD_Strongholds_H_v1.0.esp
 HM_DDD_Strongholds_R_v1.0.esp
@@ -150,7 +146,6 @@ Rem_WG.esp
 Rem_WG_TR.esp
 sei-urn_your_blings.esp
 SR_Alchemy_merchant.esp
-STT_Container_TR.esp
 Thieves' Guild Stash.esp
 Vurt's Corals.esp
 Wares_MOAR.ESP
@@ -170,3 +165,5 @@ Rich Creeper.ESP
 True_Lights_And_Darkness_1.0-NoDaylight.esp
 True_Lights_And_Darkness_1.1.esp
 True Lights and Darkness PS TWEAKS.ESP
+BetterGoverningAttributes.esp
+Simple Camping.ESP
