@@ -5,8 +5,8 @@ Bloodmoon.esm
 Tamriel_Data.esm
 OAAB_Data.esm
 Better Heads.esm
-Better Heads Bloodmoon addon.esm
 Better Heads Tribunal addon.esm
+Better Heads Bloodmoon addon.esm
 TR_Mainland.esm
 Sky_Main.esm
 Cyr_Main.esm
@@ -17,22 +17,22 @@ GlobalMapMarkers.ESP
 Creatures (lore).esp
 Creatures (Semi).esp
 Creatures.esp
+Price Balance.ESP
 Price Balance for Tamriel.ESP
 Price Balance Tamriel Rebuilt.ESP
 Price Balance SHotN.ESP
 Better_Sounds.esp
-Price Balance.ESP
 Sky_Main_Grass.esp
 OfficialMods_v5.esp
 Better Morrowind Armor.esp
 Wares_VV_containers.ESP
+RedMountainReborn.esp
 OAAB_Grazelands.ESP
 Yet Another Guard Diversity - Regular.ESP
 Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
 Anarchist Nerevarine.ESP
-Animal Behaviour.esp
 Argonian Breathing.esp
 Vurt's Leafy West Gash.esp
 Vurt's Grazelands Unique Trees.ESP
@@ -42,18 +42,19 @@ Wares_lists_TD.ESP
 Wares_TR_traders.esp
 Vurt's BC Tree Replacer II.ESP
 Graht Morrowind Swamp Trees.ESP
-TR_Firemoth_Vanilla_patch.esp
 TR_Factions.esp
 BCOM_pathgrid_reset.ESP
 OAAB_Tel Mora.ESP
+Immersive Mournhold.esp
+Balmora Waterworks.esp
+TR_Firemoth_Vanilla_patch.esp
 Baan_Binif.ESP
 Nationalist Nerevarine.ESP
 DD_Caldera_Expansion.esp
-Immersive Mournhold.esp
 RavenRock_AllStores.ESP
 BCOM_Suran Expansion.ESP
 Waterfalls Tweaks.esp
-BCOM_Canal_02.ESP
+Astrologians Guild.esp
 BCOM - Taller Lighthouse.ESP
 Nine-holes - Core.esp
 HM_DDD_Ghostfence_v1.0.esp
@@ -99,7 +100,6 @@ Rem_AL_TR.esp
 Rem_AT_TR.esp
 Rem_BC_TR.esp
 Rem_RR_TR.esp
-Rem_Solstheim.esp
 Rem_VM_TR.esp
 sei-urn_your_blings.esp
 SR_Alchemy_merchant.esp
@@ -108,7 +108,6 @@ TR_Preview.ESP
 TR_Travels.ESP
 TR_Travels_Preview_and_Mainland.ESP
 xconstant.esp
-Diseases Restored.ESP
 Wares_lists_OAAB.ESP
 Adventurer's backback.ESP
 Wares_MOAR.ESP
@@ -120,9 +119,9 @@ Wares_TR_containers.esp
 Rem_AC_TR.esp
 Rem_WG_TR.esp
 The_magic_rock_of_Maar_Gan.ESP
-BCOM_Ashlandish Maar Gan.ESP
 BCOM_Sadrith_Mora_dock_expanded.ESP
 Ships of the Imperial Navy.esp
+Balmora waterworks merchants addon.ESP
 BCOM_Stavs_MGO.ESP
 BCOM_Vivec_Bustling_Arena.ESP
 BCOM_Vivec_Street_Vendors.ESP
@@ -132,7 +131,6 @@ abotRainSplash.esp
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
 Rem_AL.esp
-skeleton.esp
 Rem_GL - OAAB Landscape.esp
 riders.esp
 Rem_GL.esp
@@ -140,7 +138,6 @@ Rem_GL_TR.esp
 BCOM_Decorated_Cantons.ESP
 Rem_BC.esp
 BCOM_rotating_planets_GG.ESP
-BCOM_Tribal_Erabenimsun.ESP
 BCOM_Vivec_Arena_planters.ESP
 Interior exterior flag reset.ESP
 Nordic Dagon Fel.ESP
@@ -153,29 +150,42 @@ CAP Dome.esp
 Vurt's Corals.esp
 OAAB_Tel Mora_Female Guards.ESP
 Rem_AC.esp
-Rem_WG.esp
 Fishing-Expansion.esp
 Fishing.ESP
 BCOM_White_Suran.ESP
-RedMountainReborn.esp
+Bound Arrow for Bound Longbow (Balanced).ESP
+Trans Rights.ESP
+SR_1_BoundSpells.esp
+SR_3_ElementalShields.esp
+SR_5_DamageHealth.ESP
+chuzei_helm_no_neck.esp
+Lake Fjalding Anti-Suck.ESP
+Rem_Solstheim.esp
+Rem_WG.esp
+BCOM_Cluttered_Canal.ESP
+Improved Argonians.esp
+skeleton.esp
+Diseases Restored.ESP
+Better Balanced Combat.esp
+Better Balanced Combat - Tamriel Rebuilt Patch.esp
+BirthsignsAMFun_BBC.esp
+Better Balanced Combat - Siege at Firemoth Patch.esp
+Animal Behaviour.esp
+Rich Creeper.ESP
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+True_Lights_And_Darkness_1.1.esp
+True Lights and Darkness PS TWEAKS.ESP
 abotBoats.esp
 abotBoatsTR2101.esp
 abotRiverStridersTR2101.esp
 abotSiltStriders.esp
-Cooking and Eating.ESP
-Frostwind.ESP
+SkipTutorial1.0.esp
 Madd Leveler - Base.esp
 Madd Leveler - Madd Skills.esp
-OpenMW - YurtCrafting.esp
-SkipTutorial1.0.esp
+Frostwind.ESP
+Cooking and Eating.ESP
 SleepOrSuffer-Tribunal.esp
 SleepOrSuffer.esp
+OpenMW - YurtCrafting.esp
 Water and Thirst.ESP
 Yurt Crafting.ESP
-Better Balanced Combat.esp
-Better Balanced Combat - Siege at Firemoth Patch.esp
-Better Balanced Combat - Tamriel Rebuilt Patch.esp
-True_Lights_And_Darkness_1.0-NoDaylight.esp
-True_Lights_And_Darkness_1.1.esp
-True Lights and Darkness PS TWEAKS.ESP
-Rich Creeper.ESP
