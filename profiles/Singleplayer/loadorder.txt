@@ -11,9 +11,32 @@ TR_Mainland.esm
 Sky_Main.esm
 Cyr_Main.esm
 Wares-base.esm
+Balmora Waterworks.esp
+South Wall_RP.ESP
 LeFemmArmor.esp
 Beautiful cities of morrowind.esp
+BCOM_Brevur.ESP
 GlobalMapMarkers.ESP
+BCOM - Open Vivec Arena.esp
+BCOM_Ashlandish Maar Gan.ESP
+BCOM_Decorated_Cantons.ESP
+BCOM_OpenMW_plazas.ESP
+BCOM_pathgrid_reset.ESP
+BCOM_rotating_planets_GG.ESP
+Wares_lists_TD.ESP
+BCOM_Stavs_MGO.ESP
+BCOM_Suran Expansion.ESP
+BCOM_Tribal_Erabenimsun.ESP
+BCOM_Vivec_Arena_planters.ESP
+BCOM_Vivec_Bustling_Arena.ESP
+BCOM_Vivec_Planters.ESP
+BCOM_Vivec_Street_Vendors.ESP
+BCOM_Vivec_Temple_Fountains.ESP
+BCOM_White_Suran.ESP
+BCOM - Taller Lighthouse.ESP
+Interior exterior flag reset.ESP
+Wares_TR_traders.esp
+TR_Factions.esp
 Creatures (lore).esp
 Creatures (Semi).esp
 Creatures.esp
@@ -21,73 +44,87 @@ Price Balance.ESP
 Price Balance for Tamriel.ESP
 Price Balance Tamriel Rebuilt.ESP
 Price Balance SHotN.ESP
-Better_Sounds.esp
 Sky_Main_Grass.esp
+Better_Sounds.esp
 OfficialMods_v5.esp
-Better Morrowind Armor.esp
-Wares_VV_containers.ESP
 RedMountainReborn.esp
+Rem_WG.esp
+Better Morrowind Armor.esp
 OAAB_Grazelands.ESP
+Rem_AL_RMR+Kogoruhn Expanded.esp
+Rem_AC.esp
 Yet Another Guard Diversity - Regular.ESP
+Vurt's Leafy West Gash.esp
+Rem_AI.esp
+Vurt's Grazelands Unique Trees.ESP
+Know Thy Ancestors.ESP
+Rem_BC.esp
+OAAB_Tel Mora.ESP
+mistify.ESP
+Vurt's BC Tree Replacer II.ESP
+Immersive Mournhold.esp
+Graht Morrowind Swamp Trees.ESP
+GMST Sunder Scar Region.ESP
+chuzei_helm_no_neck.esp
+Lake Fjalding Anti-Suck.ESP
+Baan_Binif.ESP
+TR_Firemoth_Vanilla_patch.esp
+DD_Caldera_Expansion.esp
+Rem_AL_TR.esp
+Rem_AT_TR.esp
+Rem_BC_TR.esp
+Rem_RR_TR.esp
+Rem_VM_TR.esp
+Rem_AC_TR.esp
+Rem_WG_TR.esp
+Rem_Solstheim.esp
+OAAB_Tel Mora_Female Guards.ESP
+Rem_GL_Trackless_GL.esp
+RavenRock_AllStores.ESP
+Wares_VV_containers.ESP
 Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
 Anarchist Nerevarine.ESP
 Argonian Breathing.esp
-Vurt's Leafy West Gash.esp
-Vurt's Grazelands Unique Trees.ESP
-Know Thy Ancestors.ESP
-mistify.ESP
-Wares_lists_TD.ESP
-Wares_TR_traders.esp
-Vurt's BC Tree Replacer II.ESP
-Graht Morrowind Swamp Trees.ESP
-TR_Factions.esp
-BCOM_pathgrid_reset.ESP
-OAAB_Tel Mora.ESP
-Immersive Mournhold.esp
-Balmora Waterworks.esp
-TR_Firemoth_Vanilla_patch.esp
-Baan_Binif.ESP
 Nationalist Nerevarine.ESP
-DD_Caldera_Expansion.esp
-RavenRock_AllStores.ESP
-BCOM_Suran Expansion.ESP
 Waterfalls Tweaks.esp
 Astrologians Guild.esp
-BCOM - Taller Lighthouse.ESP
 Nine-holes - Core.esp
-HM_DDD_Ghostfence_v1.0.esp
-BCOM - Open Vivec Arena.esp
-BCOM_OpenMW_plazas.ESP
-BCOM_Vivec_Planters.ESP
-Argonian Full Helms_Iron_Stl_Orc.ESP
+MO Balmora Lighthouse 2.ESP
+OldVosTradepost.ESP
+Rem_GL - OAAB Landscape.esp
 Cantons_on_the_Global_Map_v1.1.esp
+Ships of the Imperial Navy.esp
+Nordic Dagon Fel.ESP
+Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
+Concept art palace.ESP
+CAP Dome.esp
+Rem_GL.esp
+Rem_GL_TR.esp
+Communist Nerevarine.ESP
+The Publicans.ESP
+WealthWithinMeasure_TR_v1.25.esp
+Argonian Full Helms_Iron_Stl_Orc.ESP
 Better Balanced Movement.esp
 Better Clothes Complete.ESP
 Better Robes.ESP
 Cave Drips.ESP
-OldVosTradepost.ESP
-Communist Nerevarine.ESP
 Feminist Nerevarine.ESP
 Clear Your Name.esp
+RPNR_Library.ESP
+The_magic_rock_of_Maar_Gan.ESP
 Containers Animated.esp
 Creatures 6th House Patch.esp
 Creatures Great House Dagoth Patch.esp
 Creatures Merged Objects Fix.esp
-The Publicans.ESP
-RPNR_Library.ESP
 CyrodiilFromOE.ESP
+Rem_AI_TR.esp
 Descriptive Shrines.ESP
 Enchant_Made_Possible_fixed.ESP
 Expansion Delay.ESP
 FreeTheSlaves!.ESP
 GITD_WL_RR_Interiors.esp
-GMST Sunder Scar Region.ESP
-WealthWithinMeasure_TR_v1.25.esp
-HM_DDD_Strongholds_H_v1.0.esp
-HM_DDD_Strongholds_R_v1.0.esp
-HM_DDD_Strongholds_T_v1.0.esp
 Imperialist Nerevarine.ESP
 LowerFirstPersonSneak.ESP
 New Argonian Bodies - Clean.esp
@@ -95,12 +132,6 @@ Robert's Bodies.ESP
 New Khajiit Bodies - Clean.esp
 No Arrow Weight.ESP
 RealSignposts.esp
-Rem_AI_TR.esp
-Rem_AL_TR.esp
-Rem_AT_TR.esp
-Rem_BC_TR.esp
-Rem_RR_TR.esp
-Rem_VM_TR.esp
 sei-urn_your_blings.esp
 SR_Alchemy_merchant.esp
 TR_OldTravels.ESP
@@ -110,66 +141,34 @@ TR_Travels_Preview_and_Mainland.ESP
 xconstant.esp
 Wares_lists_OAAB.ESP
 Adventurer's backback.ESP
+HM_DDD_Ghostfence_v1.0.esp
+HM_DDD_Strongholds_H_v1.0.esp
+HM_DDD_Strongholds_R_v1.0.esp
+HM_DDD_Strongholds_T_v1.0.esp
 Wares_MOAR.ESP
 Wares_PC_containers.esp
 Wares_PC_traders.esp
 Wares_SHOTN_containers.esp
 Wares_SHOTN_traders.esp
 Wares_TR_containers.esp
-Rem_AC_TR.esp
-Rem_WG_TR.esp
-The_magic_rock_of_Maar_Gan.ESP
-BCOM_Sadrith_Mora_dock_expanded.ESP
-Ships of the Imperial Navy.esp
-Balmora waterworks merchants addon.ESP
-BCOM_Stavs_MGO.ESP
-BCOM_Vivec_Bustling_Arena.ESP
-BCOM_Vivec_Street_Vendors.ESP
-BCOM_Brevur.ESP
-BCOM_Vivec_Temple_Fountains.ESP
 abotRainSplash.esp
 Graht Morrowind Swamp Trees_Platforms.ESP
 GrahtwoodRoost.esp
-Rem_AL.esp
-Rem_GL - OAAB Landscape.esp
-riders.esp
-Rem_GL.esp
-Rem_GL_TR.esp
-BCOM_Decorated_Cantons.ESP
-Rem_BC.esp
-BCOM_rotating_planets_GG.ESP
-BCOM_Vivec_Arena_planters.ESP
-Interior exterior flag reset.ESP
-Nordic Dagon Fel.ESP
-Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
 Thieves' Guild Stash.esp
 ManyClothHelms.ESP
-Concept art palace.ESP
-Rem_AI.esp
-CAP Dome.esp
 Vurt's Corals.esp
-OAAB_Tel Mora_Female Guards.ESP
-Rem_AC.esp
-Fishing-Expansion.esp
 Fishing.ESP
-BCOM_White_Suran.ESP
+Fishing-Expansion.esp
 Bound Arrow for Bound Longbow (Balanced).ESP
 Trans Rights.ESP
-SR_1_BoundSpells.esp
-SR_3_ElementalShields.esp
-SR_5_DamageHealth.ESP
-chuzei_helm_no_neck.esp
-Lake Fjalding Anti-Suck.ESP
-Rem_Solstheim.esp
-Rem_WG.esp
-BCOM_Cluttered_Canal.ESP
-Improved Argonians.esp
+riders.esp
+Rem_AL.esp
 skeleton.esp
 Diseases Restored.ESP
 Better Balanced Combat.esp
+Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Combat - Tamriel Rebuilt Patch.esp
 BirthsignsAMFun_BBC.esp
-Better Balanced Combat - Siege at Firemoth Patch.esp
 Animal Behaviour.esp
 Rich Creeper.ESP
 True_Lights_And_Darkness_1.0-NoDaylight.esp
