@@ -10,101 +10,101 @@
 -Simple Camping
 -Better Governing Attributes
 -Multiplayer_separator
-+119 Passport Please
-+118 Ashlander Crafting
-+117 Bodily Injuries
-+116 Bad Weather Matters
-+109 Birthsigns Are More Fun
-+107 Alchemy Merchant
-+104 Travel to Cyrodiil from Old Ebonheart
-+100 Trans Rights
-+099 The Mananaut's Message
-+098 Bound Arrow For Bound Longbow
-+097 Creeper is Rich
-+093 Animal Behaviour
-+092 Better Balanced Combat
-+091 Better Balanced Movement
-+089 Riders
-+085 Raven Rock All Stores
-+084 Enchanting Made Possible
-+084 No Arrow Weight
-+083 Constant Effect
-+084 Urn Your Blings
-+082 Essential NPCs are Immortal
-+081 Creatures XI
-+079 Thieves Guild Stash
-+078 Price Balance for Tamriel
-+077 Price Balance
-+075 Uskele
-+070 Expansions Integrated
-+069 Wealth Within Measure
-+068 Free the Slaves
-+063 Clear Your Name
-+061 Idiolog Nerevarine
-+059 Diseases Restored
-+058 Fishing
-+057 The Publicans
-+055 Argonian Bonuses
-+048 Adventurers Backpack
-+041 Expansion Delay
++Passport Please
++Ashlander Crafting
++Bodily Injuries
++Bad Weather Matters
++Birthsigns Are More Fun
++Alchemy Merchant
++Travel to Cyrodiil from Old Ebonheart
++The Mananaut's Message
++Bound Arrow For Bound Longbow
++Creeper is Rich
++Animal Behaviour
++Better Balanced Combat
++Better Balanced Movement
++Guar Riders
++Argonian Full Helms
++Raven Rock All Stores
++Enchanting Made Possible
++No Arrow Weight
++Constant Effect
++Urn Your Blings
++Essential NPCs are Immortal
++Creatures XI
++Thieves Guild Stash
++Price Balance for Tamriel Rebuilt
++Price Balance
++Uskele
++Expansions Integrated
++Wealth Within Measure
++Free the Slaves
++Clear Your Name
++Idiolog Nerevarine
++Diseases Restored
++Fishing with Fishing Poles
++The Publicans
++Argonian Bonuses
++Adventurers Backpack
++Expansion Delay
 -Gameplay_separator
-+103 FIMs Better Spell Effects
-+102 ReAnimations first person
-+101 MCAR
-+121 PB Mudcrab Replacer
-+120 Better Telvanni Cristals
-+115 Fireflies
-+113 Glass Glowset
-+112 Pluto and Charon
-+096 Improved Lights for All Shaders
-+095 True Nights and Darkness
-+094 True Lights and Darkness
-+090 Darknuts Textures
-+088 Containers Animated
-+087 Glass Halberd Spike
-+085 Argonian Full Helms
-+084 Better Robes
-+080 Yet Another Guard Diversity
-+076 Small Skyrim Crosshair
-+074 Skies IV
-+073 Apels Rain Replacer
-+072 Dunmer Lanterns Replacer
-+071 Ultimate Icon Replacer
-+067 Descriptive Shrines
-+066 Daggerfall Animated Menu
-+065 Journal and Scroll BG Replacement
-+063 Dynamic Distant Details
-+060 Better Dialogue Font
-+062 Lovely Loading Screens
-+056 Morrowind Enhanced Textures
-+054 Lower First Person Sneak Mode
-+053 Simply Walking
-+052 Better Morrowind Armor
-+051 Better Clothes Complete
-+050 Epic Argonian Heads
-+049 Roberts Bodies
-+047 More Cloth Helms
-+046 Khajiit Head Pack
-+045 Liztails Bodies
-+044 Hair Pack Redone
-+043 Better Heads
-+042 Weapon Sheathing
-+040 Modern User Interface
-+039 Global Map Markers
-+038 Cantons on the Global Map
-+037 Mistify
-+036 Big Icons
-+035 Rain Splash
-+033 Glow in the Dahrk
-+032 Parasol Particles
-+031 Real Signposts
-+030 Vurts Replacers
-+026 Waterfalls Tweaks
-+025 Better Waterfalls
-+023 Graphic Herbalism
++FIMs Better Spell Effects
++ReAnimations First Person
++MCAR
++PB Mudcrab Replacer
++Better Telvanni Cristals
++Fireflies
++Glass Glowset
++Pluto and Charon
++Improved Lights for All Shaders
++True Nights and Darkness
++True Lights and Darkness
++Darknuts Textures
++Containers Animated
++Glass Halberd Spike
++Better Robes
++Yet Another Guard Diversity
++Small Skyrim Crosshair
++Skies IV
++Apels Rain Replacer
++Dunmer Lanterns Replacer
++Ultimate Icon Replacer
++Descriptive Shrines
++Daggerfall Animated Menu
++Journal and Scroll BG Replacement
++Dynamic Distant Details
++Better Dialogue Font
++Lovely Loading Screens
++Morrowind Enhanced Textures
++Lower First Person Sneak Mode
++Simply Walking
++Better Morrowind Armor
++Better Clothes Complete
++Epic Argonian Heads
++Roberts Bodies
++More Cloth Helms
++Khajiit Head Pack
++Liztails Bodies
++Hair Pack Redone
++Better Heads
++Weapon Sheathing
++Modern User Interface
++Global Map Markers
++Cantons on the Global Map
++Mistify
++Big Icons
++Rain Splash
++Glow in the Dahrk
++Parasol Particles
++Real Signposts
++Vurts Replacers
++Waterfalls Tweaks
++Better Waterfalls
++Graphic Herbalism
 -Visuals_separator
-+086 Cave Drips
-+064 Better Sounds
++Trans Rights
++Cave Drips
++Better Sounds
 -Audio_separator
 +114 Baar Dau
 +111 Atmospheric South Wall
