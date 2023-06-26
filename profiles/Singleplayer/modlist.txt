@@ -6,7 +6,6 @@
 +Abot's Silt Striders
 +Abot's Boats
 -Singleplayer_separator
--Simple Camping
 -Better Governing Attributes
 -Multiplayer_separator
 +Frostwind
