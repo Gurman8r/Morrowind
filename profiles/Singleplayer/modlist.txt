@@ -130,7 +130,7 @@
 +007 Balmora Waterworks
 +005 Province Cyrodiil
 +004 Skyrim Home Of The Nords
-+003 Tamriel Rebuilt
++Tamriel Rebuilt
 -Areas_separator
 +029 Project Atlas
 +024 Correct Meshes
@@ -138,7 +138,7 @@
 +018 Wares Ultimate
 +006 Morrowind Optimization Patch
 +002 OAAB Data
-+001 Tamriel Data HD
++Tamriel Data HD
 -Core_separator
 +Official Bethesda Plugins
 *DLC: Bloodmoon

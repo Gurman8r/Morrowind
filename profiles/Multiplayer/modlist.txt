@@ -132,9 +132,9 @@
 +006 Morrowind Optimization Patch
 +005 Province Cyrodiil
 +004 Skyrim Home Of The Nords
-+003 Tamriel Rebuilt
++Tamriel Rebuilt
 +002 OAAB Data
-+001 Tamriel Data HD
++Tamriel Data HD
 +Official Bethesda Plugins
 *DLC: Bloodmoon
 *DLC: Tribunal
