@@ -206,7 +206,7 @@ SleepOrSuffer-Tribunal.esp
 SleepOrSuffer.esp
 Yurt Crafting.ESP
 sb_passports.esp
-TOTSP_abotBoats.esp
-TOTSP_Forceful_Travel_NPC_Override.ESP
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP
+TOTSP_abotBoats.esp
+TOTSP_Forceful_Travel_NPC_Override.ESP
