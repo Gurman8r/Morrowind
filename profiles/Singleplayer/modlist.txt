@@ -10,6 +10,8 @@
 -Simple Camping
 -Better Governing Attributes
 -Multiplayer_separator
++Uskele
++Astrologians Guild
 +Passport Please
 +Ashlander Crafting
 +Bodily Injuries
@@ -23,8 +25,6 @@
 +Animal Behaviour
 +Better Balanced Combat
 +Better Balanced Movement
-+Guar Riders
-+Argonian Full Helms
 +Raven Rock All Stores
 +Enchanting Made Possible
 +No Arrow Weight
@@ -35,7 +35,6 @@
 +Thieves Guild Stash
 +Price Balance for Tamriel Rebuilt
 +Price Balance
-+Uskele
 +Expansions Integrated
 +Wealth Within Measure
 +Free the Slaves
@@ -45,9 +44,12 @@
 +Fishing with Fishing Poles
 +The Publicans
 +Argonian Bonuses
++Argonian Full Helms
 +Adventurers Backpack
 +Expansion Delay
++Wares Ultimate
 -Gameplay_separator
++Guar Riders
 +FIMs Better Spell Effects
 +ReAnimations First Person
 +MCAR
@@ -101,43 +103,41 @@
 +Waterfalls Tweaks
 +Better Waterfalls
 +Graphic Herbalism
++Know Thy Ancestors
 -Visuals_separator
 +Trans Rights
 +Cave Drips
 +Better Sounds
 -Audio_separator
-+114 Baar Dau
-+111 Atmospheric South Wall
-+110 Balmora Lighthouse 2
-+108 Know Thy Ancestors
-+106 Astrologians Guild
-+105 Ships of the Imperial Navy
-+028 Beautiful Cities of Morrowind
-+022 Grahtwood Roost
-+021 Graht Morrowind Swamp Trees
-+020 Solstheim Tomb of the Snow Prince
-+019 Remiros Groundcover
-+017 Red Mountain Reborn
-+016 The Magic Rock of Maar Gan
-+015 OAAB Tel Mora
-+014 OAAB Grazelands
-+013 Nordic Dagon Fel
-+012 Library of Vivec Enhanced
-+011 Immersive Mournhold
-+010 Concept Art Palace
-+009 Caldera Mine Expanded
-+008 Baan Binif
-+007 Balmora Waterworks
-+005 Province Cyrodiil
-+004 Skyrim Home Of The Nords
++Atmospheric South Wall
++Balmora Lighthouse 2
++Baar Dau
++Ships of the Imperial Navy
++Grahtwood Roost
++Graht Morrowind Swamp Trees
++Remiros Groundcover
++The Magic Rock of Maar Gan
++OAAB Tel Mora
++OAAB Grazelands
++Nordic Dagon Fel
++Library of Vivec Enhanced
++Immersive Mournhold
++Concept Art Palace
++Caldera Mine Expanded
++Baan Binif
++Solstheim Tomb of the Snow Prince
++Beautiful Cities of Morrowind
++Balmora Waterworks
++Red Mountain Reborn
++Province Cyrodiil
++Skyrim Home Of The Nords
 +Tamriel Rebuilt
 -Areas_separator
-+029 Project Atlas
-+024 Correct Meshes
-+027 Better Meshes
-+018 Wares Ultimate
-+006 Morrowind Optimization Patch
-+002 OAAB Data
++Project Atlas
++Correct Meshes
++Better Meshes
++Morrowind Optimization Patch
++OAAB Data
 +Tamriel Data HD
 -Core_separator
 +Official Bethesda Plugins

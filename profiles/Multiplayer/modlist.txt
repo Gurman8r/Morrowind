@@ -17,16 +17,16 @@
 +Bodily Injuries
 +Bad Weather Matters
 +Fireflies
-+114 Baar Dau
++Baar Dau
 +Glass Glowset
 +Pluto and Charon
-+111 Atmospheric South Wall
-+110 Balmora Lighthouse 2
++Atmospheric South Wall
++Balmora Lighthouse 2
 +Birthsigns Are More Fun
-+108 Know Thy Ancestors
++Know Thy Ancestors
 +Alchemy Merchant
-+106 Astrologians Guild
-+105 Ships of the Imperial Navy
++Astrologians Guild
++Ships of the Imperial Navy
 +Travel to Cyrodiil from Old Ebonheart
 +FIMs Better Spell Effects
 +ReAnimations First Person
@@ -106,34 +106,34 @@
 +Parasol Particles
 +Real Signposts
 +Vurts Replacers
-+029 Project Atlas
-+024 Correct Meshes
-+027 Better Meshes
++Project Atlas
++Correct Meshes
++Better Meshes
 +Waterfalls Tweaks
 +Better Waterfalls
-+028 Beautiful Cities of Morrowind
++Beautiful Cities of Morrowind
 +Graphic Herbalism
-+022 Grahtwood Roost
-+021 Graht Morrowind Swamp Trees
-+020 Solstheim Tomb of the Snow Prince
-+019 Remiros Groundcover
-+018 Wares Ultimate
-+017 Red Mountain Reborn
-+016 The Magic Rock of Maar Gan
-+015 OAAB Tel Mora
-+014 OAAB Grazelands
-+013 Nordic Dagon Fel
-+012 Library of Vivec Enhanced
-+011 Immersive Mournhold
-+010 Concept Art Palace
-+009 Caldera Mine Expanded
-+008 Baan Binif
-+007 Balmora Waterworks
-+006 Morrowind Optimization Patch
-+005 Province Cyrodiil
-+004 Skyrim Home Of The Nords
++Grahtwood Roost
++Graht Morrowind Swamp Trees
++Solstheim Tomb of the Snow Prince
++Remiros Groundcover
++Wares Ultimate
++Red Mountain Reborn
++The Magic Rock of Maar Gan
++OAAB Tel Mora
++OAAB Grazelands
++Nordic Dagon Fel
++Library of Vivec Enhanced
++Immersive Mournhold
++Concept Art Palace
++Caldera Mine Expanded
++Baan Binif
++Balmora Waterworks
++Morrowind Optimization Patch
++Province Cyrodiil
++Skyrim Home Of The Nords
 +Tamriel Rebuilt
-+002 OAAB Data
++OAAB Data
 +Tamriel Data HD
 +Official Bethesda Plugins
 *DLC: Bloodmoon
