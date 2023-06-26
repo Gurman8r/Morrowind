@@ -16,7 +16,6 @@ chuzei_helm_no_neck.esp
 Lake Fjalding Anti-Suck.ESP
 Balmora Waterworks.esp
 Beautiful cities of morrowind.esp
-South Wall_RP.ESP
 BCOM_pathgrid_reset.ESP
 BCOM_Suran Expansion.ESP
 BCOM - Taller Lighthouse.ESP
