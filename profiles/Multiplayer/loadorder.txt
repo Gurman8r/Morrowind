@@ -193,13 +193,9 @@ Rich Creeper.ESP
 True_Lights_And_Darkness_1.0-NoDaylight.esp
 True_Lights_And_Darkness_1.1.esp
 True Lights and Darkness PS TWEAKS.ESP
-Frostwind.ESP
-abotBoatsTR2101.esp
-abotRiverStridersTR2101.esp
-abotBoats.esp
-abotSiltStriders.esp
-OpenMW - YurtCrafting.esp
 Yurt Crafting.ESP
+OpenMW - YurtCrafting.esp
+Frostwind.ESP
 sb_passports.esp
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP

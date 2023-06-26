@@ -2,8 +2,8 @@
 -Skip Tutorial
 -Sleep or Suffer
 -Madd Leveler
-+Abot's Silt Striders
-+Abot's Boats
+-Abot's Silt Striders
+-Abot's Boats
 -Singleplayer_separator
 -Simple Camping
 +Better Governing Attributes

@@ -200,10 +200,10 @@ abotSiltStriders.esp
 SkipTutorial1.0.esp
 Madd Leveler - Base.esp
 Madd Leveler - Madd Skills.esp
-OpenMW - YurtCrafting.esp
 SleepOrSuffer-Tribunal.esp
 SleepOrSuffer.esp
 Yurt Crafting.ESP
+OpenMW - YurtCrafting.esp
 sb_passports.esp
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP
