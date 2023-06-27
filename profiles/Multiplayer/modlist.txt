@@ -79,7 +79,6 @@
 +Passport Please
 +Ashlander Crafting
 +Alchemy Merchant
-+Travel to Cyrodiil from Old Ebonheart
 +The Mananaut's Message
 +Bound Arrow For Bound Longbow
 +Creeper is Rich
@@ -110,7 +109,6 @@
 -Gameplay_separator
 +Balmora Lighthouse 2
 +Baar Dau
-+Ships of the Imperial Navy
 +Grahtwood Roost
 +Graht Morrowind Swamp Trees
 +Remiros Groundcover
@@ -127,6 +125,7 @@
 +Beautiful Cities of Morrowind
 +Balmora Waterworks
 +Red Mountain Reborn
++Travel to Cyrodiil from Old Ebonheart
 +Province Cyrodiil
 +Skyrim Home Of The Nords
 +Tamriel Rebuilt

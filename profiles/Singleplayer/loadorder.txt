@@ -90,7 +90,6 @@ Argonian Full Helms_Iron_Stl_Orc.ESP
 Diseases Restored.ESP
 Ashlander Crafting.ESP
 Cantons_on_the_Global_Map_v1.1.esp
-Ships of the Imperial Navy.esp
 Nordic Dagon Fel.ESP
 Barabus' fireplaces 2 - Vanilla Chimneys v2.2.ESP
 OldVosTradepost.ESP
