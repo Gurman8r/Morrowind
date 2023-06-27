@@ -192,12 +192,12 @@ abotSiltStriders.esp
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP
 TOTSP_abotBoats.esp
-True_Lights_And_Darkness_1.0-NoDaylight.esp
-True_Lights_And_Darkness_1.1.esp
-True Lights and Darkness PS TWEAKS.ESP
 Better Balanced Combat.esp
 Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Combat - Tamriel Rebuilt Patch.esp
 BirthsignsAMFun_BBC.esp
 Animal Behaviour.esp
 Rich Creeper.ESP
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+True_Lights_And_Darkness_1.1.esp
+True Lights and Darkness PS TWEAKS.ESP
