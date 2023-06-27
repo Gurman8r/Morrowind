@@ -14,6 +14,7 @@ Cyr_Main.esm
 Wares-base.esm
 chuzei_helm_no_neck.esp
 Lake Fjalding Anti-Suck.ESP
+RedMountainReborn.esp
 Balmora Waterworks.esp
 Beautiful cities of morrowind.esp
 BCOM_pathgrid_reset.ESP
@@ -36,6 +37,22 @@ BCOM_White_Suran.ESP
 Province_Cyrodiil_BCOM_patch.ESP
 TR_BCOM_Patch.ESP
 Interior exterior flag reset.ESP
+Rem_AC.esp
+Rem_AC_TR.esp
+Rem_AI.esp
+Rem_AI_TR.esp
+Rem_AL.esp
+Rem_AL_RMR+Kogoruhn Expanded.esp
+Rem_AL_TR.esp
+Rem_AT_TR.esp
+Rem_BC.esp
+Rem_BC_TR.esp
+Rem_GL.esp
+Rem_GL_TR.esp
+Rem_RR_TR.esp
+Rem_VM_TR.esp
+Rem_WG.esp
+Rem_WG_TR.esp
 LeFemmArmor.esp
 Wares_TR_npcs.esp
 Wares_VV_npcs.ESP
@@ -47,8 +64,6 @@ Better_Sounds.esp
 Price Balance.ESP
 Sky_Main_Grass.esp
 OfficialMods_v5.esp
-RedMountainReborn.esp
-Rem_WG.esp
 Better Morrowind Armor.esp
 OAAB_Grazelands.ESP
 Wares_VV_containers.ESP
@@ -56,15 +71,11 @@ Expansions Integrated.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
 Anarchist Nerevarine.ESP
-Rem_AL_RMR+Kogoruhn Expanded.esp
-Rem_AC.esp
 Yet Another Guard Diversity - Regular.ESP
 RP_fireflies.ESP
 Vurt's Leafy West Gash.esp
-Rem_AI.esp
 Vurt's Grazelands Unique Trees.ESP
 Know Thy Ancestors.ESP
-Rem_BC.esp
 mistify.ESP
 Wares_lists_TD.ESP
 Wares_TR_traders.esp
@@ -77,7 +88,6 @@ Baan_Binif.ESP
 TR_Firemoth_Vanilla_patch.esp
 DD_Caldera_Expansion.esp
 RavenRock_AllStores.ESP
-Rem_GL_Trackless_GL.esp
 Astrologians Guild.esp
 Nationalist Nerevarine.ESP
 Waterfalls Tweaks.esp
@@ -142,17 +152,6 @@ New Khajiit Bodies - Clean.esp
 No Arrow Weight.ESP
 OAAB_Tel Mora_Female Guards.ESP
 RealSignposts.esp
-Rem_AC_TR.esp
-Rem_AI_TR.esp
-Rem_AL.esp
-Rem_AL_TR.esp
-Rem_AT_TR.esp
-Rem_BC_TR.esp
-Rem_GL.esp
-Rem_GL_TR.esp
-Rem_RR_TR.esp
-Rem_VM_TR.esp
-Rem_WG_TR.esp
 sei-urn_your_blings.esp
 skeleton.esp
 SR_Alchemy_merchant.esp
