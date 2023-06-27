@@ -185,7 +185,6 @@ Yurt Crafting.ESP
 OpenMW - YurtCrafting.esp
 sb_passports.esp
 TOTSP_Forceful_Travel_NPC_Override.ESP
-Rich Creeper.ESP
 abotBoatsTR2101.esp
 abotRiverStridersTR2101.esp
 abotBoats.esp
@@ -193,11 +192,12 @@ abotSiltStriders.esp
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP
 TOTSP_abotBoats.esp
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+True_Lights_And_Darkness_1.1.esp
+True Lights and Darkness PS TWEAKS.ESP
 Better Balanced Combat.esp
 Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Combat - Tamriel Rebuilt Patch.esp
 BirthsignsAMFun_BBC.esp
 Animal Behaviour.esp
-True_Lights_And_Darkness_1.0-NoDaylight.esp
-True_Lights_And_Darkness_1.1.esp
-True Lights and Darkness PS TWEAKS.ESP
+Rich Creeper.ESP
