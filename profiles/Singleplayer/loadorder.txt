@@ -40,9 +40,6 @@ LeFemmArmor.esp
 Wares_TR_npcs.esp
 Wares_VV_npcs.ESP
 GlobalMapMarkers.ESP
-Creatures (lore).esp
-Creatures (Semi).esp
-Creatures.esp
 Price Balance for Tamriel.ESP
 Price Balance Tamriel Rebuilt.ESP
 Price Balance SHotN.ESP
@@ -117,9 +114,6 @@ Bound Arrow for Bound Longbow (Balanced).ESP
 CAP Dome.esp
 Cave Drips.ESP
 Containers Animated.esp
-Creatures 6th House Patch.esp
-Creatures Great House Dagoth Patch.esp
-Creatures Merged Objects Fix.esp
 RPNR_Library.ESP
 Wares_PC_npcs.esp
 CyrodiilFromOE.ESP
@@ -183,29 +177,29 @@ Wares_TR_containers.esp
 xconstant.esp
 Bodily Injuries.ESP
 Bad Weather Matters.ESP
-Better Balanced Combat.esp
-Better Balanced Combat - Siege at Firemoth Patch.esp
-Better Balanced Combat - Tamriel Rebuilt Patch.esp
-Animal Behaviour.esp
-BirthsignsAMFun_BBC.esp
-Rich Creeper.ESP
-True_Lights_And_Darkness_1.0-NoDaylight.esp
-True_Lights_And_Darkness_1.1.esp
-True Lights and Darkness PS TWEAKS.ESP
 Frostwind.ESP
+SkipTutorial1.0.esp
+Madd Leveler - Base.esp
+Madd Leveler - Madd Skills.esp
+SleepOrSuffer.esp
+SleepOrSuffer-Tribunal.esp
+Yurt Crafting.ESP
+OpenMW - YurtCrafting.esp
+sb_passports.esp
+TOTSP_Forceful_Travel_NPC_Override.ESP
+Rich Creeper.ESP
 abotBoatsTR2101.esp
 abotRiverStridersTR2101.esp
 abotBoats.esp
 abotSiltStriders.esp
-SkipTutorial1.0.esp
-Madd Leveler - Base.esp
-Madd Leveler - Madd Skills.esp
-SleepOrSuffer-Tribunal.esp
-SleepOrSuffer.esp
-Yurt Crafting.ESP
-OpenMW - YurtCrafting.esp
-sb_passports.esp
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP
 TOTSP_abotBoats.esp
-TOTSP_Forceful_Travel_NPC_Override.ESP
+Better Balanced Combat.esp
+Better Balanced Combat - Siege at Firemoth Patch.esp
+Better Balanced Combat - Tamriel Rebuilt Patch.esp
+BirthsignsAMFun_BBC.esp
+Animal Behaviour.esp
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+True_Lights_And_Darkness_1.1.esp
+True Lights and Darkness PS TWEAKS.ESP

@@ -40,9 +40,6 @@ LeFemmArmor.esp
 Wares_TR_npcs.esp
 Wares_VV_npcs.ESP
 GlobalMapMarkers.ESP
-Creatures (lore).esp
-Creatures (Semi).esp
-Creatures.esp
 Price Balance for Tamriel.ESP
 Price Balance Tamriel Rebuilt.ESP
 Price Balance SHotN.ESP
@@ -117,9 +114,6 @@ Bound Arrow for Bound Longbow (Balanced).ESP
 CAP Dome.esp
 Cave Drips.ESP
 Containers Animated.esp
-Creatures 6th House Patch.esp
-Creatures Great House Dagoth Patch.esp
-Creatures Merged Objects Fix.esp
 RPNR_Library.ESP
 Wares_PC_npcs.esp
 CyrodiilFromOE.ESP
