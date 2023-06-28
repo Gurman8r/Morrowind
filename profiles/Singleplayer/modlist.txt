@@ -15,6 +15,7 @@
 +OAAB Data Normal Mapped
 +Tamriel Data Normal Mapped
 -Normals_separator
++Subtle Magic Glow
 +Concept Art Scrib
 +Morrowind Enhanced Textures
 +Divine Vivec
@@ -101,9 +102,9 @@
 +Alchemy Merchant
 +The Mananaut's Message
 +Bound Arrow For Bound Longbow
++Creeper is Rich
 +Better Balanced Combat
 +Better Balanced Movement
-+Creeper is Rich
 +Raven Rock All Stores
 +Enchanting Made Possible
 +No Arrow Weight
@@ -127,6 +128,7 @@
 +Expansion Delay
 +Wares Ultimate
 -Gameplay_separator
++Beautiful Cities of Morrowind
 +Balmora Lighthouse 2
 +Baar Dau
 +Grahtwood Roost
@@ -142,8 +144,6 @@
 +Caldera Mine Expanded
 +Baan Binif
 +Solstheim Tomb of the Snow Prince
-+Beautiful Cities of Morrowind
-+Balmora Waterworks
 +Red Mountain Reborn
 +Travel to Cyrodiil from Old Ebonheart
 +Province Cyrodiil
