@@ -172,13 +172,13 @@ Wares_PC_traders.esp
 Wares_SHOTN_containers.esp
 Wares_SHOTN_traders.esp
 Wares_TR_containers.esp
+Squibby.ESP
 xconstant.esp
 Bodily Injuries.ESP
 Bad Weather Matters.ESP
 Frostwind.ESP
 sb_passports.esp
 TOTSP_Forceful_Travel_NPC_Override.ESP
-Rich Creeper.ESP
 BCOM_abot_boats.esp
 BCOM_AbotSiltStriders.ESP
 TOTSP_abotBoats.esp
@@ -187,6 +187,7 @@ Better Balanced Combat - Siege at Firemoth Patch.esp
 Better Balanced Combat - Tamriel Rebuilt Patch.esp
 BirthsignsAMFun_BBC.esp
 Animal Behaviour.esp
+Rich Creeper.ESP
 True_Lights_And_Darkness_1.0-NoDaylight.esp
 True_Lights_And_Darkness_1.1.esp
 True Lights and Darkness PS TWEAKS.ESP

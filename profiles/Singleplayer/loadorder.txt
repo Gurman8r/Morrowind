@@ -172,6 +172,8 @@ Wares_PC_traders.esp
 Wares_SHOTN_containers.esp
 Wares_SHOTN_traders.esp
 Wares_TR_containers.esp
+Squibby.ESP
+MCA.esm
 xconstant.esp
 Bodily Injuries.ESP
 Bad Weather Matters.ESP
