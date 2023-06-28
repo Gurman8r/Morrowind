@@ -148,12 +148,14 @@
 +Province Cyrodiil
 +Skyrim Home Of The Nords
 +Tamriel Rebuilt
+-Areas_separator
 +Morrowind Optimization Patch
 +Project Atlas
 +Better Meshes
 +Correct Meshes
 +OAAB Data
 +Tamriel Data HD
+-Data_separator
 +Official Bethesda Plugins
 *DLC: Bloodmoon
 *DLC: Tribunal
