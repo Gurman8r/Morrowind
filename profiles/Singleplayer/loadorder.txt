@@ -197,3 +197,4 @@ True_Lights_And_Darkness_1.1.esp
 True Lights and Darkness PS TWEAKS.ESP
 TOTSP_abotBoats.esp
 TOTSP_Forceful_Travel_NPC_Override.ESP
+Clean_Mines & Caverns.esp
