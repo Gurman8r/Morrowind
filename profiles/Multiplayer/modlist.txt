@@ -80,6 +80,7 @@
 -Audio_separator
 +Better Governing Attributes
 -Multiplayer_separator
+-Multiple Teleport Marking Mod
 -Yurt Crafting
 -Skip Tutorial
 -Sleep or Suffer
@@ -87,7 +88,6 @@
 -Abot's Silt Striders
 -Abot's Boats
 -Singleplayer_separator
-+Multiple Teleport Marking Mod
 +Squibby
 +Animal Behaviour
 +Frostwind
