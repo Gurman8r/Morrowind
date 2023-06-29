@@ -6,9 +6,9 @@ Tamriel_Data.esm
 OAAB_Data.esm
 Solstheim Tomb of The Snow Prince.esm
 Better Heads.esm
+TR_Mainland.esm
 Better Heads Bloodmoon addon.esm
 Better Heads Tribunal addon.esm
-TR_Mainland.esm
 Sky_Main.esm
 Cyr_Main.esm
 Wares-base.esm
@@ -20,8 +20,8 @@ Wares_VV_npcs.ESP
 Beautiful cities of morrowind.esp
 BCOM_pathgrid_reset.ESP
 GlobalMapMarkers.ESP
-Price Balance.ESP
 BCOM_Sadrith_Mora_dock_expanded.ESP
+Price Balance.ESP
 Wares_lists_TD.ESP
 Wares_TR_traders.esp
 TR_Factions.esp
@@ -186,4 +186,5 @@ True_Lights_And_Darkness_1.1.esp
 True Lights and Darkness PS TWEAKS.ESP
 TOTSP_abotBoats.esp
 TOTSP_Forceful_Travel_NPC_Override.ESP
+Clean_Mines & Caverns.esp
 BetterGoverningAttributes.esp
