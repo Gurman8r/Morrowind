@@ -14,8 +14,8 @@
 +Tamriel Data Normal Mapped
 +Morrowind Enhanced Textures Normal Mapped
 -Normals_separator
-+Subtle Magic Glow
 +Thicc Scrib
++Subtle Magic Glow
 +Divine Vivec
 +Spriggans Glow
 +Guar Riders
@@ -79,14 +79,13 @@
 -Audio_separator
 +Better Governing Attributes
 -Multiplayer_separator
--Morrowind Comes Alive
 -Yurt Crafting
 -Skip Tutorial
 -Sleep or Suffer
 -Madd Leveler
 -Abot's Silt Striders
 -Abot's Boats
-+Singleplayer_separator
+-Singleplayer_separator
 +Squibby
 +Animal Behaviour
 +Frostwind
