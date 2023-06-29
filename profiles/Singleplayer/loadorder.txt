@@ -200,3 +200,6 @@ TOTSP_Forceful_Travel_NPC_Override.ESP
 Clean_Mines & Caverns.esp
 Zesvots-Iconfix.esp
 Zesvots-Iconfix-Trib.esp
+MultiMarkOMW-1.3-TR2101.esp
+MultiMarkOMW-MysticismBalance-1.1.esp
+MultiMarkOMW_SkyPlugin2021_01_11_(v21.01a).ESP

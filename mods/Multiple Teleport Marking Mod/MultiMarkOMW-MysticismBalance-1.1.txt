@@ -1,0 +1,8 @@
+Additional patch V1.1 for "Multiple Teleport Marking Mod for OpenMW & Tamriel Rebuilt v1"
+
+  "MultiMarkOpenMW-MysticismBalance-1.1.esp"
+	-- optional: get between 2 and 18 marks depending on Mysticism
+	   (additional mark every 10 levels then every 5 levels after 50)
+	   use together with either of the MultiMarkOMW plugins.
+
+	-- v1.1: also indicates the number of marks if more are available.
