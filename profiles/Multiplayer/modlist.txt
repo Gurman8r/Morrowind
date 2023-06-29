@@ -14,6 +14,8 @@
 +Tamriel Data Normal Mapped
 +Morrowind Enhanced Textures Normal Mapped
 -Normals_separator
++ManaUser's Colored Icons
++Magic Icons
 +Thicc Scrib
 +Subtle Magic Glow
 +Divine Vivec
@@ -59,7 +61,6 @@
 +Global Map Markers
 +Cantons on the Global Map
 +Mistify
-+Big Icons
 +Rain Splash
 +Glow in the Dahrk
 +Parasol Particles

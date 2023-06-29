@@ -198,3 +198,5 @@ True Lights and Darkness PS TWEAKS.ESP
 TOTSP_abotBoats.esp
 TOTSP_Forceful_Travel_NPC_Override.ESP
 Clean_Mines & Caverns.esp
+Zesvots-Iconfix.esp
+Zesvots-Iconfix-Trib.esp
